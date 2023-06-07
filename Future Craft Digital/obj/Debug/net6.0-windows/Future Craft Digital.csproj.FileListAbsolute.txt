@@ -1,0 +1,36 @@
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.exe
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.deps.json
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.runtimeconfig.json
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.dll
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.pdb
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.csproj.AssemblyReference.cache
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Form1.resources
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.csproj.GenerateResource.cache
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.AssemblyInfoInputs.cache
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.AssemblyInfo.cs
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.csproj.CoreCompileInputs.cache
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.dll
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\obj\Debug\net6.0-windows\refint\Future Craft Digital.dll
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.pdb
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.genruntimeconfig.cache
+D:\Bokz\Visual Studio\source\Future Craft Digital\Future Craft Digital\obj\Debug\net6.0-windows\ref\Future Craft Digital.dll
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.exe
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.deps.json
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.runtimeconfig.json
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.dll
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.pdb
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.csproj.AssemblyReference.cache
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Cashiering.resources
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Sales_and_Order.Ordering_Kiosk.resources
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Sales_and_Order.Sales_Receipt.resources
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.csproj.GenerateResource.cache
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.AssemblyInfoInputs.cache
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.AssemblyInfo.cs
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.csproj.CoreCompileInputs.cache
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.dll
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\refint\Future Craft Digital.dll
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.pdb
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.genruntimeconfig.cache
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\ref\Future Craft Digital.dll
