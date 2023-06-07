@@ -16,5 +16,10 @@ namespace Future_Craft_Digital.Sales_and_Order
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
