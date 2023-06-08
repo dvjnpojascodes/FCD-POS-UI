@@ -1,0 +1,18 @@
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\bin\Debug\Future Craft Digital.exe.config
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\bin\Debug\Future Craft Digital.exe
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\bin\Debug\Future Craft Digital.pdb
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future Craft Digital.csproj.AssemblyReference.cache
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future_Craft_Digital.Login.resources
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future_Craft_Digital.Properties.Resources.resources
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future Craft Digital.csproj.GenerateResource.cache
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future Craft Digital.csproj.CoreCompileInputs.cache
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future Craft Digital.exe
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future Craft Digital.pdb
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future_Craft_Digital.Cashiering.resources
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future_Craft_Digital.FCDForms.ManageSupplier.resources
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future_Craft_Digital.FCDForms.ProductListing.resources
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future_Craft_Digital.FCDForms.Ordering_Kiosk.resources
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future_Craft_Digital.FCDForms.Sales_Receipt.resources
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future_Craft_Digital.FCDForms.userRecords.resources
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future_Craft_Digital.FCDForms.UserLog.resources
+C:\Users\Devie\source\repos\Future Craft Digital\Future Craft Digital\obj\Debug\Future_Craft_Digital.FCDForms.BusinessInformation.resources
