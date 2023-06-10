@@ -34,3 +34,5 @@ D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\ref
 D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.pdb
 D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.genruntimeconfig.cache
 D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\ref\Future Craft Digital.dll
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Purchasing_and_Stocks.Order_and_Receive.resources
+D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Purchasing_and_Stocks.Stock_Monitoring.resources
