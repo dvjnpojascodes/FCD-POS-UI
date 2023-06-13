@@ -1,0 +1,12 @@
+C:\Users\Hinrich\source\repos\FutureDigitalCraftPOS\FutureDigitalCraftPOS\bin\Debug\FutureDigitalCraftPOS.exe.config
+C:\Users\Hinrich\source\repos\FutureDigitalCraftPOS\FutureDigitalCraftPOS\bin\Debug\FutureDigitalCraftPOS.exe
+C:\Users\Hinrich\source\repos\FutureDigitalCraftPOS\FutureDigitalCraftPOS\bin\Debug\FutureDigitalCraftPOS.pdb
+C:\Users\Hinrich\source\repos\FutureDigitalCraftPOS\FutureDigitalCraftPOS\obj\Debug\FutureDigitalCraftPOS.csproj.AssemblyReference.cache
+C:\Users\Hinrich\source\repos\FutureDigitalCraftPOS\FutureDigitalCraftPOS\obj\Debug\FutureDigitalCraftPOS.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hinrich\source\repos\FutureDigitalCraftPOS\FutureDigitalCraftPOS\obj\Debug\FutureDigitalCraftPOS.Properties.Resources.resources
+C:\Users\Hinrich\source\repos\FutureDigitalCraftPOS\FutureDigitalCraftPOS\obj\Debug\FutureDigitalCraftPOS.csproj.GenerateResource.cache
+C:\Users\Hinrich\source\repos\FutureDigitalCraftPOS\FutureDigitalCraftPOS\obj\Debug\FutureDigitalCraftPOS.csproj.CoreCompileInputs.cache
+C:\Users\Hinrich\source\repos\FutureDigitalCraftPOS\FutureDigitalCraftPOS\obj\Debug\FutureDigitalCraftPOS.exe
+C:\Users\Hinrich\source\repos\FutureDigitalCraftPOS\FutureDigitalCraftPOS\obj\Debug\FutureDigitalCraftPOS.pdb
+C:\Users\Hinrich\source\repos\FutureDigitalCraftPOS\FutureDigitalCraftPOS\obj\Debug\FutureDigitalCraftPOS.Home.resources
+C:\Users\Hinrich\source\repos\FutureDigitalCraftPOS\FutureDigitalCraftPOS\obj\Debug\FutureDigitalCraftPOS.Form1.resources
