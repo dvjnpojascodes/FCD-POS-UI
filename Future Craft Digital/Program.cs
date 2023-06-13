@@ -14,7 +14,7 @@ namespace Future_Craft_Digital
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Order_and_Receive());
+            Application.Run(new Cashiering());
         }
     }
 }
