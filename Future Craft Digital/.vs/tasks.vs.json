@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Future Craft Digital",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-Future Craft Digital",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
