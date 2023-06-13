@@ -148,6 +148,8 @@
             this.userPic = new System.Windows.Forms.PictureBox();
             this.Label4 = new System.Windows.Forms.Label();
             this.Label3 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -177,6 +179,8 @@
             this.menuStrip1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.userPic)).BeginInit();
+            this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -1415,11 +1419,28 @@
             this.Label3.TabIndex = 9;
             this.Label3.Text = "Welcome :";
             // 
+            // panel11
+            // 
+            this.panel11.Controls.Add(this.pictureBox1);
+            this.panel11.Location = new System.Drawing.Point(184, 80);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(590, 642);
+            this.panel11.TabIndex = 39;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(590, 642);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(942, 778);
+            this.Controls.Add(this.panel11);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel7);
@@ -1470,6 +1491,8 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.userPic)).EndInit();
+            this.panel11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1594,6 +1617,8 @@
         private System.Windows.Forms.ToolStripMenuItem fastAndSlowMovingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fastMovingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem slowMovingToolStripMenuItem;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
