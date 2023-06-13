@@ -1,3 +1,4 @@
+using Future_Craft_Digital.Purchasing_and_Stocks;
 using Future_Craft_Digital.Sales_and_Order;
 
 namespace Future_Craft_Digital

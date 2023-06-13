@@ -32,14 +32,16 @@
             pictureBox1 = new PictureBox();
             label2 = new Label();
             groupBox1 = new GroupBox();
-            listView1 = new ListView();
+            listViewOrderingKiosk = new ListView();
             orderNo = new ColumnHeader();
             orderDate = new ColumnHeader();
             totalCost = new ColumnHeader();
             label3 = new Label();
-            dateTimePicker1 = new DateTimePicker();
+            dateOrderingKiosk = new DateTimePicker();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox1.SuspendLayout();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -76,25 +78,26 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(listView1);
+            groupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            groupBox1.Controls.Add(listViewOrderingKiosk);
             groupBox1.Location = new Point(12, 64);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(889, 487);
+            groupBox1.Size = new Size(997, 577);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             // 
-            // listView1
+            // listViewOrderingKiosk
             // 
-            listView1.Columns.AddRange(new ColumnHeader[] { orderNo, orderDate, totalCost });
-            listView1.Dock = DockStyle.Fill;
-            listView1.FullRowSelect = true;
-            listView1.GridLines = true;
-            listView1.Location = new Point(3, 18);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(883, 466);
-            listView1.TabIndex = 0;
-            listView1.UseCompatibleStateImageBehavior = false;
-            listView1.View = View.Details;
+            listViewOrderingKiosk.Columns.AddRange(new ColumnHeader[] { orderNo, orderDate, totalCost });
+            listViewOrderingKiosk.Dock = DockStyle.Fill;
+            listViewOrderingKiosk.FullRowSelect = true;
+            listViewOrderingKiosk.GridLines = true;
+            listViewOrderingKiosk.Location = new Point(3, 18);
+            listViewOrderingKiosk.Name = "listViewOrderingKiosk";
+            listViewOrderingKiosk.Size = new Size(991, 556);
+            listViewOrderingKiosk.TabIndex = 0;
+            listViewOrderingKiosk.UseCompatibleStateImageBehavior = false;
+            listViewOrderingKiosk.View = View.Details;
             // 
             // orderNo
             // 
@@ -113,40 +116,53 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Right;
             label3.AutoSize = true;
             label3.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.Black;
-            label3.Location = new Point(603, 42);
+            label3.Location = new Point(8, 10);
             label3.Name = "label3";
             label3.RightToLeft = RightToLeft.No;
             label3.Size = new Size(44, 14);
             label3.TabIndex = 0;
             label3.Text = "Date :";
             // 
-            // dateTimePicker1
+            // dateOrderingKiosk
             // 
-            dateTimePicker1.Location = new Point(653, 37);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(245, 22);
-            dateTimePicker1.TabIndex = 3;
+            dateOrderingKiosk.Anchor = AnchorStyles.Right;
+            dateOrderingKiosk.Location = new Point(58, 5);
+            dateOrderingKiosk.Name = "dateOrderingKiosk";
+            dateOrderingKiosk.Size = new Size(245, 22);
+            dateOrderingKiosk.TabIndex = 3;
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(dateOrderingKiosk);
+            panel1.Controls.Add(label3);
+            panel1.Location = new Point(695, 33);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(314, 30);
+            panel1.TabIndex = 4;
             // 
             // Ordering_Kiosk
             // 
             AutoScaleDimensions = new SizeF(7F, 14F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(941, 576);
-            Controls.Add(dateTimePicker1);
+            ClientSize = new Size(1021, 653);
+            Controls.Add(panel1);
             Controls.Add(groupBox1);
             Controls.Add(pictureBox1);
-            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            MinimumSize = new Size(1037, 692);
             Name = "Ordering_Kiosk";
             Text = "Ordering_Kiosk";
             Load += Ordering_Kiosk_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -157,11 +173,12 @@
         private PictureBox pictureBox1;
         private Label label2;
         private GroupBox groupBox1;
-        private ListView listView1;
+        private ListView listViewOrderingKiosk;
         private ColumnHeader orderNo;
         private ColumnHeader orderDate;
         private ColumnHeader totalCost;
         private Label label3;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dateOrderingKiosk;
+        private Panel panel1;
     }
 }
