@@ -63,21 +63,21 @@ namespace Future_Craft_Digital.Maintenance
             // usersLogDesc
             // 
             usersLogDesc.AutoSize = true;
-            usersLogDesc.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            usersLogDesc.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             usersLogDesc.Location = new Point(160, 70);
             usersLogDesc.Name = "usersLogDesc";
-            usersLogDesc.Size = new Size(186, 20);
+            usersLogDesc.Size = new Size(181, 18);
             usersLogDesc.TabIndex = 11;
             usersLogDesc.Text = "Trailing records of all users";
             // 
             // usersLogLbl
             // 
             usersLogLbl.AutoSize = true;
-            usersLogLbl.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            usersLogLbl.Font = new Font("Tahoma", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             usersLogLbl.ForeColor = SystemColors.MenuHighlight;
             usersLogLbl.Location = new Point(156, 29);
             usersLogLbl.Name = "usersLogLbl";
-            usersLogLbl.Size = new Size(143, 38);
+            usersLogLbl.Size = new Size(152, 34);
             usersLogLbl.TabIndex = 10;
             usersLogLbl.Text = "Users Log";
             // 
@@ -104,19 +104,19 @@ namespace Future_Craft_Digital.Maintenance
             usersLogGroupBox.Margin = new Padding(3, 4, 3, 4);
             usersLogGroupBox.Name = "usersLogGroupBox";
             usersLogGroupBox.Padding = new Padding(3, 4, 3, 4);
-            usersLogGroupBox.Size = new Size(1108, 626);
+            usersLogGroupBox.Size = new Size(1108, 635);
             usersLogGroupBox.TabIndex = 14;
             usersLogGroupBox.TabStop = false;
             // 
             // userLogListView
             // 
             userLogListView.Columns.AddRange(new ColumnHeader[] { userActions, actionDate, actionTime, userLogLogin, userLogLogout });
-            userLogListView.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            userLogListView.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             userLogListView.GridLines = true;
-            userLogListView.Location = new Point(7, 95);
+            userLogListView.Location = new Point(7, 87);
             userLogListView.Margin = new Padding(3, 4, 3, 4);
             userLogListView.Name = "userLogListView";
-            userLogListView.Size = new Size(1093, 523);
+            userLogListView.Size = new Size(1093, 531);
             userLogListView.TabIndex = 20;
             userLogListView.UseCompatibleStateImageBehavior = false;
             userLogListView.View = View.Details;
@@ -152,39 +152,39 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // userLogToDate
             // 
-            userLogToDate.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            userLogToDate.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             userLogToDate.Location = new Point(822, 31);
             userLogToDate.Margin = new Padding(3, 4, 3, 4);
             userLogToDate.Name = "userLogToDate";
-            userLogToDate.Size = new Size(278, 27);
+            userLogToDate.Size = new Size(278, 26);
             userLogToDate.TabIndex = 19;
             // 
             // userLogFromDate
             // 
-            userLogFromDate.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            userLogFromDate.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             userLogFromDate.Location = new Point(487, 31);
             userLogFromDate.Margin = new Padding(3, 4, 3, 4);
             userLogFromDate.Name = "userLogFromDate";
-            userLogFromDate.Size = new Size(279, 27);
+            userLogFromDate.Size = new Size(279, 26);
             userLogFromDate.TabIndex = 18;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(785, 35);
             label3.Name = "label3";
-            label3.Size = new Size(34, 20);
+            label3.Size = new Size(35, 18);
             label3.TabIndex = 17;
             label3.Text = "To :";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(430, 35);
             label2.Name = "label2";
-            label2.Size = new Size(54, 20);
+            label2.Size = new Size(55, 18);
             label2.TabIndex = 16;
             label2.Text = "From :";
             // 
@@ -202,10 +202,10 @@ namespace Future_Craft_Digital.Maintenance
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(4, 34);
             label1.Name = "label1";
-            label1.Size = new Size(103, 20);
+            label1.Size = new Size(106, 18);
             label1.TabIndex = 15;
             label1.Text = "USERNAME : ";
             // 

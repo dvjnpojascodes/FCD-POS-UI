@@ -71,7 +71,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             prodListingDesc.AutoSize = true;
             prodListingDesc.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            prodListingDesc.Location = new Point(84, 61);
+            prodListingDesc.Location = new Point(84, 58);
             prodListingDesc.Name = "prodListingDesc";
             prodListingDesc.Size = new Size(346, 18);
             prodListingDesc.TabIndex = 10;
@@ -82,7 +82,7 @@ namespace Future_Craft_Digital.Maintenance
             supplierListingLabel.AutoSize = true;
             supplierListingLabel.Font = new Font("Tahoma", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             supplierListingLabel.ForeColor = SystemColors.MenuHighlight;
-            supplierListingLabel.Location = new Point(83, 29);
+            supplierListingLabel.Location = new Point(83, 19);
             supplierListingLabel.Name = "supplierListingLabel";
             supplierListingLabel.Size = new Size(245, 34);
             supplierListingLabel.TabIndex = 9;
@@ -95,7 +95,7 @@ namespace Future_Craft_Digital.Maintenance
             supplierProfileListView.GridLines = true;
             supplierProfileListView.Location = new Point(10, 102);
             supplierProfileListView.Name = "supplierProfileListView";
-            supplierProfileListView.Size = new Size(968, 435);
+            supplierProfileListView.Size = new Size(968, 481);
             supplierProfileListView.TabIndex = 16;
             supplierProfileListView.UseCompatibleStateImageBehavior = false;
             supplierProfileListView.View = View.Details;
@@ -129,7 +129,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             prodListIcon.Location = new Point(10, 12);
             prodListIcon.Name = "prodListIcon";
-            prodListIcon.Size = new Size(68, 72);
+            prodListIcon.Size = new Size(68, 67);
             prodListIcon.TabIndex = 17;
             prodListIcon.TabStop = false;
             // 
@@ -137,7 +137,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             AutoScaleDimensions = new SizeF(7F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(989, 545);
+            ClientSize = new Size(989, 595);
             Controls.Add(prodListIcon);
             Controls.Add(supplierProfileListView);
             Controls.Add(rbSupplierProd);

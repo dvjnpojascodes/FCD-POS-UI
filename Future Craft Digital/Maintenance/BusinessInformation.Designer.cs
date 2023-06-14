@@ -105,6 +105,7 @@ namespace Future_Craft_Digital.FCDForms
             infoGrpBox.Controls.Add(label2);
             infoGrpBox.Controls.Add(businesIDTxt);
             infoGrpBox.Controls.Add(label1);
+            infoGrpBox.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             infoGrpBox.Location = new Point(8, 104);
             infoGrpBox.Margin = new Padding(3, 4, 3, 4);
             infoGrpBox.Name = "infoGrpBox";
@@ -126,10 +127,10 @@ namespace Future_Craft_Digital.FCDForms
             // label7
             // 
             label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label7.Location = new Point(96, 475);
             label7.Name = "label7";
-            label7.Size = new Size(74, 20);
+            label7.Size = new Size(78, 18);
             label7.TabIndex = 28;
             label7.Text = "Website :";
             // 
@@ -146,10 +147,10 @@ namespace Future_Craft_Digital.FCDForms
             // label8
             // 
             label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label8.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label8.Location = new Point(52, 424);
             label8.Name = "label8";
-            label8.Size = new Size(116, 20);
+            label8.Size = new Size(122, 18);
             label8.TabIndex = 26;
             label8.Text = "Email Address :";
             // 
@@ -166,10 +167,10 @@ namespace Future_Craft_Digital.FCDForms
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label6.Location = new Point(106, 367);
             label6.Name = "label6";
-            label6.Size = new Size(62, 20);
+            label6.Size = new Size(68, 18);
             label6.TabIndex = 24;
             label6.Text = "VAT % :";
             // 
@@ -186,10 +187,10 @@ namespace Future_Craft_Digital.FCDForms
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label4.Location = new Point(127, 313);
             label4.Name = "label4";
-            label4.Size = new Size(43, 20);
+            label4.Size = new Size(45, 18);
             label4.TabIndex = 22;
             label4.Text = "TIN :";
             // 
@@ -206,10 +207,10 @@ namespace Future_Craft_Digital.FCDForms
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label5.Location = new Point(48, 258);
             label5.Name = "label5";
-            label5.Size = new Size(118, 20);
+            label5.Size = new Size(124, 18);
             label5.TabIndex = 20;
             label5.Text = "Telephone No. :";
             // 
@@ -227,10 +228,10 @@ namespace Future_Craft_Digital.FCDForms
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(27, 151);
             label3.Name = "label3";
-            label3.Size = new Size(139, 20);
+            label3.Size = new Size(147, 18);
             label3.TabIndex = 18;
             label3.Text = "Business Address :";
             // 
@@ -247,10 +248,10 @@ namespace Future_Craft_Digital.FCDForms
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(48, 99);
             label2.Name = "label2";
-            label2.Size = new Size(120, 20);
+            label2.Size = new Size(126, 18);
             label2.TabIndex = 16;
             label2.Text = "Business Name:";
             // 
@@ -267,10 +268,10 @@ namespace Future_Craft_Digital.FCDForms
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(73, 46);
             label1.Name = "label1";
-            label1.Size = new Size(94, 20);
+            label1.Size = new Size(101, 18);
             label1.TabIndex = 14;
             label1.Text = "Business ID:";
             // 

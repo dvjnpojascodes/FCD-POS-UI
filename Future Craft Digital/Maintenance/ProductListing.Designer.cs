@@ -45,7 +45,7 @@ namespace Future_Craft_Digital.Maintenance
             prodListingLabel.AutoSize = true;
             prodListingLabel.Font = new Font("Tahoma", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             prodListingLabel.ForeColor = SystemColors.MenuHighlight;
-            prodListingLabel.Location = new Point(92, 29);
+            prodListingLabel.Location = new Point(92, 18);
             prodListingLabel.Name = "prodListingLabel";
             prodListingLabel.Size = new Size(227, 34);
             prodListingLabel.TabIndex = 2;
@@ -55,7 +55,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             prodListingDesc.AutoSize = true;
             prodListingDesc.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            prodListingDesc.Location = new Point(96, 62);
+            prodListingDesc.Location = new Point(96, 58);
             prodListingDesc.Name = "prodListingDesc";
             prodListingDesc.Size = new Size(281, 18);
             prodListingDesc.TabIndex = 3;
@@ -76,7 +76,7 @@ namespace Future_Craft_Digital.Maintenance
             // rbByBrand
             // 
             rbByBrand.AutoSize = true;
-            rbByBrand.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            rbByBrand.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             rbByBrand.Location = new Point(532, 63);
             rbByBrand.Name = "rbByBrand";
             rbByBrand.RightToLeft = RightToLeft.No;
@@ -90,7 +90,7 @@ namespace Future_Craft_Digital.Maintenance
             // rbByCategory
             // 
             rbByCategory.AutoSize = true;
-            rbByCategory.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            rbByCategory.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             rbByCategory.Location = new Point(642, 62);
             rbByCategory.Name = "rbByCategory";
             rbByCategory.RightToLeft = RightToLeft.No;
@@ -104,11 +104,11 @@ namespace Future_Craft_Digital.Maintenance
             // rbItemByCategory
             // 
             rbItemByCategory.AutoSize = true;
-            rbItemByCategory.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            rbItemByCategory.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             rbItemByCategory.Location = new Point(772, 62);
             rbItemByCategory.Name = "rbItemByCategory";
             rbItemByCategory.RightToLeft = RightToLeft.No;
-            rbItemByCategory.Size = new Size(142, 22);
+            rbItemByCategory.Size = new Size(147, 22);
             rbItemByCategory.TabIndex = 7;
             rbItemByCategory.TabStop = true;
             rbItemByCategory.Text = "Item By Category";
@@ -118,11 +118,11 @@ namespace Future_Craft_Digital.Maintenance
             // rbListItemFileProd
             // 
             rbListItemFileProd.AutoSize = true;
-            rbListItemFileProd.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            rbListItemFileProd.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             rbListItemFileProd.Location = new Point(932, 62);
             rbListItemFileProd.Name = "rbListItemFileProd";
             rbListItemFileProd.RightToLeft = RightToLeft.No;
-            rbListItemFileProd.Size = new Size(186, 22);
+            rbListItemFileProd.Size = new Size(183, 22);
             rbListItemFileProd.TabIndex = 8;
             rbListItemFileProd.TabStop = true;
             rbListItemFileProd.Text = "List all item file products";

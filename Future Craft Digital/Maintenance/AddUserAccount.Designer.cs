@@ -61,21 +61,21 @@
             // userDesc
             // 
             userDesc.AutoSize = true;
-            userDesc.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            userDesc.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             userDesc.Location = new Point(107, 66);
             userDesc.Name = "userDesc";
-            userDesc.Size = new Size(314, 20);
+            userDesc.Size = new Size(305, 18);
             userDesc.TabIndex = 7;
             userDesc.Text = "Add, Edit, Delete Existing User Profile Account";
             // 
             // useAddLbl
             // 
             useAddLbl.AutoSize = true;
-            useAddLbl.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            useAddLbl.Font = new Font("Tahoma", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             useAddLbl.ForeColor = SystemColors.MenuHighlight;
             useAddLbl.Location = new Point(101, 21);
             useAddLbl.Name = "useAddLbl";
-            useAddLbl.Size = new Size(272, 38);
+            useAddLbl.Size = new Size(290, 34);
             useAddLbl.TabIndex = 6;
             useAddLbl.Text = "System User Profile";
             // 
@@ -122,10 +122,10 @@
             // localNumLbl
             // 
             localNumLbl.AutoSize = true;
-            localNumLbl.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            localNumLbl.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             localNumLbl.Location = new Point(518, 276);
             localNumLbl.Name = "localNumLbl";
-            localNumLbl.Size = new Size(115, 20);
+            localNumLbl.Size = new Size(120, 18);
             localNumLbl.TabIndex = 19;
             localNumLbl.Text = "Local Number :";
             // 
@@ -147,37 +147,37 @@
             // accTypeLbl
             // 
             accTypeLbl.AutoSize = true;
-            accTypeLbl.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            accTypeLbl.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             accTypeLbl.Location = new Point(518, 162);
             accTypeLbl.Name = "accTypeLbl";
-            accTypeLbl.Size = new Size(84, 20);
+            accTypeLbl.Size = new Size(90, 18);
             accTypeLbl.TabIndex = 16;
             accTypeLbl.Text = "Password :";
             // 
             // confirmPassLbl
             // 
             confirmPassLbl.AutoSize = true;
-            confirmPassLbl.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            confirmPassLbl.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             confirmPassLbl.Location = new Point(518, 120);
             confirmPassLbl.Name = "confirmPassLbl";
-            confirmPassLbl.Size = new Size(145, 20);
+            confirmPassLbl.Size = new Size(153, 18);
             confirmPassLbl.TabIndex = 15;
             confirmPassLbl.Text = "Confirm  Password:";
             // 
             // confirmPassTxt
             // 
-            confirmPassTxt.Location = new Point(669, 118);
+            confirmPassTxt.Location = new Point(677, 118);
             confirmPassTxt.Name = "confirmPassTxt";
-            confirmPassTxt.Size = new Size(307, 27);
+            confirmPassTxt.Size = new Size(299, 27);
             confirmPassTxt.TabIndex = 14;
             // 
             // addPassLbl
             // 
             addPassLbl.AutoSize = true;
-            addPassLbl.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            addPassLbl.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             addPassLbl.Location = new Point(518, 74);
             addPassLbl.Name = "addPassLbl";
-            addPassLbl.Size = new Size(84, 20);
+            addPassLbl.Size = new Size(90, 18);
             addPassLbl.TabIndex = 13;
             addPassLbl.Text = "Password :";
             // 
@@ -191,10 +191,10 @@
             // addUNlbl
             // 
             addUNlbl.AutoSize = true;
-            addUNlbl.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            addUNlbl.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             addUNlbl.Location = new Point(518, 32);
             addUNlbl.Name = "addUNlbl";
-            addUNlbl.Size = new Size(91, 20);
+            addUNlbl.Size = new Size(95, 18);
             addUNlbl.TabIndex = 11;
             addUNlbl.Text = "User Name:";
             // 
@@ -209,10 +209,10 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(20, 276);
             label3.Name = "label3";
-            label3.Size = new Size(124, 20);
+            label3.Size = new Size(126, 18);
             label3.TabIndex = 9;
             label3.Text = "Phone Number: ";
             // 
@@ -226,10 +226,10 @@
             // addressLbl
             // 
             addressLbl.AutoSize = true;
-            addressLbl.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            addressLbl.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             addressLbl.Location = new Point(20, 164);
             addressLbl.Name = "addressLbl";
-            addressLbl.Size = new Size(74, 20);
+            addressLbl.Size = new Size(77, 18);
             addressLbl.TabIndex = 7;
             addressLbl.Text = "Address :";
             // 
@@ -244,10 +244,10 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(20, 120);
             label2.Name = "label2";
-            label2.Size = new Size(111, 20);
+            label2.Size = new Size(114, 18);
             label2.TabIndex = 5;
             label2.Text = "Middle Name :";
             // 
@@ -261,10 +261,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(20, 74);
             label1.Name = "label1";
-            label1.Size = new Size(98, 20);
+            label1.Size = new Size(103, 18);
             label1.TabIndex = 3;
             label1.Text = "First Name : ";
             // 
@@ -278,10 +278,10 @@
             // addAccNameLbl
             // 
             addAccNameLbl.AutoSize = true;
-            addAccNameLbl.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            addAccNameLbl.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             addAccNameLbl.Location = new Point(20, 32);
             addAccNameLbl.Name = "addAccNameLbl";
-            addAccNameLbl.Size = new Size(96, 20);
+            addAccNameLbl.Size = new Size(100, 18);
             addAccNameLbl.TabIndex = 1;
             addAccNameLbl.Text = "Last Name : ";
             // 
@@ -298,7 +298,7 @@
             userUpdateBtn.Cursor = Cursors.Hand;
             userUpdateBtn.FlatAppearance.BorderSize = 0;
             userUpdateBtn.FlatStyle = FlatStyle.Flat;
-            userUpdateBtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            userUpdateBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             userUpdateBtn.ForeColor = SystemColors.HighlightText;
             userUpdateBtn.Location = new Point(17, 492);
             userUpdateBtn.Margin = new Padding(3, 4, 3, 4);
@@ -317,7 +317,7 @@
             userRemoveBtn.FlatAppearance.MouseDownBackColor = SystemColors.ButtonHighlight;
             userRemoveBtn.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
             userRemoveBtn.FlatStyle = FlatStyle.Flat;
-            userRemoveBtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            userRemoveBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             userRemoveBtn.Location = new Point(280, 492);
             userRemoveBtn.Margin = new Padding(3, 4, 3, 4);
             userRemoveBtn.Name = "userRemoveBtn";

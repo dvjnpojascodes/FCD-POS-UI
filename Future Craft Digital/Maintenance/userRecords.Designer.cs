@@ -82,7 +82,7 @@ namespace Future_Craft_Digital.Maintenance
             UserGroupBox.Controls.Add(listView1);
             UserGroupBox.Controls.Add(userSearchBtn);
             UserGroupBox.Controls.Add(textBox1);
-            UserGroupBox.Font = new Font("Segoe UI", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            UserGroupBox.Font = new Font("Tahoma", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             UserGroupBox.Location = new Point(15, 118);
             UserGroupBox.Margin = new Padding(3, 4, 3, 4);
             UserGroupBox.Name = "UserGroupBox";
@@ -95,7 +95,7 @@ namespace Future_Craft_Digital.Maintenance
             // listView1
             // 
             listView1.Columns.AddRange(new ColumnHeader[] { profileAccNo, profileUserName, profileAccess });
-            listView1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            listView1.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             listView1.GridLines = true;
             listView1.Location = new Point(13, 104);
             listView1.Margin = new Padding(3, 4, 3, 4);
@@ -122,7 +122,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // userSearchBtn
             // 
-            userSearchBtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            userSearchBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             userSearchBtn.Location = new Point(558, 36);
             userSearchBtn.Margin = new Padding(3, 4, 3, 4);
             userSearchBtn.Name = "userSearchBtn";
@@ -133,7 +133,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // textBox1
             // 
-            textBox1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             textBox1.Location = new Point(12, 36);
             textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Multiline = true;
@@ -147,7 +147,7 @@ namespace Future_Craft_Digital.Maintenance
             userAddBtn.Cursor = Cursors.Hand;
             userAddBtn.FlatAppearance.BorderSize = 0;
             userAddBtn.FlatStyle = FlatStyle.Flat;
-            userAddBtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            userAddBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             userAddBtn.ForeColor = SystemColors.HighlightText;
             userAddBtn.Location = new Point(62, 594);
             userAddBtn.Margin = new Padding(3, 4, 3, 4);
@@ -167,7 +167,7 @@ namespace Future_Craft_Digital.Maintenance
             userRemoveBtn.FlatAppearance.MouseDownBackColor = SystemColors.ButtonHighlight;
             userRemoveBtn.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
             userRemoveBtn.FlatStyle = FlatStyle.Flat;
-            userRemoveBtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            userRemoveBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             userRemoveBtn.Location = new Point(233, 594);
             userRemoveBtn.Margin = new Padding(3, 4, 3, 4);
             userRemoveBtn.Name = "userRemoveBtn";
@@ -185,7 +185,7 @@ namespace Future_Craft_Digital.Maintenance
             userEditBtn.FlatAppearance.MouseDownBackColor = SystemColors.ButtonHighlight;
             userEditBtn.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
             userEditBtn.FlatStyle = FlatStyle.Flat;
-            userEditBtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            userEditBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             userEditBtn.Location = new Point(406, 594);
             userEditBtn.Margin = new Padding(3, 4, 3, 4);
             userEditBtn.Name = "userEditBtn";
@@ -202,7 +202,7 @@ namespace Future_Craft_Digital.Maintenance
             userCloseBtn.FlatAppearance.MouseDownBackColor = SystemColors.ButtonHighlight;
             userCloseBtn.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
             userCloseBtn.FlatStyle = FlatStyle.Flat;
-            userCloseBtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            userCloseBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             userCloseBtn.Location = new Point(577, 594);
             userCloseBtn.Margin = new Padding(3, 4, 3, 4);
             userCloseBtn.Name = "userCloseBtn";
