@@ -18,7 +18,7 @@ namespace Future_Craft_Digital
             ApplicationConfiguration.Initialize();
             
             //Change the class name of form that will be displayed first
-            Application.Run(new Login());
+            Application.Run(new Home());
         }
     }
 }
