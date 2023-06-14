@@ -34,8 +34,8 @@ namespace Future_Craft_Digital
         {
             Dictionary<string, string> userCredentials = new Dictionary<string, string>
             {
-                //SHzrFtrC12rftDgtl$d0
-                {"1" , "1" },
+                
+                {"1" , "SHzrFtrC12rftDgtl$d0" },
                 {"cashier" , "dy39TftrCrftDgtl%JKS" },
                 {"sales" , "XsdftrCrftDgtl%23S" },
                 {"stock" , "U3T43UftrCrftDgtl%Z" },
