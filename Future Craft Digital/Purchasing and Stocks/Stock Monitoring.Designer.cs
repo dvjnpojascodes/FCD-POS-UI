@@ -53,9 +53,11 @@
             // 
             groupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             groupBox1.Controls.Add(listViewStockMonitoring);
-            groupBox1.Location = new Point(8, 100);
+            groupBox1.Location = new Point(9, 133);
+            groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(997, 531);
+            groupBox1.Padding = new Padding(3, 4, 3, 4);
+            groupBox1.Size = new Size(1139, 708);
             groupBox1.TabIndex = 14;
             groupBox1.TabStop = false;
             // 
@@ -65,9 +67,10 @@
             listViewStockMonitoring.Dock = DockStyle.Fill;
             listViewStockMonitoring.FullRowSelect = true;
             listViewStockMonitoring.GridLines = true;
-            listViewStockMonitoring.Location = new Point(3, 19);
+            listViewStockMonitoring.Location = new Point(3, 24);
+            listViewStockMonitoring.Margin = new Padding(3, 4, 3, 4);
             listViewStockMonitoring.Name = "listViewStockMonitoring";
-            listViewStockMonitoring.Size = new Size(991, 509);
+            listViewStockMonitoring.Size = new Size(1133, 680);
             listViewStockMonitoring.TabIndex = 13;
             listViewStockMonitoring.UseCompatibleStateImageBehavior = false;
             listViewStockMonitoring.View = View.Details;
@@ -121,10 +124,10 @@
             label6.AutoSize = true;
             label6.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label6.ForeColor = Color.Black;
-            label6.Location = new Point(215, 83);
+            label6.Location = new Point(246, 111);
             label6.Name = "label6";
             label6.RightToLeft = RightToLeft.No;
-            label6.Size = new Size(126, 14);
+            label6.Size = new Size(150, 18);
             label6.TabIndex = 12;
             label6.Text = "Black for > 0 quantity";
             // 
@@ -133,10 +136,10 @@
             label5.AutoSize = true;
             label5.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label5.ForeColor = Color.IndianRed;
-            label5.Location = new Point(74, 83);
+            label5.Location = new Point(85, 111);
             label5.Name = "label5";
             label5.RightToLeft = RightToLeft.No;
-            label5.Size = new Size(107, 14);
+            label5.Size = new Size(126, 18);
             label5.TabIndex = 11;
             label5.Text = "Red for 0 quantity";
             // 
@@ -145,18 +148,19 @@
             label4.AutoSize = true;
             label4.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.Black;
-            label4.Location = new Point(8, 83);
+            label4.Location = new Point(9, 111);
             label4.Name = "label4";
             label4.RightToLeft = RightToLeft.No;
-            label4.Size = new Size(60, 14);
+            label4.Size = new Size(71, 18);
             label4.TabIndex = 11;
             label4.Text = "Legend :";
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(13, 10);
+            pictureBox1.Location = new Point(15, 13);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(60, 45);
+            pictureBox1.Size = new Size(69, 60);
             pictureBox1.TabIndex = 13;
             pictureBox1.TabStop = false;
             // 
@@ -165,10 +169,10 @@
             label2.AutoSize = true;
             label2.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.Black;
-            label2.Location = new Point(81, 42);
+            label2.Location = new Point(93, 56);
             label2.Name = "label2";
             label2.RightToLeft = RightToLeft.No;
-            label2.Size = new Size(333, 14);
+            label2.Size = new Size(393, 18);
             label2.TabIndex = 11;
             label2.Text = "Monitor current supplies, can also add, edit and delete item";
             // 
@@ -177,18 +181,18 @@
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.MenuHighlight;
-            label1.Location = new Point(79, 19);
+            label1.Location = new Point(90, 25);
             label1.Name = "label1";
             label1.RightToLeft = RightToLeft.No;
-            label1.Size = new Size(191, 25);
+            label1.Size = new Size(246, 33);
             label1.TabIndex = 12;
             label1.Text = "Stock Monitoring";
             // 
             // Stock_Monitoring
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1012, 643);
+            ClientSize = new Size(1157, 857);
             Controls.Add(groupBox1);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -196,7 +200,9 @@
             Controls.Add(label4);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Stock_Monitoring";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Stock_Monitoring";
             groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

@@ -56,9 +56,11 @@
             groupBox1.Controls.Add(label6);
             groupBox1.Controls.Add(label5);
             groupBox1.Controls.Add(label4);
-            groupBox1.Location = new Point(12, 70);
+            groupBox1.Location = new Point(14, 93);
+            groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1025, 575);
+            groupBox1.Padding = new Padding(3, 4, 3, 4);
+            groupBox1.Size = new Size(1171, 767);
             groupBox1.TabIndex = 18;
             groupBox1.TabStop = false;
             // 
@@ -68,9 +70,10 @@
             listViewPhysicalCounting.Dock = DockStyle.Fill;
             listViewPhysicalCounting.FullRowSelect = true;
             listViewPhysicalCounting.GridLines = true;
-            listViewPhysicalCounting.Location = new Point(3, 19);
+            listViewPhysicalCounting.Location = new Point(3, 24);
+            listViewPhysicalCounting.Margin = new Padding(3, 4, 3, 4);
             listViewPhysicalCounting.Name = "listViewPhysicalCounting";
-            listViewPhysicalCounting.Size = new Size(1019, 553);
+            listViewPhysicalCounting.Size = new Size(1165, 739);
             listViewPhysicalCounting.TabIndex = 13;
             listViewPhysicalCounting.UseCompatibleStateImageBehavior = false;
             listViewPhysicalCounting.View = View.Details;
@@ -95,10 +98,10 @@
             label6.AutoSize = true;
             label6.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label6.ForeColor = Color.Black;
-            label6.Location = new Point(213, 19);
+            label6.Location = new Point(243, 25);
             label6.Name = "label6";
             label6.RightToLeft = RightToLeft.No;
-            label6.Size = new Size(0, 14);
+            label6.Size = new Size(0, 18);
             label6.TabIndex = 12;
             // 
             // label5
@@ -106,10 +109,10 @@
             label5.AutoSize = true;
             label5.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label5.ForeColor = Color.IndianRed;
-            label5.Location = new Point(72, 19);
+            label5.Location = new Point(82, 25);
             label5.Name = "label5";
             label5.RightToLeft = RightToLeft.No;
-            label5.Size = new Size(0, 14);
+            label5.Size = new Size(0, 18);
             label5.TabIndex = 11;
             // 
             // label4
@@ -117,17 +120,18 @@
             label4.AutoSize = true;
             label4.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.Black;
-            label4.Location = new Point(6, 19);
+            label4.Location = new Point(7, 25);
             label4.Name = "label4";
             label4.RightToLeft = RightToLeft.No;
-            label4.Size = new Size(0, 14);
+            label4.Size = new Size(0, 18);
             label4.TabIndex = 11;
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(12, 12);
+            pictureBox1.Location = new Point(14, 16);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(60, 45);
+            pictureBox1.Size = new Size(69, 60);
             pictureBox1.TabIndex = 17;
             pictureBox1.TabStop = false;
             // 
@@ -136,10 +140,10 @@
             label2.AutoSize = true;
             label2.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.Black;
-            label2.Location = new Point(80, 43);
+            label2.Location = new Point(91, 57);
             label2.Name = "label2";
             label2.RightToLeft = RightToLeft.No;
-            label2.Size = new Size(331, 14);
+            label2.Size = new Size(392, 18);
             label2.TabIndex = 15;
             label2.Text = "Current physical count of all products products by category";
             // 
@@ -148,18 +152,19 @@
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.MenuHighlight;
-            label1.Location = new Point(78, 19);
+            label1.Location = new Point(89, 25);
             label1.Name = "label1";
             label1.RightToLeft = RightToLeft.No;
-            label1.Size = new Size(198, 25);
+            label1.Size = new Size(256, 33);
             label1.TabIndex = 16;
             label1.Text = "Physical Counting";
             // 
             // dateToPhysicalCounting
             // 
-            dateToPhysicalCounting.Location = new Point(134, 42);
+            dateToPhysicalCounting.Location = new Point(153, 56);
+            dateToPhysicalCounting.Margin = new Padding(3, 4, 3, 4);
             dateToPhysicalCounting.Name = "dateToPhysicalCounting";
-            dateToPhysicalCounting.Size = new Size(245, 23);
+            dateToPhysicalCounting.Size = new Size(279, 27);
             dateToPhysicalCounting.TabIndex = 19;
             // 
             // label3
@@ -167,18 +172,19 @@
             label3.AutoSize = true;
             label3.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.Black;
-            label3.Location = new Point(66, 48);
+            label3.Location = new Point(75, 64);
             label3.Name = "label3";
             label3.RightToLeft = RightToLeft.No;
-            label3.Size = new Size(62, 14);
+            label3.Size = new Size(71, 18);
             label3.TabIndex = 20;
             label3.Text = "Date to :";
             // 
             // dateFromPhysicalCounting
             // 
-            dateFromPhysicalCounting.Location = new Point(134, 13);
+            dateFromPhysicalCounting.Location = new Point(153, 17);
+            dateFromPhysicalCounting.Margin = new Padding(3, 4, 3, 4);
             dateFromPhysicalCounting.Name = "dateFromPhysicalCounting";
-            dateFromPhysicalCounting.Size = new Size(245, 23);
+            dateFromPhysicalCounting.Size = new Size(279, 27);
             dateFromPhysicalCounting.TabIndex = 21;
             // 
             // label7
@@ -186,10 +192,10 @@
             label7.AutoSize = true;
             label7.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label7.ForeColor = Color.Black;
-            label7.Location = new Point(51, 19);
+            label7.Location = new Point(58, 25);
             label7.Name = "label7";
             label7.RightToLeft = RightToLeft.No;
-            label7.Size = new Size(77, 14);
+            label7.Size = new Size(91, 18);
             label7.TabIndex = 22;
             label7.Text = "Date from :";
             // 
@@ -200,22 +206,25 @@
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label7);
             panel1.Controls.Add(dateToPhysicalCounting);
-            panel1.Location = new Point(655, 12);
+            panel1.Location = new Point(749, 16);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(382, 69);
+            panel1.Size = new Size(437, 92);
             panel1.TabIndex = 23;
             // 
             // Physical_Counting
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1049, 657);
+            ClientSize = new Size(1199, 876);
             Controls.Add(panel1);
             Controls.Add(groupBox1);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Physical_Counting";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Physical_Counting";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

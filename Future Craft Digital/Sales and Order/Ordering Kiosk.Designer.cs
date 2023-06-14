@@ -49,10 +49,10 @@
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.MenuHighlight;
-            label1.Location = new Point(78, 20);
+            label1.Location = new Point(78, 11);
             label1.Name = "label1";
             label1.RightToLeft = RightToLeft.No;
-            label1.Size = new Size(213, 25);
+            label1.Size = new Size(279, 33);
             label1.TabIndex = 0;
             label1.Text = "Order Module Form";
             // 
@@ -69,10 +69,10 @@
             label2.AutoSize = true;
             label2.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.Black;
-            label2.Location = new Point(78, 43);
+            label2.Location = new Point(81, 43);
             label2.Name = "label2";
             label2.RightToLeft = RightToLeft.No;
-            label2.Size = new Size(187, 14);
+            label2.Size = new Size(220, 18);
             label2.TabIndex = 0;
             label2.Text = "State current and previous order";
             // 
@@ -92,9 +92,9 @@
             listViewOrderingKiosk.Dock = DockStyle.Fill;
             listViewOrderingKiosk.FullRowSelect = true;
             listViewOrderingKiosk.GridLines = true;
-            listViewOrderingKiosk.Location = new Point(3, 18);
+            listViewOrderingKiosk.Location = new Point(3, 22);
             listViewOrderingKiosk.Name = "listViewOrderingKiosk";
-            listViewOrderingKiosk.Size = new Size(991, 556);
+            listViewOrderingKiosk.Size = new Size(991, 552);
             listViewOrderingKiosk.TabIndex = 0;
             listViewOrderingKiosk.UseCompatibleStateImageBehavior = false;
             listViewOrderingKiosk.View = View.Details;
@@ -123,7 +123,7 @@
             label3.Location = new Point(8, 10);
             label3.Name = "label3";
             label3.RightToLeft = RightToLeft.No;
-            label3.Size = new Size(44, 14);
+            label3.Size = new Size(52, 18);
             label3.TabIndex = 0;
             label3.Text = "Date :";
             // 
@@ -132,7 +132,7 @@
             dateOrderingKiosk.Anchor = AnchorStyles.Right;
             dateOrderingKiosk.Location = new Point(58, 5);
             dateOrderingKiosk.Name = "dateOrderingKiosk";
-            dateOrderingKiosk.Size = new Size(245, 22);
+            dateOrderingKiosk.Size = new Size(245, 26);
             dateOrderingKiosk.TabIndex = 3;
             // 
             // panel1
@@ -146,7 +146,7 @@
             // 
             // Ordering_Kiosk
             // 
-            AutoScaleDimensions = new SizeF(7F, 14F);
+            AutoScaleDimensions = new SizeF(8F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1021, 653);
             Controls.Add(panel1);
@@ -157,6 +157,7 @@
             Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             MinimumSize = new Size(1037, 692);
             Name = "Ordering_Kiosk";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Ordering_Kiosk";
             Load += Ordering_Kiosk_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

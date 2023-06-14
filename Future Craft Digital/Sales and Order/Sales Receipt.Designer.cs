@@ -62,9 +62,10 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(12, 12);
+            pictureBox1.Location = new Point(14, 16);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(60, 45);
+            pictureBox1.Size = new Size(69, 60);
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
             // 
@@ -73,10 +74,10 @@
             label2.AutoSize = true;
             label2.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.Black;
-            label2.Location = new Point(78, 44);
+            label2.Location = new Point(89, 59);
             label2.Name = "label2";
             label2.RightToLeft = RightToLeft.No;
-            label2.Size = new Size(148, 14);
+            label2.Size = new Size(175, 18);
             label2.TabIndex = 5;
             label2.Text = "All transation sales receipt";
             // 
@@ -85,27 +86,29 @@
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.MenuHighlight;
-            label1.Location = new Point(78, 21);
+            label1.Location = new Point(89, 28);
             label1.Name = "label1";
             label1.RightToLeft = RightToLeft.No;
-            label1.Size = new Size(195, 25);
+            label1.Size = new Size(252, 33);
             label1.TabIndex = 6;
             label1.Text = "Sales Receipt List";
             // 
             // dateToSalesReceipt
             // 
             dateToSalesReceipt.Anchor = AnchorStyles.Right;
-            dateToSalesReceipt.Location = new Point(78, 36);
+            dateToSalesReceipt.Location = new Point(89, 48);
+            dateToSalesReceipt.Margin = new Padding(3, 4, 3, 4);
             dateToSalesReceipt.Name = "dateToSalesReceipt";
-            dateToSalesReceipt.Size = new Size(242, 23);
+            dateToSalesReceipt.Size = new Size(276, 27);
             dateToSalesReceipt.TabIndex = 4;
             // 
             // dateFromSalesReceipt
             // 
             dateFromSalesReceipt.Anchor = AnchorStyles.Right;
-            dateFromSalesReceipt.Location = new Point(78, 11);
+            dateFromSalesReceipt.Location = new Point(89, 15);
+            dateFromSalesReceipt.Margin = new Padding(3, 4, 3, 4);
             dateFromSalesReceipt.Name = "dateFromSalesReceipt";
-            dateFromSalesReceipt.Size = new Size(242, 23);
+            dateFromSalesReceipt.Size = new Size(276, 27);
             dateFromSalesReceipt.TabIndex = 3;
             // 
             // label4
@@ -114,11 +117,11 @@
             label4.AutoSize = true;
             label4.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = Color.Black;
-            label4.Location = new Point(15, 34);
+            label4.Location = new Point(17, 45);
             label4.Name = "label4";
-            label4.Padding = new Padding(0, 5, 0, 5);
+            label4.Padding = new Padding(0, 7, 0, 7);
             label4.RightToLeft = RightToLeft.No;
-            label4.Size = new Size(57, 24);
+            label4.Size = new Size(67, 32);
             label4.TabIndex = 10;
             label4.Text = "Date to :";
             label4.Click += label3_Click;
@@ -129,11 +132,11 @@
             label3.AutoSize = true;
             label3.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label3.ForeColor = Color.Black;
-            label3.Location = new Point(2, 10);
+            label3.Location = new Point(2, 13);
             label3.Name = "label3";
-            label3.Padding = new Padding(0, 5, 0, 5);
+            label3.Padding = new Padding(0, 7, 0, 7);
             label3.RightToLeft = RightToLeft.No;
-            label3.Size = new Size(70, 24);
+            label3.Size = new Size(85, 32);
             label3.TabIndex = 10;
             label3.Text = "Date from :";
             label3.Click += label3_Click;
@@ -144,9 +147,10 @@
             displayByComboBox.BackColor = Color.White;
             displayByComboBox.DropDownStyle = ComboBoxStyle.DropDownList;
             displayByComboBox.FormattingEnabled = true;
-            displayByComboBox.Location = new Point(146, 6);
+            displayByComboBox.Location = new Point(167, 8);
+            displayByComboBox.Margin = new Padding(3, 4, 3, 4);
             displayByComboBox.Name = "displayByComboBox";
-            displayByComboBox.Size = new Size(161, 23);
+            displayByComboBox.Size = new Size(183, 28);
             displayByComboBox.TabIndex = 2;
             // 
             // displayByCheckBox
@@ -154,9 +158,10 @@
             displayByCheckBox.Anchor = AnchorStyles.Left;
             displayByCheckBox.AutoSize = true;
             displayByCheckBox.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            displayByCheckBox.Location = new Point(3, 10);
+            displayByCheckBox.Location = new Point(3, 13);
+            displayByCheckBox.Margin = new Padding(3, 4, 3, 4);
             displayByCheckBox.Name = "displayByCheckBox";
-            displayByCheckBox.Size = new Size(138, 18);
+            displayByCheckBox.Size = new Size(165, 22);
             displayByCheckBox.TabIndex = 1;
             displayByCheckBox.Text = "Display by Collector :";
             displayByCheckBox.UseVisualStyleBackColor = true;
@@ -165,9 +170,11 @@
             // 
             groupBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             groupBox2.Controls.Add(listViewSalesReceipt);
-            groupBox2.Location = new Point(12, 118);
+            groupBox2.Location = new Point(14, 157);
+            groupBox2.Margin = new Padding(3, 4, 3, 4);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(1013, 522);
+            groupBox2.Padding = new Padding(3, 4, 3, 4);
+            groupBox2.Size = new Size(1158, 696);
             groupBox2.TabIndex = 9;
             groupBox2.TabStop = false;
             // 
@@ -177,9 +184,10 @@
             listViewSalesReceipt.Dock = DockStyle.Fill;
             listViewSalesReceipt.FullRowSelect = true;
             listViewSalesReceipt.GridLines = true;
-            listViewSalesReceipt.Location = new Point(3, 19);
+            listViewSalesReceipt.Location = new Point(3, 24);
+            listViewSalesReceipt.Margin = new Padding(3, 4, 3, 4);
             listViewSalesReceipt.Name = "listViewSalesReceipt";
-            listViewSalesReceipt.Size = new Size(1007, 500);
+            listViewSalesReceipt.Size = new Size(1152, 668);
             listViewSalesReceipt.TabIndex = 0;
             listViewSalesReceipt.UseCompatibleStateImageBehavior = false;
             listViewSalesReceipt.View = View.Details;
@@ -221,17 +229,19 @@
             // 
             // dateSalesReceipt
             // 
-            dateSalesReceipt.Location = new Point(405, 6);
+            dateSalesReceipt.Location = new Point(463, 8);
+            dateSalesReceipt.Margin = new Padding(3, 4, 3, 4);
             dateSalesReceipt.Name = "dateSalesReceipt";
-            dateSalesReceipt.Size = new Size(242, 23);
+            dateSalesReceipt.Size = new Size(276, 27);
             dateSalesReceipt.TabIndex = 7;
             // 
             // viewButton
             // 
             viewButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            viewButton.Location = new Point(84, 3);
+            viewButton.Location = new Point(96, 4);
+            viewButton.Margin = new Padding(3, 4, 3, 4);
             viewButton.Name = "viewButton";
-            viewButton.Size = new Size(111, 27);
+            viewButton.Size = new Size(127, 36);
             viewButton.TabIndex = 6;
             viewButton.Text = "View / Return";
             viewButton.UseVisualStyleBackColor = true;
@@ -239,9 +249,10 @@
             // voidButton
             // 
             voidButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            voidButton.Location = new Point(3, 3);
+            voidButton.Location = new Point(3, 4);
+            voidButton.Margin = new Padding(3, 4, 3, 4);
             voidButton.Name = "voidButton";
-            voidButton.Size = new Size(75, 27);
+            voidButton.Size = new Size(86, 36);
             voidButton.TabIndex = 5;
             voidButton.Text = "Void";
             voidButton.UseVisualStyleBackColor = true;
@@ -251,11 +262,11 @@
             label5.AutoSize = true;
             label5.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label5.ForeColor = Color.Black;
-            label5.Location = new Point(358, 6);
+            label5.Location = new Point(409, 8);
             label5.Name = "label5";
-            label5.Padding = new Padding(0, 5, 0, 5);
+            label5.Padding = new Padding(0, 7, 0, 7);
             label5.RightToLeft = RightToLeft.No;
-            label5.Size = new Size(46, 24);
+            label5.Size = new Size(55, 32);
             label5.TabIndex = 10;
             label5.Text = "DATE :";
             label5.Click += label3_Click;
@@ -264,9 +275,10 @@
             // 
             panel1.Controls.Add(displayByComboBox);
             panel1.Controls.Add(displayByCheckBox);
-            panel1.Location = new Point(12, 77);
+            panel1.Location = new Point(14, 103);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(315, 35);
+            panel1.Size = new Size(360, 47);
             panel1.TabIndex = 12;
             // 
             // panel2
@@ -276,9 +288,10 @@
             panel2.Controls.Add(dateToSalesReceipt);
             panel2.Controls.Add(label3);
             panel2.Controls.Add(label4);
-            panel2.Location = new Point(702, 45);
+            panel2.Location = new Point(802, 60);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(323, 67);
+            panel2.Size = new Size(369, 89);
             panel2.TabIndex = 13;
             // 
             // panel3
@@ -288,16 +301,17 @@
             panel3.Controls.Add(label5);
             panel3.Controls.Add(viewButton);
             panel3.Controls.Add(voidButton);
-            panel3.Location = new Point(20, 646);
+            panel3.Location = new Point(23, 861);
+            panel3.Margin = new Padding(3, 4, 3, 4);
             panel3.Name = "panel3";
-            panel3.Size = new Size(655, 34);
+            panel3.Size = new Size(749, 45);
             panel3.TabIndex = 14;
             // 
             // Sales_Receipt
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1037, 692);
+            ClientSize = new Size(1185, 923);
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -305,8 +319,10 @@
             Controls.Add(label1);
             Controls.Add(label2);
             Controls.Add(pictureBox1);
-            MinimumSize = new Size(1037, 692);
+            Margin = new Padding(3, 4, 3, 4);
+            MinimumSize = new Size(1183, 907);
             Name = "Sales_Receipt";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Sales_Receipt";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox2.ResumeLayout(false);

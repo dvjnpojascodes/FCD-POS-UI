@@ -40,8 +40,8 @@
             deliveryItem = new ColumnHeader();
             purchaseDate = new ColumnHeader();
             approved = new ColumnHeader();
-            receivedRadioButton = new RadioButton();
-            purchasedRadioButton = new RadioButton();
+            rbOrderReceived = new RadioButton();
+            rbOrderPurchased = new RadioButton();
             label6 = new Label();
             label5 = new Label();
             label4 = new Label();
@@ -53,9 +53,10 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(19, 17);
+            pictureBox1.Location = new Point(22, 23);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(60, 45);
+            pictureBox1.Size = new Size(69, 60);
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
             // 
@@ -64,10 +65,10 @@
             label2.AutoSize = true;
             label2.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.Black;
-            label2.Location = new Point(88, 49);
+            label2.Location = new Point(101, 65);
             label2.Name = "label2";
             label2.RightToLeft = RightToLeft.No;
-            label2.Size = new Size(259, 14);
+            label2.Size = new Size(307, 18);
             label2.TabIndex = 5;
             label2.Text = "List of order purchased and products received";
             // 
@@ -76,20 +77,21 @@
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.MenuHighlight;
-            label1.Location = new Point(85, 24);
+            label1.Location = new Point(97, 32);
             label1.Name = "label1";
             label1.RightToLeft = RightToLeft.No;
-            label1.Size = new Size(384, 25);
+            label1.Size = new Size(502, 33);
             label1.TabIndex = 6;
             label1.Text = "Purchasing Order and Receive Form";
             // 
             // dateOrderAndReceive
             // 
             dateOrderAndReceive.Anchor = AnchorStyles.Right;
-            dateOrderAndReceive.Location = new Point(72, 3);
-            dateOrderAndReceive.MaximumSize = new Size(244, 23);
+            dateOrderAndReceive.Location = new Point(82, 9);
+            dateOrderAndReceive.Margin = new Padding(3, 4, 3, 4);
+            dateOrderAndReceive.MaximumSize = new Size(278, 23);
             dateOrderAndReceive.Name = "dateOrderAndReceive";
-            dateOrderAndReceive.Size = new Size(244, 23);
+            dateOrderAndReceive.Size = new Size(278, 23);
             dateOrderAndReceive.TabIndex = 1;
             // 
             // label3
@@ -98,10 +100,10 @@
             label3.AutoSize = true;
             label3.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.Black;
-            label3.Location = new Point(22, 8);
+            label3.Location = new Point(25, 11);
             label3.Name = "label3";
             label3.RightToLeft = RightToLeft.No;
-            label3.Size = new Size(44, 14);
+            label3.Size = new Size(52, 18);
             label3.TabIndex = 8;
             label3.Text = "Date :";
             // 
@@ -109,9 +111,11 @@
             // 
             groupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             groupBox1.Controls.Add(listViewOrderAndReceive);
-            groupBox1.Location = new Point(14, 103);
+            groupBox1.Location = new Point(16, 137);
+            groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(989, 533);
+            groupBox1.Padding = new Padding(3, 4, 3, 4);
+            groupBox1.Size = new Size(1130, 711);
             groupBox1.TabIndex = 10;
             groupBox1.TabStop = false;
             // 
@@ -121,9 +125,10 @@
             listViewOrderAndReceive.Dock = DockStyle.Fill;
             listViewOrderAndReceive.FullRowSelect = true;
             listViewOrderAndReceive.GridLines = true;
-            listViewOrderAndReceive.Location = new Point(3, 19);
+            listViewOrderAndReceive.Location = new Point(3, 24);
+            listViewOrderAndReceive.Margin = new Padding(3, 4, 3, 4);
             listViewOrderAndReceive.Name = "listViewOrderAndReceive";
-            listViewOrderAndReceive.Size = new Size(983, 511);
+            listViewOrderAndReceive.Size = new Size(1124, 683);
             listViewOrderAndReceive.TabIndex = 13;
             listViewOrderAndReceive.UseCompatibleStateImageBehavior = false;
             listViewOrderAndReceive.View = View.Details;
@@ -153,41 +158,43 @@
             approved.Text = "Approved";
             approved.Width = 150;
             // 
-            // receivedRadioButton
+            // rbOrderReceived
             // 
-            receivedRadioButton.Anchor = AnchorStyles.Right;
-            receivedRadioButton.AutoSize = true;
-            receivedRadioButton.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            receivedRadioButton.Location = new Point(197, 44);
-            receivedRadioButton.Name = "receivedRadioButton";
-            receivedRadioButton.Size = new Size(117, 18);
-            receivedRadioButton.TabIndex = 3;
-            receivedRadioButton.TabStop = true;
-            receivedRadioButton.Text = "Order Received";
-            receivedRadioButton.UseVisualStyleBackColor = true;
+            rbOrderReceived.Anchor = AnchorStyles.Right;
+            rbOrderReceived.AutoSize = true;
+            rbOrderReceived.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            rbOrderReceived.Location = new Point(213, 59);
+            rbOrderReceived.Margin = new Padding(3, 4, 3, 4);
+            rbOrderReceived.Name = "rbOrderReceived";
+            rbOrderReceived.Size = new Size(146, 22);
+            rbOrderReceived.TabIndex = 3;
+            rbOrderReceived.TabStop = true;
+            rbOrderReceived.Text = "Order Received";
+            rbOrderReceived.UseVisualStyleBackColor = true;
             // 
-            // purchasedRadioButton
+            // rbOrderPurchased
             // 
-            purchasedRadioButton.Anchor = AnchorStyles.Right;
-            purchasedRadioButton.AutoSize = true;
-            purchasedRadioButton.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            purchasedRadioButton.Location = new Point(65, 44);
-            purchasedRadioButton.Name = "purchasedRadioButton";
-            purchasedRadioButton.Size = new Size(126, 18);
-            purchasedRadioButton.TabIndex = 2;
-            purchasedRadioButton.TabStop = true;
-            purchasedRadioButton.Text = "Order purchased";
-            purchasedRadioButton.UseVisualStyleBackColor = true;
+            rbOrderPurchased.Anchor = AnchorStyles.Right;
+            rbOrderPurchased.AutoSize = true;
+            rbOrderPurchased.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            rbOrderPurchased.Location = new Point(26, 59);
+            rbOrderPurchased.Margin = new Padding(3, 4, 3, 4);
+            rbOrderPurchased.Name = "rbOrderPurchased";
+            rbOrderPurchased.Size = new Size(154, 22);
+            rbOrderPurchased.TabIndex = 2;
+            rbOrderPurchased.TabStop = true;
+            rbOrderPurchased.Text = "Order purchased";
+            rbOrderPurchased.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label6.ForeColor = Color.Black;
-            label6.Location = new Point(221, 86);
+            label6.Location = new Point(253, 115);
             label6.Name = "label6";
             label6.RightToLeft = RightToLeft.No;
-            label6.Size = new Size(164, 14);
+            label6.Size = new Size(195, 18);
             label6.TabIndex = 12;
             label6.Text = "Black for not approved order";
             // 
@@ -196,10 +203,10 @@
             label5.AutoSize = true;
             label5.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label5.ForeColor = Color.IndianRed;
-            label5.Location = new Point(80, 86);
+            label5.Location = new Point(91, 115);
             label5.Name = "label5";
             label5.RightToLeft = RightToLeft.No;
-            label5.Size = new Size(135, 14);
+            label5.Size = new Size(161, 18);
             label5.TabIndex = 11;
             label5.Text = "Red for approved order";
             label5.Click += label5_Click;
@@ -209,10 +216,10 @@
             label4.AutoSize = true;
             label4.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.Black;
-            label4.Location = new Point(14, 86);
+            label4.Location = new Point(16, 115);
             label4.Name = "label4";
             label4.RightToLeft = RightToLeft.No;
-            label4.Size = new Size(60, 14);
+            label4.Size = new Size(71, 18);
             label4.TabIndex = 11;
             label4.Text = "Legend :";
             // 
@@ -220,19 +227,20 @@
             // 
             panel1.Anchor = AnchorStyles.Right;
             panel1.Controls.Add(dateOrderAndReceive);
-            panel1.Controls.Add(purchasedRadioButton);
-            panel1.Controls.Add(receivedRadioButton);
+            panel1.Controls.Add(rbOrderPurchased);
+            panel1.Controls.Add(rbOrderReceived);
             panel1.Controls.Add(label3);
-            panel1.Location = new Point(686, 35);
+            panel1.Location = new Point(784, 47);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(317, 65);
+            panel1.Size = new Size(362, 87);
             panel1.TabIndex = 13;
             // 
             // Order_and_Receive
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1021, 653);
+            ClientSize = new Size(1167, 871);
             Controls.Add(panel1);
             Controls.Add(groupBox1);
             Controls.Add(label6);
@@ -241,8 +249,10 @@
             Controls.Add(label4);
             Controls.Add(label2);
             Controls.Add(label1);
-            MinimumSize = new Size(1037, 692);
+            Margin = new Padding(3, 4, 3, 4);
+            MinimumSize = new Size(1183, 907);
             Name = "Order_and_Receive";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Order_and_Receive";
             Load += Order_and_Receive_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -263,9 +273,9 @@
         private GroupBox groupBox1;
         private Label label5;
         private Label label4;
-        private RadioButton purchasedRadioButton;
+        private RadioButton rbOrderPurchased;
         private Label label6;
-        private RadioButton receivedRadioButton;
+        private RadioButton rbOrderReceived;
         private ListView listViewOrderAndReceive;
         private ColumnHeader idPurchase;
         private ColumnHeader supplierName;

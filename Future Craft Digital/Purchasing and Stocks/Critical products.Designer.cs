@@ -48,9 +48,10 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(12, 12);
+            pictureBox1.Location = new Point(14, 16);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(60, 45);
+            pictureBox1.Size = new Size(69, 60);
             pictureBox1.TabIndex = 17;
             pictureBox1.TabStop = false;
             // 
@@ -59,10 +60,10 @@
             label2.AutoSize = true;
             label2.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.Black;
-            label2.Location = new Point(80, 44);
+            label2.Location = new Point(91, 55);
             label2.Name = "label2";
             label2.RightToLeft = RightToLeft.No;
-            label2.Size = new Size(175, 14);
+            label2.Size = new Size(205, 18);
             label2.TabIndex = 15;
             label2.Text = "List of products on critical level";
             // 
@@ -71,10 +72,10 @@
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.MenuHighlight;
-            label1.Location = new Point(78, 21);
+            label1.Location = new Point(89, 19);
             label1.Name = "label1";
             label1.RightToLeft = RightToLeft.No;
-            label1.Size = new Size(174, 25);
+            label1.Size = new Size(224, 33);
             label1.TabIndex = 16;
             label1.Text = "Critical Product";
             // 
@@ -83,10 +84,10 @@
             label6.AutoSize = true;
             label6.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label6.ForeColor = Color.Black;
-            label6.Location = new Point(219, 83);
+            label6.Location = new Point(250, 111);
             label6.Name = "label6";
             label6.RightToLeft = RightToLeft.No;
-            label6.Size = new Size(161, 14);
+            label6.Size = new Size(191, 18);
             label6.TabIndex = 12;
             label6.Text = "Black for more than 0 count";
             // 
@@ -95,10 +96,10 @@
             label5.AutoSize = true;
             label5.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label5.ForeColor = Color.IndianRed;
-            label5.Location = new Point(78, 83);
+            label5.Location = new Point(89, 111);
             label5.Name = "label5";
             label5.RightToLeft = RightToLeft.No;
-            label5.Size = new Size(127, 14);
+            label5.Size = new Size(149, 18);
             label5.TabIndex = 11;
             label5.Text = "Red for 0 stock count";
             // 
@@ -107,10 +108,10 @@
             label4.AutoSize = true;
             label4.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.Black;
-            label4.Location = new Point(12, 83);
+            label4.Location = new Point(14, 111);
             label4.Name = "label4";
             label4.RightToLeft = RightToLeft.No;
-            label4.Size = new Size(60, 14);
+            label4.Size = new Size(71, 18);
             label4.TabIndex = 11;
             label4.Text = "Legend :";
             // 
@@ -118,9 +119,11 @@
             // 
             groupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             groupBox1.Controls.Add(listViewCriticalProducts);
-            groupBox1.Location = new Point(7, 100);
+            groupBox1.Location = new Point(8, 133);
+            groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1002, 539);
+            groupBox1.Padding = new Padding(3, 4, 3, 4);
+            groupBox1.Size = new Size(1145, 719);
             groupBox1.TabIndex = 18;
             groupBox1.TabStop = false;
             // 
@@ -130,9 +133,10 @@
             listViewCriticalProducts.Dock = DockStyle.Fill;
             listViewCriticalProducts.FullRowSelect = true;
             listViewCriticalProducts.GridLines = true;
-            listViewCriticalProducts.Location = new Point(3, 19);
+            listViewCriticalProducts.Location = new Point(3, 24);
+            listViewCriticalProducts.Margin = new Padding(3, 4, 3, 4);
             listViewCriticalProducts.Name = "listViewCriticalProducts";
-            listViewCriticalProducts.Size = new Size(996, 517);
+            listViewCriticalProducts.Size = new Size(1139, 691);
             listViewCriticalProducts.TabIndex = 13;
             listViewCriticalProducts.UseCompatibleStateImageBehavior = false;
             listViewCriticalProducts.View = View.Details;
@@ -169,9 +173,9 @@
             // 
             // Critical_products
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1021, 653);
+            ClientSize = new Size(1167, 871);
             Controls.Add(pictureBox1);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -179,7 +183,8 @@
             Controls.Add(label4);
             Controls.Add(label1);
             Controls.Add(groupBox1);
-            MinimumSize = new Size(1037, 692);
+            Margin = new Padding(3, 4, 3, 4);
+            MinimumSize = new Size(1183, 907);
             Name = "Critical_products";
             Text = "Critical_products";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

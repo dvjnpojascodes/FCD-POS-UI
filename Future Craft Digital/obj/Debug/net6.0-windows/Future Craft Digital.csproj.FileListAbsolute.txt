@@ -39,3 +39,34 @@ D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Fut
 D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Critical_products.resources
 D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Purchasing_and_Stocks.Defective_Stocks.resources
 D:\Git\Source\Repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Purchasing_and_Stocks.Physical_Counting.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.exe
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.deps.json
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.runtimeconfig.json
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.dll
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\bin\Debug\net6.0-windows\Future Craft Digital.pdb
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.csproj.AssemblyReference.cache
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Critical_products.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Purchasing_and_Stocks.Defective_Stocks.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Purchasing_and_Stocks.Order_and_Receive.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Purchasing_and_Stocks.Physical_Counting.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Purchasing_and_Stocks.Stock_Monitoring.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Cashiering.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Sales_and_Order.Ordering_Kiosk.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Sales_and_Order.Sales_Receipt.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.csproj.GenerateResource.cache
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.AssemblyInfoInputs.cache
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.AssemblyInfo.cs
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.csproj.CoreCompileInputs.cache
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.dll
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\refint\Future Craft Digital.dll
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.pdb
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.genruntimeconfig.cache
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\ref\Future Craft Digital.dll
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Login.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Maintenance.ManageSupplierForm.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Maintenance.ProductListingForm.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Maintenance.userRecords.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.FCDForms.BusinessInfoForm.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Maintenance.UserLogForm.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.AddUserAccountForm.resources
