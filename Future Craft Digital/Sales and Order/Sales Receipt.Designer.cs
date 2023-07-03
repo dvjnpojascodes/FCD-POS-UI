@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sales_Receipt));
             pictureBox1 = new PictureBox();
             label2 = new Label();
             label1 = new Label();
@@ -62,10 +63,12 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(14, 16);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(69, 60);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
             // 
@@ -180,8 +183,8 @@
             // 
             // listViewSalesReceipt
             // 
+            listViewSalesReceipt.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             listViewSalesReceipt.Columns.AddRange(new ColumnHeader[] { orderNo, receiptNo, id, vatabale, totalSale, amountDue, _void });
-            listViewSalesReceipt.Dock = DockStyle.Fill;
             listViewSalesReceipt.FullRowSelect = true;
             listViewSalesReceipt.GridLines = true;
             listViewSalesReceipt.Location = new Point(3, 24);
@@ -237,17 +240,19 @@
             // 
             // viewButton
             // 
+            viewButton.Anchor = AnchorStyles.Left;
             viewButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             viewButton.Location = new Point(96, 4);
             viewButton.Margin = new Padding(3, 4, 3, 4);
             viewButton.Name = "viewButton";
-            viewButton.Size = new Size(127, 36);
+            viewButton.Size = new Size(151, 36);
             viewButton.TabIndex = 6;
             viewButton.Text = "View / Return";
             viewButton.UseVisualStyleBackColor = true;
             // 
             // voidButton
             // 
+            voidButton.Anchor = AnchorStyles.Left;
             voidButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             voidButton.Location = new Point(3, 4);
             voidButton.Margin = new Padding(3, 4, 3, 4);
@@ -296,12 +301,12 @@
             // 
             // panel3
             // 
-            panel3.Anchor = AnchorStyles.Bottom;
+            panel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             panel3.Controls.Add(dateSalesReceipt);
             panel3.Controls.Add(label5);
             panel3.Controls.Add(viewButton);
             panel3.Controls.Add(voidButton);
-            panel3.Location = new Point(23, 861);
+            panel3.Location = new Point(17, 861);
             panel3.Margin = new Padding(3, 4, 3, 4);
             panel3.Name = "panel3";
             panel3.Size = new Size(749, 45);
@@ -312,6 +317,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1185, 923);
+            ControlBox = false;
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -319,11 +325,12 @@
             Controls.Add(label1);
             Controls.Add(label2);
             Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             MinimumSize = new Size(1183, 907);
             Name = "Sales_Receipt";
-            StartPosition = FormStartPosition.CenterScreen;
             Text = "Sales_Receipt";
+            WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox2.ResumeLayout(false);
             panel1.ResumeLayout(false);

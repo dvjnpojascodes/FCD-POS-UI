@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ordering_Kiosk));
             label1 = new Label();
             pictureBox1 = new PictureBox();
             label2 = new Label();
@@ -58,9 +59,11 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(12, 11);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(60, 45);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
@@ -82,19 +85,19 @@
             groupBox1.Controls.Add(listViewOrderingKiosk);
             groupBox1.Location = new Point(12, 64);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(997, 577);
+            groupBox1.Size = new Size(1019, 616);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             // 
             // listViewOrderingKiosk
             // 
+            listViewOrderingKiosk.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             listViewOrderingKiosk.Columns.AddRange(new ColumnHeader[] { orderNo, orderDate, totalCost });
-            listViewOrderingKiosk.Dock = DockStyle.Fill;
             listViewOrderingKiosk.FullRowSelect = true;
             listViewOrderingKiosk.GridLines = true;
             listViewOrderingKiosk.Location = new Point(3, 22);
             listViewOrderingKiosk.Name = "listViewOrderingKiosk";
-            listViewOrderingKiosk.Size = new Size(991, 552);
+            listViewOrderingKiosk.Size = new Size(1010, 588);
             listViewOrderingKiosk.TabIndex = 0;
             listViewOrderingKiosk.UseCompatibleStateImageBehavior = false;
             listViewOrderingKiosk.View = View.Details;
@@ -120,7 +123,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.Black;
-            label3.Location = new Point(8, 10);
+            label3.Location = new Point(8, 18);
             label3.Name = "label3";
             label3.RightToLeft = RightToLeft.No;
             label3.Size = new Size(52, 18);
@@ -130,35 +133,38 @@
             // dateOrderingKiosk
             // 
             dateOrderingKiosk.Anchor = AnchorStyles.Right;
-            dateOrderingKiosk.Location = new Point(58, 5);
+            dateOrderingKiosk.Location = new Point(58, 13);
             dateOrderingKiosk.Name = "dateOrderingKiosk";
             dateOrderingKiosk.Size = new Size(245, 26);
             dateOrderingKiosk.TabIndex = 3;
             // 
             // panel1
             // 
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             panel1.Controls.Add(dateOrderingKiosk);
             panel1.Controls.Add(label3);
-            panel1.Location = new Point(695, 33);
+            panel1.Location = new Point(709, 29);
             panel1.Name = "panel1";
-            panel1.Size = new Size(314, 30);
+            panel1.Size = new Size(314, 47);
             panel1.TabIndex = 4;
             // 
             // Ordering_Kiosk
             // 
             AutoScaleDimensions = new SizeF(8F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1021, 653);
+            ClientSize = new Size(1037, 692);
             Controls.Add(panel1);
             Controls.Add(groupBox1);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
             Controls.Add(label1);
             Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            FormBorderStyle = FormBorderStyle.None;
             MinimumSize = new Size(1037, 692);
             Name = "Ordering_Kiosk";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Ordering_Kiosk";
+            WindowState = FormWindowState.Maximized;
             Load += Ordering_Kiosk_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);

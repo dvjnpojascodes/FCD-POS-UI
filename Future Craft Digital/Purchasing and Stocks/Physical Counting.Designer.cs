@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Physical_Counting));
             groupBox1 = new GroupBox();
             listViewPhysicalCounting = new ListView();
             id = new ColumnHeader();
@@ -60,20 +61,20 @@
             groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(3, 4, 3, 4);
-            groupBox1.Size = new Size(1171, 767);
+            groupBox1.Size = new Size(1179, 453);
             groupBox1.TabIndex = 18;
             groupBox1.TabStop = false;
             // 
             // listViewPhysicalCounting
             // 
+            listViewPhysicalCounting.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             listViewPhysicalCounting.Columns.AddRange(new ColumnHeader[] { id, date, username });
-            listViewPhysicalCounting.Dock = DockStyle.Fill;
             listViewPhysicalCounting.FullRowSelect = true;
             listViewPhysicalCounting.GridLines = true;
             listViewPhysicalCounting.Location = new Point(3, 24);
             listViewPhysicalCounting.Margin = new Padding(3, 4, 3, 4);
             listViewPhysicalCounting.Name = "listViewPhysicalCounting";
-            listViewPhysicalCounting.Size = new Size(1165, 739);
+            listViewPhysicalCounting.Size = new Size(1173, 425);
             listViewPhysicalCounting.TabIndex = 13;
             listViewPhysicalCounting.UseCompatibleStateImageBehavior = false;
             listViewPhysicalCounting.View = View.Details;
@@ -128,10 +129,12 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(14, 16);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(69, 60);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 17;
             pictureBox1.TabStop = false;
             // 
@@ -206,7 +209,7 @@
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label7);
             panel1.Controls.Add(dateToPhysicalCounting);
-            panel1.Location = new Point(749, 16);
+            panel1.Location = new Point(753, 16);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
             panel1.Size = new Size(437, 92);
@@ -216,16 +219,18 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1199, 876);
+            ClientSize = new Size(1199, 562);
+            ControlBox = false;
             Controls.Add(panel1);
             Controls.Add(groupBox1);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             Name = "Physical_Counting";
-            StartPosition = FormStartPosition.CenterScreen;
             Text = "Physical_Counting";
+            WindowState = FormWindowState.Maximized;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

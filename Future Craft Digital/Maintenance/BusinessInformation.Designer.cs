@@ -31,6 +31,7 @@ namespace Future_Craft_Digital.FCDForms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BusinessInfoForm));
             prodListIcon = new PictureBox();
             prodListingDesc = new Label();
             prodListingLabel = new Label();
@@ -59,10 +60,12 @@ namespace Future_Craft_Digital.FCDForms
             // 
             // prodListIcon
             // 
+            prodListIcon.Image = (Image)resources.GetObject("prodListIcon.Image");
             prodListIcon.Location = new Point(8, 14);
             prodListIcon.Margin = new Padding(3, 4, 3, 4);
             prodListIcon.Name = "prodListIcon";
             prodListIcon.Size = new Size(78, 90);
+            prodListIcon.SizeMode = PictureBoxSizeMode.Zoom;
             prodListIcon.TabIndex = 12;
             prodListIcon.TabStop = false;
             // 
@@ -307,12 +310,14 @@ namespace Future_Craft_Digital.FCDForms
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(784, 717);
+            ControlBox = false;
             Controls.Add(businessInfoCloseBtn);
             Controls.Add(userAddBtn);
             Controls.Add(infoGrpBox);
             Controls.Add(prodListIcon);
             Controls.Add(prodListingDesc);
             Controls.Add(prodListingLabel);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 4, 3, 4);
             Name = "BusinessInfoForm";
             StartPosition = FormStartPosition.CenterScreen;

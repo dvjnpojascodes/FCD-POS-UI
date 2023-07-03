@@ -29,6 +29,7 @@ namespace Future_Craft_Digital.Maintenance
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserLogForm));
             userlogIcon = new PictureBox();
             usersLogDesc = new Label();
             usersLogLbl = new Label();
@@ -53,10 +54,12 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // userlogIcon
             // 
+            userlogIcon.Image = (Image)resources.GetObject("userlogIcon.Image");
             userlogIcon.Location = new Point(12, 16);
             userlogIcon.Margin = new Padding(3, 4, 3, 4);
             userlogIcon.Name = "userlogIcon";
             userlogIcon.Size = new Size(78, 90);
+            userlogIcon.SizeMode = PictureBoxSizeMode.Zoom;
             userlogIcon.TabIndex = 12;
             userlogIcon.TabStop = false;
             // 
@@ -83,15 +86,18 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // userlogIcon2
             // 
+            userlogIcon2.Image = (Image)resources.GetObject("userlogIcon2.Image");
             userlogIcon2.Location = new Point(96, 32);
             userlogIcon2.Margin = new Padding(3, 4, 3, 4);
             userlogIcon2.Name = "userlogIcon2";
             userlogIcon2.Size = new Size(51, 60);
+            userlogIcon2.SizeMode = PictureBoxSizeMode.Zoom;
             userlogIcon2.TabIndex = 13;
             userlogIcon2.TabStop = false;
             // 
             // usersLogGroupBox
             // 
+            usersLogGroupBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             usersLogGroupBox.Controls.Add(userLogListView);
             usersLogGroupBox.Controls.Add(userLogToDate);
             usersLogGroupBox.Controls.Add(userLogFromDate);
@@ -104,19 +110,21 @@ namespace Future_Craft_Digital.Maintenance
             usersLogGroupBox.Margin = new Padding(3, 4, 3, 4);
             usersLogGroupBox.Name = "usersLogGroupBox";
             usersLogGroupBox.Padding = new Padding(3, 4, 3, 4);
-            usersLogGroupBox.Size = new Size(1108, 635);
+            usersLogGroupBox.Size = new Size(1108, 428);
             usersLogGroupBox.TabIndex = 14;
             usersLogGroupBox.TabStop = false;
             // 
             // userLogListView
             // 
+            userLogListView.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            userLogListView.BorderStyle = BorderStyle.FixedSingle;
             userLogListView.Columns.AddRange(new ColumnHeader[] { userActions, actionDate, actionTime, userLogLogin, userLogLogout });
             userLogListView.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             userLogListView.GridLines = true;
             userLogListView.Location = new Point(7, 87);
             userLogListView.Margin = new Padding(3, 4, 3, 4);
             userLogListView.Name = "userLogListView";
-            userLogListView.Size = new Size(1093, 531);
+            userLogListView.Size = new Size(1093, 333);
             userLogListView.TabIndex = 20;
             userLogListView.UseCompatibleStateImageBehavior = false;
             userLogListView.View = View.Details;
@@ -152,6 +160,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // userLogToDate
             // 
+            userLogToDate.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             userLogToDate.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             userLogToDate.Location = new Point(822, 31);
             userLogToDate.Margin = new Padding(3, 4, 3, 4);
@@ -161,6 +170,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // userLogFromDate
             // 
+            userLogFromDate.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             userLogFromDate.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             userLogFromDate.Location = new Point(487, 31);
             userLogFromDate.Margin = new Padding(3, 4, 3, 4);
@@ -170,6 +180,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label3.AutoSize = true;
             label3.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(785, 35);
@@ -180,6 +191,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label2.AutoSize = true;
             label2.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(430, 35);
@@ -213,15 +225,18 @@ namespace Future_Craft_Digital.Maintenance
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1132, 755);
+            ClientSize = new Size(1132, 555);
+            ControlBox = false;
             Controls.Add(usersLogGroupBox);
             Controls.Add(userlogIcon2);
             Controls.Add(userlogIcon);
             Controls.Add(usersLogDesc);
             Controls.Add(usersLogLbl);
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             Name = "UserLogForm";
             Text = "User Log";
+            WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)userlogIcon).EndInit();
             ((System.ComponentModel.ISupportInitialize)userlogIcon2).EndInit();
             usersLogGroupBox.ResumeLayout(false);

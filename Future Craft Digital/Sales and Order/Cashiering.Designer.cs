@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cashiering));
             pictureBox1 = new PictureBox();
             label2 = new Label();
             label1 = new Label();
@@ -63,10 +64,12 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(16, 16);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(69, 60);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 4;
             pictureBox1.TabStop = false;
             // 
@@ -280,10 +283,10 @@
             // 
             acceptButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             acceptButton.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            acceptButton.Location = new Point(14, 809);
+            acceptButton.Location = new Point(11, 820);
             acceptButton.Margin = new Padding(3, 4, 3, 4);
             acceptButton.Name = "acceptButton";
-            acceptButton.Size = new Size(105, 45);
+            acceptButton.Size = new Size(164, 45);
             acceptButton.TabIndex = 3;
             acceptButton.Text = "Accept";
             acceptButton.UseVisualStyleBackColor = true;
@@ -310,19 +313,19 @@
             panel1.Location = new Point(16, 95);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1137, 165);
+            panel1.Size = new Size(1153, 165);
             panel1.TabIndex = 6;
             // 
             // listViewCashiering
             // 
+            listViewCashiering.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             listViewCashiering.Columns.AddRange(new ColumnHeader[] { id, itemName, description, price, quantity });
-            listViewCashiering.Dock = DockStyle.Fill;
             listViewCashiering.FullRowSelect = true;
             listViewCashiering.GridLines = true;
             listViewCashiering.Location = new Point(3, 24);
             listViewCashiering.Margin = new Padding(3, 4, 3, 4);
             listViewCashiering.Name = "listViewCashiering";
-            listViewCashiering.Size = new Size(1136, 505);
+            listViewCashiering.Size = new Size(1136, 507);
             listViewCashiering.TabIndex = 1;
             listViewCashiering.UseCompatibleStateImageBehavior = false;
             listViewCashiering.View = View.Details;
@@ -359,7 +362,7 @@
             groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(3, 4, 3, 4);
-            groupBox1.Size = new Size(1142, 533);
+            groupBox1.Size = new Size(1158, 539);
             groupBox1.TabIndex = 5;
             groupBox1.TabStop = false;
             // 
@@ -367,18 +370,20 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1167, 871);
+            ClientSize = new Size(1183, 907);
+            ControlBox = false;
             Controls.Add(panel1);
             Controls.Add(acceptButton);
             Controls.Add(groupBox1);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             MinimumSize = new Size(1183, 907);
             Name = "Cashiering";
-            StartPosition = FormStartPosition.CenterScreen;
             Text = "Cashiering";
+            WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

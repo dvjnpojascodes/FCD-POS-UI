@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Order_and_Receive));
             pictureBox1 = new PictureBox();
             label2 = new Label();
             label1 = new Label();
@@ -53,10 +54,12 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(22, 23);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(69, 60);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
             // 
@@ -115,20 +118,20 @@
             groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(3, 4, 3, 4);
-            groupBox1.Size = new Size(1130, 711);
+            groupBox1.Size = new Size(1161, 738);
             groupBox1.TabIndex = 10;
             groupBox1.TabStop = false;
             // 
             // listViewOrderAndReceive
             // 
+            listViewOrderAndReceive.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             listViewOrderAndReceive.Columns.AddRange(new ColumnHeader[] { idPurchase, supplierName, deliveryItem, purchaseDate, approved });
-            listViewOrderAndReceive.Dock = DockStyle.Fill;
             listViewOrderAndReceive.FullRowSelect = true;
             listViewOrderAndReceive.GridLines = true;
             listViewOrderAndReceive.Location = new Point(3, 24);
             listViewOrderAndReceive.Margin = new Padding(3, 4, 3, 4);
             listViewOrderAndReceive.Name = "listViewOrderAndReceive";
-            listViewOrderAndReceive.Size = new Size(1124, 683);
+            listViewOrderAndReceive.Size = new Size(1151, 706);
             listViewOrderAndReceive.TabIndex = 13;
             listViewOrderAndReceive.UseCompatibleStateImageBehavior = false;
             listViewOrderAndReceive.View = View.Details;
@@ -230,7 +233,7 @@
             panel1.Controls.Add(rbOrderPurchased);
             panel1.Controls.Add(rbOrderReceived);
             panel1.Controls.Add(label3);
-            panel1.Location = new Point(784, 47);
+            panel1.Location = new Point(812, 60);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
             panel1.Size = new Size(362, 87);
@@ -240,7 +243,9 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1167, 871);
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            ClientSize = new Size(1183, 907);
+            ControlBox = false;
             Controls.Add(panel1);
             Controls.Add(groupBox1);
             Controls.Add(label6);
@@ -249,11 +254,12 @@
             Controls.Add(label4);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             MinimumSize = new Size(1183, 907);
             Name = "Order_and_Receive";
-            StartPosition = FormStartPosition.CenterScreen;
             Text = "Order_and_Receive";
+            WindowState = FormWindowState.Maximized;
             Load += Order_and_Receive_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);

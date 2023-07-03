@@ -29,6 +29,7 @@ namespace Future_Craft_Digital.Maintenance
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(userRecords));
             systemUserIcon = new PictureBox();
             userLbl = new Label();
             userDesc = new Label();
@@ -49,10 +50,12 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // systemUserIcon
             // 
+            systemUserIcon.Image = (Image)resources.GetObject("systemUserIcon.Image");
             systemUserIcon.Location = new Point(12, 15);
             systemUserIcon.Margin = new Padding(3, 4, 3, 4);
             systemUserIcon.Name = "systemUserIcon";
             systemUserIcon.Size = new Size(79, 85);
+            systemUserIcon.SizeMode = PictureBoxSizeMode.Zoom;
             systemUserIcon.TabIndex = 1;
             systemUserIcon.TabStop = false;
             // 
@@ -79,6 +82,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // UserGroupBox
             // 
+            UserGroupBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             UserGroupBox.Controls.Add(listView1);
             UserGroupBox.Controls.Add(userSearchBtn);
             UserGroupBox.Controls.Add(textBox1);
@@ -94,6 +98,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // listView1
             // 
+            listView1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             listView1.Columns.AddRange(new ColumnHeader[] { profileAccNo, profileUserName, profileAccess });
             listView1.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             listView1.GridLines = true;
@@ -217,6 +222,7 @@ namespace Future_Craft_Digital.Maintenance
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 661);
+            ControlBox = false;
             Controls.Add(userCloseBtn);
             Controls.Add(userEditBtn);
             Controls.Add(userRemoveBtn);
@@ -228,6 +234,7 @@ namespace Future_Craft_Digital.Maintenance
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 4, 3, 4);
             Name = "userRecords";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "User Record";
             ((System.ComponentModel.ISupportInitialize)systemUserIcon).EndInit();
             UserGroupBox.ResumeLayout(false);
