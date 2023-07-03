@@ -29,6 +29,7 @@ namespace Future_Craft_Digital.Maintenance
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductListingForm));
             prodListingLabel = new Label();
             prodListingDesc = new Label();
             productListView = new ListView();
@@ -64,17 +65,19 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // productListView
             // 
+            productListView.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             productListView.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             productListView.GridLines = true;
             productListView.Location = new Point(12, 102);
             productListView.Name = "productListView";
-            productListView.Size = new Size(1106, 431);
+            productListView.Size = new Size(1106, 405);
             productListView.TabIndex = 4;
             productListView.UseCompatibleStateImageBehavior = false;
             productListView.View = View.Details;
             // 
             // rbByBrand
             // 
+            rbByBrand.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             rbByBrand.AutoSize = true;
             rbByBrand.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             rbByBrand.Location = new Point(532, 63);
@@ -89,6 +92,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // rbByCategory
             // 
+            rbByCategory.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             rbByCategory.AutoSize = true;
             rbByCategory.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             rbByCategory.Location = new Point(642, 62);
@@ -103,6 +107,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // rbItemByCategory
             // 
+            rbItemByCategory.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             rbItemByCategory.AutoSize = true;
             rbItemByCategory.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             rbItemByCategory.Location = new Point(772, 62);
@@ -117,6 +122,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // rbListItemFileProd
             // 
+            rbListItemFileProd.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             rbListItemFileProd.AutoSize = true;
             rbListItemFileProd.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             rbListItemFileProd.Location = new Point(932, 62);
@@ -131,16 +137,19 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // prodListIcon
             // 
+            prodListIcon.Image = (Image)resources.GetObject("prodListIcon.Image");
             prodListIcon.Location = new Point(12, 12);
             prodListIcon.Name = "prodListIcon";
             prodListIcon.Size = new Size(78, 72);
+            prodListIcon.SizeMode = PictureBoxSizeMode.Zoom;
             prodListIcon.TabIndex = 9;
             prodListIcon.TabStop = false;
             // 
             // ProductListingForm
             // 
             AutoScaleMode = AutoScaleMode.Inherit;
-            ClientSize = new Size(1130, 545);
+            ClientSize = new Size(1130, 519);
+            ControlBox = false;
             Controls.Add(prodListIcon);
             Controls.Add(rbListItemFileProd);
             Controls.Add(rbItemByCategory);
@@ -149,13 +158,14 @@ namespace Future_Craft_Digital.Maintenance
             Controls.Add(productListView);
             Controls.Add(prodListingDesc);
             Controls.Add(prodListingLabel);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "ProductListingForm";
             RightToLeft = RightToLeft.No;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Product Listing";
+            WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)prodListIcon).EndInit();
             ResumeLayout(false);
             PerformLayout();

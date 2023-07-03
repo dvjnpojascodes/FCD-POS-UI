@@ -29,6 +29,7 @@ namespace Future_Craft_Digital.Maintenance
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageSupplierForm));
             rbSupplierProd = new RadioButton();
             rbSupplierList = new RadioButton();
             prodListingDesc = new Label();
@@ -45,6 +46,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // rbSupplierProd
             // 
+            rbSupplierProd.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             rbSupplierProd.AutoSize = true;
             rbSupplierProd.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             rbSupplierProd.Location = new Point(798, 57);
@@ -57,6 +59,7 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // rbSupplierList
             // 
+            rbSupplierList.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             rbSupplierList.AutoSize = true;
             rbSupplierList.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             rbSupplierList.Location = new Point(642, 57);
@@ -90,12 +93,13 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // supplierProfileListView
             // 
+            supplierProfileListView.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             supplierProfileListView.Columns.AddRange(new ColumnHeader[] { supplierID, supplierName, address, contact, contactPerson });
             supplierProfileListView.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             supplierProfileListView.GridLines = true;
             supplierProfileListView.Location = new Point(10, 102);
             supplierProfileListView.Name = "supplierProfileListView";
-            supplierProfileListView.Size = new Size(968, 481);
+            supplierProfileListView.Size = new Size(968, 429);
             supplierProfileListView.TabIndex = 16;
             supplierProfileListView.UseCompatibleStateImageBehavior = false;
             supplierProfileListView.View = View.Details;
@@ -127,9 +131,11 @@ namespace Future_Craft_Digital.Maintenance
             // 
             // prodListIcon
             // 
+            prodListIcon.Image = (Image)resources.GetObject("prodListIcon.Image");
             prodListIcon.Location = new Point(10, 12);
             prodListIcon.Name = "prodListIcon";
             prodListIcon.Size = new Size(68, 67);
+            prodListIcon.SizeMode = PictureBoxSizeMode.Zoom;
             prodListIcon.TabIndex = 17;
             prodListIcon.TabStop = false;
             // 
@@ -137,7 +143,8 @@ namespace Future_Craft_Digital.Maintenance
             // 
             AutoScaleDimensions = new SizeF(7F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(989, 595);
+            ClientSize = new Size(989, 543);
+            ControlBox = false;
             Controls.Add(prodListIcon);
             Controls.Add(supplierProfileListView);
             Controls.Add(rbSupplierProd);
@@ -145,12 +152,12 @@ namespace Future_Craft_Digital.Maintenance
             Controls.Add(prodListingDesc);
             Controls.Add(supplierListingLabel);
             Font = new Font("Tahoma", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "ManageSupplierForm";
-            StartPosition = FormStartPosition.CenterScreen;
             Text = "Suppliers Profile";
+            WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)prodListIcon).EndInit();
             ResumeLayout(false);
             PerformLayout();

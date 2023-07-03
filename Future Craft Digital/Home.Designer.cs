@@ -189,9 +189,9 @@
             panel2.Controls.Add(linkLabel1);
             panel2.Controls.Add(linkLabel2);
             panel2.Location = new Point(1, 190);
-            panel2.Margin = new Padding(5, 5, 5, 5);
+            panel2.Margin = new Padding(5);
             panel2.Name = "panel2";
-            panel2.Size = new Size(285, 851);
+            panel2.Size = new Size(285, 810);
             panel2.TabIndex = 4;
             // 
             // panel6
@@ -200,8 +200,8 @@
             panel6.Controls.Add(salesReceiptBtn);
             panel6.Controls.Add(CashieringBtn);
             panel6.Controls.Add(orderingKioskBtn);
-            panel6.Location = new Point(9, 671);
-            panel6.Margin = new Padding(5, 5, 5, 5);
+            panel6.Location = new Point(9, 636);
+            panel6.Margin = new Padding(5);
             panel6.Name = "panel6";
             panel6.Size = new Size(274, 145);
             panel6.TabIndex = 4;
@@ -213,7 +213,7 @@
             salesReceiptBtn.Image = (Image)resources.GetObject("salesReceiptBtn.Image");
             salesReceiptBtn.ImageAlign = ContentAlignment.MiddleLeft;
             salesReceiptBtn.Location = new Point(5, 100);
-            salesReceiptBtn.Margin = new Padding(5, 5, 5, 5);
+            salesReceiptBtn.Margin = new Padding(5);
             salesReceiptBtn.Name = "salesReceiptBtn";
             salesReceiptBtn.Padding = new Padding(6, 3, 0, 3);
             salesReceiptBtn.Size = new Size(265, 39);
@@ -228,7 +228,7 @@
             CashieringBtn.Image = (Image)resources.GetObject("CashieringBtn.Image");
             CashieringBtn.ImageAlign = ContentAlignment.MiddleLeft;
             CashieringBtn.Location = new Point(5, 55);
-            CashieringBtn.Margin = new Padding(5, 5, 5, 5);
+            CashieringBtn.Margin = new Padding(5);
             CashieringBtn.Name = "CashieringBtn";
             CashieringBtn.Padding = new Padding(6, 3, 0, 3);
             CashieringBtn.Size = new Size(265, 39);
@@ -243,7 +243,7 @@
             orderingKioskBtn.Image = (Image)resources.GetObject("orderingKioskBtn.Image");
             orderingKioskBtn.ImageAlign = ContentAlignment.MiddleLeft;
             orderingKioskBtn.Location = new Point(5, 11);
-            orderingKioskBtn.Margin = new Padding(5, 5, 5, 5);
+            orderingKioskBtn.Margin = new Padding(5);
             orderingKioskBtn.Name = "orderingKioskBtn";
             orderingKioskBtn.Padding = new Padding(6, 3, 0, 3);
             orderingKioskBtn.Size = new Size(265, 39);
@@ -259,8 +259,8 @@
             panel5.Controls.Add(PhysicalCountBtn);
             panel5.Controls.Add(stockMonitorBtn);
             panel5.Controls.Add(OrderAndReceiveBtn);
-            panel5.Location = new Point(5, 362);
-            panel5.Margin = new Padding(5, 5, 5, 5);
+            panel5.Location = new Point(5, 332);
+            panel5.Margin = new Padding(5);
             panel5.Name = "panel5";
             panel5.Size = new Size(274, 231);
             panel5.TabIndex = 3;
@@ -272,7 +272,7 @@
             defectivestocksBtn.Image = (Image)resources.GetObject("defectivestocksBtn.Image");
             defectivestocksBtn.ImageAlign = ContentAlignment.MiddleLeft;
             defectivestocksBtn.Location = new Point(7, 188);
-            defectivestocksBtn.Margin = new Padding(5, 5, 5, 5);
+            defectivestocksBtn.Margin = new Padding(5);
             defectivestocksBtn.Name = "defectivestocksBtn";
             defectivestocksBtn.Padding = new Padding(6, 3, 0, 3);
             defectivestocksBtn.Size = new Size(265, 39);
@@ -287,7 +287,7 @@
             criticalProductsBtn.Image = (Image)resources.GetObject("criticalProductsBtn.Image");
             criticalProductsBtn.ImageAlign = ContentAlignment.MiddleLeft;
             criticalProductsBtn.Location = new Point(5, 144);
-            criticalProductsBtn.Margin = new Padding(5, 5, 5, 5);
+            criticalProductsBtn.Margin = new Padding(5);
             criticalProductsBtn.Name = "criticalProductsBtn";
             criticalProductsBtn.Padding = new Padding(6, 3, 0, 3);
             criticalProductsBtn.Size = new Size(265, 39);
@@ -302,7 +302,7 @@
             PhysicalCountBtn.Image = Properties.Resources.pie_chart__1_;
             PhysicalCountBtn.ImageAlign = ContentAlignment.MiddleLeft;
             PhysicalCountBtn.Location = new Point(5, 99);
-            PhysicalCountBtn.Margin = new Padding(5, 5, 5, 5);
+            PhysicalCountBtn.Margin = new Padding(5);
             PhysicalCountBtn.Name = "PhysicalCountBtn";
             PhysicalCountBtn.Padding = new Padding(6, 3, 0, 3);
             PhysicalCountBtn.Size = new Size(265, 39);
@@ -318,7 +318,7 @@
             stockMonitorBtn.Image = (Image)resources.GetObject("stockMonitorBtn.Image");
             stockMonitorBtn.ImageAlign = ContentAlignment.MiddleLeft;
             stockMonitorBtn.Location = new Point(5, 53);
-            stockMonitorBtn.Margin = new Padding(5, 5, 5, 5);
+            stockMonitorBtn.Margin = new Padding(5);
             stockMonitorBtn.Name = "stockMonitorBtn";
             stockMonitorBtn.Padding = new Padding(6, 3, 0, 3);
             stockMonitorBtn.Size = new Size(265, 39);
@@ -333,7 +333,7 @@
             OrderAndReceiveBtn.Image = (Image)resources.GetObject("OrderAndReceiveBtn.Image");
             OrderAndReceiveBtn.ImageAlign = ContentAlignment.MiddleLeft;
             OrderAndReceiveBtn.Location = new Point(5, 11);
-            OrderAndReceiveBtn.Margin = new Padding(5, 5, 5, 5);
+            OrderAndReceiveBtn.Margin = new Padding(5);
             OrderAndReceiveBtn.Name = "OrderAndReceiveBtn";
             OrderAndReceiveBtn.Padding = new Padding(6, 3, 0, 3);
             OrderAndReceiveBtn.Size = new Size(265, 39);
@@ -349,8 +349,8 @@
             panel4.Controls.Add(userRecordsBtn);
             panel4.Controls.Add(manageSuppliersBtn);
             panel4.Controls.Add(productListingBtn);
-            panel4.Location = new Point(7, 57);
-            panel4.Margin = new Padding(5, 5, 5, 5);
+            panel4.Location = new Point(7, 42);
+            panel4.Margin = new Padding(5);
             panel4.Name = "panel4";
             panel4.Size = new Size(274, 233);
             panel4.TabIndex = 2;
@@ -362,7 +362,7 @@
             BusinessInfoBtn.Image = (Image)resources.GetObject("BusinessInfoBtn.Image");
             BusinessInfoBtn.ImageAlign = ContentAlignment.MiddleLeft;
             BusinessInfoBtn.Location = new Point(7, 188);
-            BusinessInfoBtn.Margin = new Padding(5, 5, 5, 5);
+            BusinessInfoBtn.Margin = new Padding(5);
             BusinessInfoBtn.Name = "BusinessInfoBtn";
             BusinessInfoBtn.Padding = new Padding(6, 3, 0, 3);
             BusinessInfoBtn.Size = new Size(265, 39);
@@ -378,7 +378,7 @@
             userLogBtn.Image = (Image)resources.GetObject("userLogBtn.Image");
             userLogBtn.ImageAlign = ContentAlignment.MiddleLeft;
             userLogBtn.Location = new Point(5, 144);
-            userLogBtn.Margin = new Padding(5, 5, 5, 5);
+            userLogBtn.Margin = new Padding(5);
             userLogBtn.Name = "userLogBtn";
             userLogBtn.Padding = new Padding(6, 3, 0, 3);
             userLogBtn.Size = new Size(265, 39);
@@ -394,7 +394,7 @@
             userRecordsBtn.Image = (Image)resources.GetObject("userRecordsBtn.Image");
             userRecordsBtn.ImageAlign = ContentAlignment.MiddleLeft;
             userRecordsBtn.Location = new Point(5, 99);
-            userRecordsBtn.Margin = new Padding(5, 5, 5, 5);
+            userRecordsBtn.Margin = new Padding(5);
             userRecordsBtn.Name = "userRecordsBtn";
             userRecordsBtn.Padding = new Padding(6, 3, 0, 3);
             userRecordsBtn.Size = new Size(265, 39);
@@ -410,7 +410,7 @@
             manageSuppliersBtn.Image = (Image)resources.GetObject("manageSuppliersBtn.Image");
             manageSuppliersBtn.ImageAlign = ContentAlignment.MiddleLeft;
             manageSuppliersBtn.Location = new Point(5, 51);
-            manageSuppliersBtn.Margin = new Padding(5, 5, 5, 5);
+            manageSuppliersBtn.Margin = new Padding(5);
             manageSuppliersBtn.Name = "manageSuppliersBtn";
             manageSuppliersBtn.Padding = new Padding(6, 3, 0, 3);
             manageSuppliersBtn.Size = new Size(265, 39);
@@ -426,7 +426,7 @@
             productListingBtn.Image = (Image)resources.GetObject("productListingBtn.Image");
             productListingBtn.ImageAlign = ContentAlignment.MiddleLeft;
             productListingBtn.Location = new Point(5, 5);
-            productListingBtn.Margin = new Padding(5, 5, 5, 5);
+            productListingBtn.Margin = new Padding(5);
             productListingBtn.Name = "productListingBtn";
             productListingBtn.Padding = new Padding(6, 3, 0, 3);
             productListingBtn.Size = new Size(265, 39);
@@ -441,7 +441,7 @@
             SalesAndOrderLinkLabel.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             SalesAndOrderLinkLabel.LinkBehavior = LinkBehavior.NeverUnderline;
             SalesAndOrderLinkLabel.LinkColor = SystemColors.Highlight;
-            SalesAndOrderLinkLabel.Location = new Point(77, 639);
+            SalesAndOrderLinkLabel.Location = new Point(77, 602);
             SalesAndOrderLinkLabel.Margin = new Padding(5, 0, 5, 0);
             SalesAndOrderLinkLabel.Name = "SalesAndOrderLinkLabel";
             SalesAndOrderLinkLabel.Size = new Size(145, 21);
@@ -457,7 +457,7 @@
             linkLabel1.ForeColor = SystemColors.ControlText;
             linkLabel1.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel1.LinkColor = SystemColors.Highlight;
-            linkLabel1.Location = new Point(87, 25);
+            linkLabel1.Location = new Point(87, 14);
             linkLabel1.Margin = new Padding(5, 0, 5, 0);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(119, 21);
@@ -471,7 +471,7 @@
             linkLabel2.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             linkLabel2.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel2.LinkColor = SystemColors.Highlight;
-            linkLabel2.Location = new Point(48, 333);
+            linkLabel2.Location = new Point(48, 304);
             linkLabel2.Margin = new Padding(5, 0, 5, 0);
             linkLabel2.Name = "linkLabel2";
             linkLabel2.Size = new Size(204, 21);
@@ -486,7 +486,7 @@
             homeBtn.Image = Properties.Resources.home__2_;
             homeBtn.ImageAlign = ContentAlignment.TopCenter;
             homeBtn.Location = new Point(5, 5);
-            homeBtn.Margin = new Padding(5, 5, 5, 5);
+            homeBtn.Margin = new Padding(5);
             homeBtn.Name = "homeBtn";
             homeBtn.Size = new Size(107, 105);
             homeBtn.TabIndex = 59;
@@ -501,7 +501,7 @@
             printBtn.Image = Properties.Resources.printer__2_;
             printBtn.ImageAlign = ContentAlignment.TopCenter;
             printBtn.Location = new Point(707, 5);
-            printBtn.Margin = new Padding(5, 5, 5, 5);
+            printBtn.Margin = new Padding(5);
             printBtn.Name = "printBtn";
             printBtn.Size = new Size(107, 105);
             printBtn.TabIndex = 58;
@@ -516,7 +516,7 @@
             searchBtn.Image = Properties.Resources.search;
             searchBtn.ImageAlign = ContentAlignment.TopCenter;
             searchBtn.Location = new Point(473, 5);
-            searchBtn.Margin = new Padding(5, 5, 5, 5);
+            searchBtn.Margin = new Padding(5);
             searchBtn.Name = "searchBtn";
             searchBtn.Size = new Size(107, 105);
             searchBtn.TabIndex = 57;
@@ -531,7 +531,7 @@
             refreshBtn.Image = Properties.Resources.refresh;
             refreshBtn.ImageAlign = ContentAlignment.TopCenter;
             refreshBtn.Location = new Point(590, 5);
-            refreshBtn.Margin = new Padding(5, 5, 5, 5);
+            refreshBtn.Margin = new Padding(5);
             refreshBtn.Name = "refreshBtn";
             refreshBtn.Size = new Size(107, 105);
             refreshBtn.TabIndex = 55;
@@ -546,7 +546,7 @@
             deleteBtn.Image = Properties.Resources.delete1;
             deleteBtn.ImageAlign = ContentAlignment.TopCenter;
             deleteBtn.Location = new Point(356, 5);
-            deleteBtn.Margin = new Padding(5, 5, 5, 5);
+            deleteBtn.Margin = new Padding(5);
             deleteBtn.Name = "deleteBtn";
             deleteBtn.Size = new Size(107, 105);
             deleteBtn.TabIndex = 54;
@@ -561,7 +561,7 @@
             editBtn.Image = Properties.Resources.edit;
             editBtn.ImageAlign = ContentAlignment.TopCenter;
             editBtn.Location = new Point(239, 5);
-            editBtn.Margin = new Padding(5, 5, 5, 5);
+            editBtn.Margin = new Padding(5);
             editBtn.Name = "editBtn";
             editBtn.Size = new Size(107, 105);
             editBtn.TabIndex = 53;
@@ -576,7 +576,7 @@
             newBtn.Image = Properties.Resources.new_file;
             newBtn.ImageAlign = ContentAlignment.TopCenter;
             newBtn.Location = new Point(122, 5);
-            newBtn.Margin = new Padding(5, 5, 5, 5);
+            newBtn.Margin = new Padding(5);
             newBtn.Name = "newBtn";
             newBtn.Size = new Size(107, 105);
             newBtn.TabIndex = 52;
@@ -591,9 +591,9 @@
             PanelShortCut.Controls.Add(openShortCutsLink);
             PanelShortCut.Controls.Add(shortcutList);
             PanelShortCut.Location = new Point(1216, 123);
-            PanelShortCut.Margin = new Padding(5, 5, 5, 5);
+            PanelShortCut.Margin = new Padding(5);
             PanelShortCut.Name = "PanelShortCut";
-            PanelShortCut.Size = new Size(227, 918);
+            PanelShortCut.Size = new Size(227, 877);
             PanelShortCut.TabIndex = 34;
             // 
             // openShortCutsLink
@@ -617,10 +617,10 @@
             shortcutList.Font = new Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
             shortcutList.FullRowSelect = true;
             shortcutList.Location = new Point(11, 47);
-            shortcutList.Margin = new Padding(5, 5, 5, 5);
+            shortcutList.Margin = new Padding(5);
             shortcutList.Name = "shortcutList";
             shortcutList.Scrollable = false;
-            shortcutList.Size = new Size(207, 859);
+            shortcutList.Size = new Size(207, 796);
             shortcutList.TabIndex = 31;
             shortcutList.UseCompatibleStateImageBehavior = false;
             shortcutList.View = View.SmallIcon;
@@ -645,7 +645,7 @@
             PanelAdvisory.Controls.Add(Panel10);
             PanelAdvisory.ImeMode = ImeMode.On;
             PanelAdvisory.Location = new Point(8, 19);
-            PanelAdvisory.Margin = new Padding(5, 5, 5, 5);
+            PanelAdvisory.Margin = new Padding(5);
             PanelAdvisory.Name = "PanelAdvisory";
             PanelAdvisory.Size = new Size(1707, 51);
             PanelAdvisory.TabIndex = 47;
@@ -655,7 +655,7 @@
             panel8.BackColor = Color.DimGray;
             panel8.Controls.Add(Panel9);
             panel8.Location = new Point(0, 0);
-            panel8.Margin = new Padding(5, 5, 5, 5);
+            panel8.Margin = new Padding(5);
             panel8.Name = "panel8";
             panel8.Size = new Size(243, 51);
             panel8.TabIndex = 45;
@@ -666,7 +666,7 @@
             Panel9.Controls.Add(advisoryLabel);
             Panel9.Controls.Add(txttabstop);
             Panel9.Location = new Point(0, 0);
-            Panel9.Margin = new Padding(5, 5, 5, 5);
+            Panel9.Margin = new Padding(5);
             Panel9.Name = "Panel9";
             Panel9.Size = new Size(235, 52);
             Panel9.TabIndex = 47;
@@ -688,7 +688,7 @@
             txttabstop.BackColor = Color.DimGray;
             txttabstop.BorderStyle = BorderStyle.None;
             txttabstop.Location = new Point(95, 12);
-            txttabstop.Margin = new Padding(5, 5, 5, 5);
+            txttabstop.Margin = new Padding(5);
             txttabstop.Name = "txttabstop";
             txttabstop.Size = new Size(133, 20);
             txttabstop.TabIndex = 4;
@@ -701,7 +701,7 @@
             Panel10.Controls.Add(pnAdvisory_SalesAgent);
             Panel10.Controls.Add(pnAdvisory_Stock);
             Panel10.Location = new Point(241, 0);
-            Panel10.Margin = new Padding(5, 5, 5, 5);
+            Panel10.Margin = new Padding(5);
             Panel10.Name = "Panel10";
             Panel10.Size = new Size(1465, 51);
             Panel10.TabIndex = 48;
@@ -711,7 +711,7 @@
             pnAdvisory_Cashier.Controls.Add(Label8);
             pnAdvisory_Cashier.Controls.Add(PictureBox11);
             pnAdvisory_Cashier.Location = new Point(1, 8);
-            pnAdvisory_Cashier.Margin = new Padding(5, 5, 5, 5);
+            pnAdvisory_Cashier.Margin = new Padding(5);
             pnAdvisory_Cashier.Name = "pnAdvisory_Cashier";
             pnAdvisory_Cashier.Size = new Size(2117, 37);
             pnAdvisory_Cashier.TabIndex = 53;
@@ -733,7 +733,7 @@
             // 
             PictureBox11.Image = (Image)resources.GetObject("PictureBox11.Image");
             PictureBox11.Location = new Point(1067, 0);
-            PictureBox11.Margin = new Padding(5, 5, 5, 5);
+            PictureBox11.Margin = new Padding(5);
             PictureBox11.Name = "PictureBox11";
             PictureBox11.Size = new Size(21, 32);
             PictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -755,7 +755,7 @@
             pnadvisory_Admin.Controls.Add(lblmonthsales);
             pnadvisory_Admin.Controls.Add(lblyrsales);
             pnadvisory_Admin.Location = new Point(111, 8);
-            pnadvisory_Admin.Margin = new Padding(5, 5, 5, 5);
+            pnadvisory_Admin.Margin = new Padding(5);
             pnadvisory_Admin.Name = "pnadvisory_Admin";
             pnadvisory_Admin.Size = new Size(2624, 37);
             pnadvisory_Admin.TabIndex = 47;
@@ -765,7 +765,7 @@
             // 
             PictureBox6.Image = (Image)resources.GetObject("PictureBox6.Image");
             PictureBox6.Location = new Point(1245, 3);
-            PictureBox6.Margin = new Padding(5, 5, 5, 5);
+            PictureBox6.Margin = new Padding(5);
             PictureBox6.Name = "PictureBox6";
             PictureBox6.Size = new Size(21, 32);
             PictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -776,7 +776,7 @@
             // 
             PictureBox5.Image = (Image)resources.GetObject("PictureBox5.Image");
             PictureBox5.Location = new Point(1792, 0);
-            PictureBox5.Margin = new Padding(5, 5, 5, 5);
+            PictureBox5.Margin = new Padding(5);
             PictureBox5.Name = "PictureBox5";
             PictureBox5.Size = new Size(21, 32);
             PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -787,7 +787,7 @@
             // 
             PictureBox4.Image = (Image)resources.GetObject("PictureBox4.Image");
             PictureBox4.Location = new Point(767, 0);
-            PictureBox4.Margin = new Padding(5, 5, 5, 5);
+            PictureBox4.Margin = new Padding(5);
             PictureBox4.Name = "PictureBox4";
             PictureBox4.Size = new Size(21, 32);
             PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -798,7 +798,7 @@
             // 
             PictureBox3.Image = (Image)resources.GetObject("PictureBox3.Image");
             PictureBox3.Location = new Point(21, 0);
-            PictureBox3.Margin = new Padding(5, 5, 5, 5);
+            PictureBox3.Margin = new Padding(5);
             PictureBox3.Name = "PictureBox3";
             PictureBox3.Size = new Size(21, 32);
             PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -913,7 +913,7 @@
             pnAdvisory_SalesAgent.Controls.Add(lblsalesagent_totalorder);
             pnAdvisory_SalesAgent.Controls.Add(PictureBox12);
             pnAdvisory_SalesAgent.Location = new Point(43, 8);
-            pnAdvisory_SalesAgent.Margin = new Padding(5, 5, 5, 5);
+            pnAdvisory_SalesAgent.Margin = new Padding(5);
             pnAdvisory_SalesAgent.Name = "pnAdvisory_SalesAgent";
             pnAdvisory_SalesAgent.Size = new Size(2743, 37);
             pnAdvisory_SalesAgent.TabIndex = 53;
@@ -923,7 +923,7 @@
             // 
             PictureBox14.Image = (Image)resources.GetObject("PictureBox14.Image");
             PictureBox14.Location = new Point(1695, 0);
-            PictureBox14.Margin = new Padding(5, 5, 5, 5);
+            PictureBox14.Margin = new Padding(5);
             PictureBox14.Name = "PictureBox14";
             PictureBox14.Size = new Size(21, 32);
             PictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -982,7 +982,7 @@
             // 
             PictureBox13.Image = (Image)resources.GetObject("PictureBox13.Image");
             PictureBox13.Location = new Point(591, 3);
-            PictureBox13.Margin = new Padding(5, 5, 5, 5);
+            PictureBox13.Margin = new Padding(5);
             PictureBox13.Name = "PictureBox13";
             PictureBox13.Size = new Size(21, 32);
             PictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1017,7 +1017,7 @@
             // 
             PictureBox12.Image = (Image)resources.GetObject("PictureBox12.Image");
             PictureBox12.Location = new Point(5, 3);
-            PictureBox12.Margin = new Padding(5, 5, 5, 5);
+            PictureBox12.Margin = new Padding(5);
             PictureBox12.Name = "PictureBox12";
             PictureBox12.Size = new Size(21, 32);
             PictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1035,7 +1035,7 @@
             pnAdvisory_Stock.Controls.Add(lblstock_tot_product);
             pnAdvisory_Stock.Controls.Add(PictureBox7);
             pnAdvisory_Stock.Location = new Point(9, 8);
-            pnAdvisory_Stock.Margin = new Padding(5, 5, 5, 5);
+            pnAdvisory_Stock.Margin = new Padding(5);
             pnAdvisory_Stock.Name = "pnAdvisory_Stock";
             pnAdvisory_Stock.Size = new Size(2416, 37);
             pnAdvisory_Stock.TabIndex = 56;
@@ -1081,7 +1081,7 @@
             // 
             PictureBox8.Image = (Image)resources.GetObject("PictureBox8.Image");
             PictureBox8.Location = new Point(1391, 0);
-            PictureBox8.Margin = new Padding(5, 5, 5, 5);
+            PictureBox8.Margin = new Padding(5);
             PictureBox8.Name = "PictureBox8";
             PictureBox8.Size = new Size(21, 32);
             PictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1128,7 +1128,7 @@
             // 
             PictureBox7.Image = (Image)resources.GetObject("PictureBox7.Image");
             PictureBox7.Location = new Point(5, 0);
-            PictureBox7.Margin = new Padding(5, 5, 5, 5);
+            PictureBox7.Margin = new Padding(5);
             PictureBox7.Name = "PictureBox7";
             PictureBox7.Size = new Size(21, 32);
             PictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1147,7 +1147,7 @@
             flowLayoutPanel1.Controls.Add(printBtn);
             flowLayoutPanel1.Controls.Add(exitBtn);
             flowLayoutPanel1.Location = new Point(286, 0);
-            flowLayoutPanel1.Margin = new Padding(5, 5, 5, 5);
+            flowLayoutPanel1.Margin = new Padding(5);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(1226, 125);
             flowLayoutPanel1.TabIndex = 36;
@@ -1159,7 +1159,7 @@
             exitBtn.Image = Properties.Resources.cross;
             exitBtn.ImageAlign = ContentAlignment.TopCenter;
             exitBtn.Location = new Point(824, 5);
-            exitBtn.Margin = new Padding(5, 5, 5, 5);
+            exitBtn.Margin = new Padding(5);
             exitBtn.Name = "exitBtn";
             exitBtn.Size = new Size(107, 105);
             exitBtn.TabIndex = 60;
@@ -1172,7 +1172,7 @@
             panel1.Controls.Add(menuStrip1);
             panel1.Controls.Add(panel3);
             panel1.Location = new Point(1, -3);
-            panel1.Margin = new Padding(5, 5, 5, 5);
+            panel1.Margin = new Padding(5);
             panel1.Name = "panel1";
             panel1.Size = new Size(286, 195);
             panel1.TabIndex = 37;
@@ -1397,7 +1397,7 @@
             panel3.Controls.Add(Label4);
             panel3.Controls.Add(Label3);
             panel3.Location = new Point(5, 37);
-            panel3.Margin = new Padding(5, 5, 5, 5);
+            panel3.Margin = new Padding(5);
             panel3.Name = "panel3";
             panel3.Size = new Size(267, 143);
             panel3.TabIndex = 12;
@@ -1418,7 +1418,7 @@
             logoutBtn.BackColor = Color.White;
             logoutBtn.Image = (Image)resources.GetObject("logoutBtn.Image");
             logoutBtn.Location = new Point(191, 69);
-            logoutBtn.Margin = new Padding(5, 5, 5, 5);
+            logoutBtn.Margin = new Padding(5);
             logoutBtn.Name = "logoutBtn";
             logoutBtn.Size = new Size(64, 61);
             logoutBtn.TabIndex = 3;
@@ -1485,7 +1485,7 @@
             userPic.BackgroundImageLayout = ImageLayout.Center;
             userPic.BorderStyle = BorderStyle.FixedSingle;
             userPic.Location = new Point(-2, 0);
-            userPic.Margin = new Padding(5, 5, 5, 5);
+            userPic.Margin = new Padding(5);
             userPic.Name = "userPic";
             userPic.Size = new Size(64, 65);
             userPic.TabIndex = 0;
@@ -1518,16 +1518,16 @@
             contentPanel.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             contentPanel.BorderStyle = BorderStyle.FixedSingle;
             contentPanel.Location = new Point(286, 123);
-            contentPanel.Margin = new Padding(5, 5, 5, 5);
+            contentPanel.Margin = new Padding(5);
             contentPanel.Name = "contentPanel";
-            contentPanel.Size = new Size(931, 918);
+            contentPanel.Size = new Size(931, 877);
             contentPanel.TabIndex = 39;
             // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1445, 1043);
+            ClientSize = new Size(1445, 997);
             Controls.Add(contentPanel);
             Controls.Add(panel1);
             Controls.Add(flowLayoutPanel1);
@@ -1535,7 +1535,7 @@
             Controls.Add(PanelShortCut);
             Controls.Add(panel2);
             IsMdiContainer = true;
-            Margin = new Padding(5, 5, 5, 5);
+            Margin = new Padding(5);
             Name = "Home";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Future Craft Digital POS";

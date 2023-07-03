@@ -300,7 +300,7 @@
             userUpdateBtn.FlatStyle = FlatStyle.Flat;
             userUpdateBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             userUpdateBtn.ForeColor = SystemColors.HighlightText;
-            userUpdateBtn.Location = new Point(17, 492);
+            userUpdateBtn.Location = new Point(17, 475);
             userUpdateBtn.Margin = new Padding(3, 4, 3, 4);
             userUpdateBtn.Name = "userUpdateBtn";
             userUpdateBtn.Size = new Size(219, 52);
@@ -318,7 +318,7 @@
             userRemoveBtn.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
             userRemoveBtn.FlatStyle = FlatStyle.Flat;
             userRemoveBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            userRemoveBtn.Location = new Point(280, 492);
+            userRemoveBtn.Location = new Point(280, 475);
             userRemoveBtn.Margin = new Padding(3, 4, 3, 4);
             userRemoveBtn.Name = "userRemoveBtn";
             userRemoveBtn.Size = new Size(214, 52);
@@ -330,7 +330,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1031, 580);
+            ClientSize = new Size(1031, 545);
             Controls.Add(userRemoveBtn);
             Controls.Add(userUpdateBtn);
             Controls.Add(UserGroupBox);
