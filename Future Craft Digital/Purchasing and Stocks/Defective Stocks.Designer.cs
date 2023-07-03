@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Defective_Stocks));
             groupBox1 = new GroupBox();
             listViewDefectiveStocks = new ListView();
             id = new ColumnHeader();
@@ -61,20 +62,20 @@
             groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(3, 4, 3, 4);
-            groupBox1.Size = new Size(1139, 711);
+            groupBox1.Size = new Size(1167, 761);
             groupBox1.TabIndex = 16;
             groupBox1.TabStop = false;
             // 
             // listViewDefectiveStocks
             // 
+            listViewDefectiveStocks.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             listViewDefectiveStocks.Columns.AddRange(new ColumnHeader[] { id, purchaseNo, supplierName, deliveryItem, address, pendingId });
-            listViewDefectiveStocks.Dock = DockStyle.Fill;
             listViewDefectiveStocks.FullRowSelect = true;
             listViewDefectiveStocks.GridLines = true;
             listViewDefectiveStocks.Location = new Point(3, 24);
             listViewDefectiveStocks.Margin = new Padding(3, 4, 3, 4);
             listViewDefectiveStocks.Name = "listViewDefectiveStocks";
-            listViewDefectiveStocks.Size = new Size(1133, 683);
+            listViewDefectiveStocks.Size = new Size(1158, 729);
             listViewDefectiveStocks.TabIndex = 13;
             listViewDefectiveStocks.UseCompatibleStateImageBehavior = false;
             listViewDefectiveStocks.View = View.Details;
@@ -216,10 +217,12 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(14, 16);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(69, 60);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 14;
             pictureBox1.TabStop = false;
             // 
@@ -255,7 +258,7 @@
             panel1.Controls.Add(label3);
             panel1.Controls.Add(pendingRadioButton);
             panel1.Controls.Add(defectiveRadioButton);
-            panel1.Location = new Point(689, 28);
+            panel1.Location = new Point(716, 28);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
             panel1.Size = new Size(458, 101);
@@ -265,7 +268,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1167, 871);
+            ClientSize = new Size(1183, 907);
+            ControlBox = false;
             Controls.Add(panel1);
             Controls.Add(groupBox1);
             Controls.Add(label6);
@@ -274,11 +278,12 @@
             Controls.Add(label4);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             MinimumSize = new Size(1183, 907);
             Name = "Defective_Stocks";
-            StartPosition = FormStartPosition.CenterScreen;
             Text = "Defective_Stocks";
+            WindowState = FormWindowState.Maximized;
             groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);

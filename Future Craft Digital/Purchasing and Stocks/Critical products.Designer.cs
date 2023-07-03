@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Critical_products));
             pictureBox1 = new PictureBox();
             label2 = new Label();
             label1 = new Label();
@@ -48,10 +49,12 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(14, 16);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(69, 60);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 17;
             pictureBox1.TabStop = false;
             // 
@@ -123,20 +126,20 @@
             groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(3, 4, 3, 4);
-            groupBox1.Size = new Size(1145, 719);
+            groupBox1.Size = new Size(1167, 767);
             groupBox1.TabIndex = 18;
             groupBox1.TabStop = false;
             // 
             // listViewCriticalProducts
             // 
+            listViewCriticalProducts.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             listViewCriticalProducts.Columns.AddRange(new ColumnHeader[] { id, name, decription, price, reorderPoint, currentStocks });
-            listViewCriticalProducts.Dock = DockStyle.Fill;
             listViewCriticalProducts.FullRowSelect = true;
             listViewCriticalProducts.GridLines = true;
             listViewCriticalProducts.Location = new Point(3, 24);
             listViewCriticalProducts.Margin = new Padding(3, 4, 3, 4);
             listViewCriticalProducts.Name = "listViewCriticalProducts";
-            listViewCriticalProducts.Size = new Size(1139, 691);
+            listViewCriticalProducts.Size = new Size(1161, 735);
             listViewCriticalProducts.TabIndex = 13;
             listViewCriticalProducts.UseCompatibleStateImageBehavior = false;
             listViewCriticalProducts.View = View.Details;
@@ -175,7 +178,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1167, 871);
+            ClientSize = new Size(1183, 907);
+            ControlBox = false;
             Controls.Add(pictureBox1);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -183,10 +187,12 @@
             Controls.Add(label4);
             Controls.Add(label1);
             Controls.Add(groupBox1);
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             MinimumSize = new Size(1183, 907);
             Name = "Critical_products";
             Text = "Critical_products";
+            WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);
             ResumeLayout(false);

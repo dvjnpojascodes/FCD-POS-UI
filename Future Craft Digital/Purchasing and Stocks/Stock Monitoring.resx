@@ -117,4 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAA51JREFUSEutlltoFFcYxydJ65LSKLoWV2oRNbOu2QgV6QWqSWbcmPWSMcnM2dlI
+        fSiCItLQ1hByc2PW7nZFRNEHfUkQo4kvXpqlJl7BB4XaBx9sfZFgmzwEc9lLiZvbhq//c9aE1Cd3zQd/
+        vvOdOXy//Z89c5F4OFW236kYLwsUwyJqxRDzCxZOhbUWukwCYDmvkbPEhYUK/OJmuKAClS0TtcreGSCH
+        26X87jYxzg+3Z2H8QX5YKFtM8kDDo07Vwx0IQCYOZiHzA5BUnzlA5g7Eejj4CuNGNOYqEgt4pAOIGupc
+        hnKiTM055a9ZxOcA8G14fIMcj64TAKfFQh7pOpiFvB1yd1ud/XYH2Xs7SO5uD76ZzthBLnQAahgyXTV8
+        bvVvF2vX371Cdghb9YtYyCNNgLiGvBwaoX1uGvVsmyBJWmLr7fjRca9TAOTwOwLiPn0uQ1mxw7vE8Ysa
+        ihX73zduujjgFQB5KzMB8JiFzA80twLy95RXAEYyBsxz8BG0ItZcZYtf2GeJVpUsA2RBADlv8vdQNOar
+        +jd+TK+NLJYtMab2ZwwY79Gk8V5tPqCJgl6iUDUBEBiVbB8CMJAWwKmmHhVuXQegPHuiV8sZu1AhbiIA
+        6iePM0r+7OGA1lHp00VpAwqUlANJEsf6fxFvqWqYQvOZgMkBfgDSd7Cp1LDy+kWXlostOogtqh+/pQla
+        7KheN/2+gK93pN4HQzc1K7YoTk8YATRNU+68WJN+JBnIHODjgC/dxie87ruqWRM92j8z9yoocUsbHo67
+        P4406bXcQRKAaIvuf5ItWyIATAIwkgIsXtlz6ScHmtvvXCb517aQaM4DL5xGDvhml7GE1/TX7rzknfIB
+        elhB07fLI0RFlkmf/gMFPURBkyb8egsaZo0xpX+m2kVxDx4ZkpRru99Z43jQRfb7nZTfczEgmvOAgxDE
+        /wNZWmrmBuoq1w1e1wYi4QoavKaNNIT2fPbsiN78ysdo2Oeh5/X6CfPzMttLfVv/ICulPsM19HStffWq
+        zvONjpvtZL/RRnLHuTOp5gp7Ds3giCah1zhJY4WqkSja4yW1spqKkTGf2OxipOzeK/RFKSO4fr11u0lK
+        mZeKykzaqBiJAow3Vn5HhVw7v+VrfucAfFGwPwpdXn5Mz8JJEPnE2q3s+JotzM8z6tD6EhZcU8z8XPYS
+        FsBNGVqnYI2CNci8dhbrQeeWSj/UivFJzB1KuVAND/SnKBY0JOk/WFGVZ6aj7c0AAAAASUVORK5CYII=
+</value>
+  </data>
 </root>

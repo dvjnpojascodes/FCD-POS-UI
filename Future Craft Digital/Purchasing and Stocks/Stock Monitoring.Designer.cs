@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Stock_Monitoring));
             groupBox1 = new GroupBox();
             listViewStockMonitoring = new ListView();
             id = new ColumnHeader();
@@ -57,20 +58,20 @@
             groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(3, 4, 3, 4);
-            groupBox1.Size = new Size(1139, 708);
+            groupBox1.Size = new Size(1139, 444);
             groupBox1.TabIndex = 14;
             groupBox1.TabStop = false;
             // 
             // listViewStockMonitoring
             // 
+            listViewStockMonitoring.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             listViewStockMonitoring.Columns.AddRange(new ColumnHeader[] { id, name, decription, barcode, reorderPoint, priceNoVat, priceVat, quantity, total });
-            listViewStockMonitoring.Dock = DockStyle.Fill;
             listViewStockMonitoring.FullRowSelect = true;
             listViewStockMonitoring.GridLines = true;
             listViewStockMonitoring.Location = new Point(3, 24);
             listViewStockMonitoring.Margin = new Padding(3, 4, 3, 4);
             listViewStockMonitoring.Name = "listViewStockMonitoring";
-            listViewStockMonitoring.Size = new Size(1133, 680);
+            listViewStockMonitoring.Size = new Size(1133, 412);
             listViewStockMonitoring.TabIndex = 13;
             listViewStockMonitoring.UseCompatibleStateImageBehavior = false;
             listViewStockMonitoring.View = View.Details;
@@ -157,10 +158,12 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(15, 13);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(69, 60);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 13;
             pictureBox1.TabStop = false;
             // 
@@ -192,7 +195,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1157, 857);
+            ClientSize = new Size(1157, 593);
+            ControlBox = false;
             Controls.Add(groupBox1);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -200,10 +204,11 @@
             Controls.Add(label4);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             Name = "Stock_Monitoring";
-            StartPosition = FormStartPosition.CenterScreen;
             Text = "Stock_Monitoring";
+            WindowState = FormWindowState.Maximized;
             groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
