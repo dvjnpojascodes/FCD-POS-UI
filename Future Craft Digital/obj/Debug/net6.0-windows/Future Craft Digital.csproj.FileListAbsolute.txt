@@ -103,3 +103,6 @@ C:\Users\Hinrich\Desktop\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-window
 C:\Users\Hinrich\Desktop\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.pdb
 C:\Users\Hinrich\Desktop\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future Craft Digital.genruntimeconfig.cache
 C:\Users\Hinrich\Desktop\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\ref\Future Craft Digital.dll
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Home.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\FutureDigitalCraftPOS.Main.resources
+C:\Users\Devie\source\repos\FCD-POS-UI\Future Craft Digital\obj\Debug\net6.0-windows\Future_Craft_Digital.Properties.Resources.resources

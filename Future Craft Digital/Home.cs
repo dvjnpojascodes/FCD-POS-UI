@@ -21,6 +21,14 @@ namespace Future_Craft_Digital
             InitializeComponent();
         }
 
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+            UpdateTimeLabel();
+            UpdateDateLabel();
+        }
+
+
         private void productListingBtn_Click(object sender, EventArgs e)
         {
             contentPanel.Controls.Clear();
@@ -136,5 +144,81 @@ namespace Future_Craft_Digital
             saleReceiptDisplay.Show();
         }
 
+        private void OrderAndReceiveBtn_Click_1(object sender, EventArgs e)
+        {
+            Order_and_Receive orderReceiveDisplay = new Order_and_Receive();
+            contentPanel.Controls.Clear();
+            orderReceiveDisplay.TopLevel = false;
+            contentPanel.Controls.Add(orderReceiveDisplay);
+            orderReceiveDisplay.Show();
+        }
+
+        private void stockMonitorBtn_Click_1(object sender, EventArgs e)
+        {
+            Stock_Monitoring stockMonitoringDisplay = new Stock_Monitoring();
+            contentPanel.Controls.Clear();
+            stockMonitoringDisplay.TopLevel = false;
+            contentPanel.Controls.Add(stockMonitoringDisplay);
+            stockMonitoringDisplay.Show();
+        }
+
+        private void criticalProductsBtn_Click_1(object sender, EventArgs e)
+        {
+            Critical_products criticalProdDisplay = new Critical_products();
+            contentPanel.Controls.Clear();
+            criticalProdDisplay.TopLevel = false;
+            contentPanel.Controls.Add(criticalProdDisplay);
+            criticalProdDisplay.Show();
+        }
+
+        private void defectivestocksBtn_Click_1(object sender, EventArgs e)
+        {
+            Defective_Stocks defectStockDisplay = new Defective_Stocks();
+            contentPanel.Controls.Clear();
+            defectStockDisplay.TopLevel = false;
+            contentPanel.Controls.Add(defectStockDisplay);
+            defectStockDisplay.Show();
+        }
+
+        private void orderingKioskBtn_Click_1(object sender, EventArgs e)
+        {
+            Ordering_Kiosk orderingKioskDisplay = new Ordering_Kiosk();
+            contentPanel.Controls.Clear();
+            orderingKioskDisplay.TopLevel = false;
+            contentPanel.Controls.Add(orderingKioskDisplay);
+            orderingKioskDisplay.Show();
+        }
+
+        private void CashieringBtn_Click_1(object sender, EventArgs e)
+        {
+            Cashiering CashieringDisplay = new Cashiering();
+            contentPanel.Controls.Clear();
+            CashieringDisplay.TopLevel = false;
+            contentPanel.Controls.Add(CashieringDisplay);
+            CashieringDisplay.Show();
+        }
+
+        private void salesReceiptBtn_Click_1(object sender, EventArgs e)
+        {
+            Sales_Receipt salesReceiptDisplay = new Sales_Receipt();
+            contentPanel.Controls.Clear();
+            salesReceiptDisplay.TopLevel = false;
+            contentPanel.Controls.Add(salesReceiptDisplay);
+            salesReceiptDisplay.Show();
+        }
+
+        private void UpdateTimeLabel()
+        {
+            DateTime currentTime = DateTime.Now;
+            string formattedTime = currentTime.ToString("h:mm:ss tt");
+            timeLbl.Text = formattedTime;
+        }
+
+        private void UpdateDateLabel()
+        {
+            DateTime currentDate = DateTime.Now;
+            string formattedDate = currentDate.ToString("dddd, MMMM dd, yyyy");
+            dateLbl.Text = formattedDate;
+        }
     }
 }

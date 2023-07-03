@@ -138,6 +138,8 @@
             fastMovingToolStripMenuItem = new ToolStripMenuItem();
             slowMovingToolStripMenuItem = new ToolStripMenuItem();
             panel3 = new Panel();
+            dateLbl = new Label();
+            timeLbl = new Label();
             lbltime = new Label();
             logoutBtn = new Button();
             lbltoday = new Label();
@@ -149,6 +151,7 @@
             Label4 = new Label();
             Label3 = new Label();
             contentPanel = new Panel();
+            HomePageLogo = new PictureBox();
             panel2.SuspendLayout();
             panel6.SuspendLayout();
             panel5.SuspendLayout();
@@ -178,6 +181,8 @@
             menuStrip1.SuspendLayout();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)userPic).BeginInit();
+            contentPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)HomePageLogo).BeginInit();
             SuspendLayout();
             // 
             // panel2
@@ -220,6 +225,7 @@
             salesReceiptBtn.TabIndex = 5;
             salesReceiptBtn.Text = "Sales Receipt";
             salesReceiptBtn.UseVisualStyleBackColor = false;
+            salesReceiptBtn.Click += salesReceiptBtn_Click_1;
             // 
             // CashieringBtn
             // 
@@ -235,6 +241,7 @@
             CashieringBtn.TabIndex = 3;
             CashieringBtn.Text = "Cashiering";
             CashieringBtn.UseVisualStyleBackColor = false;
+            CashieringBtn.Click += CashieringBtn_Click_1;
             // 
             // orderingKioskBtn
             // 
@@ -250,6 +257,7 @@
             orderingKioskBtn.TabIndex = 2;
             orderingKioskBtn.Text = "Ordering Kiosk";
             orderingKioskBtn.UseVisualStyleBackColor = false;
+            orderingKioskBtn.Click += orderingKioskBtn_Click_1;
             // 
             // panel5
             // 
@@ -279,6 +287,7 @@
             defectivestocksBtn.TabIndex = 7;
             defectivestocksBtn.Text = "Defective Stocks";
             defectivestocksBtn.UseVisualStyleBackColor = false;
+            defectivestocksBtn.Click += defectivestocksBtn_Click_1;
             // 
             // criticalProductsBtn
             // 
@@ -294,6 +303,7 @@
             criticalProductsBtn.TabIndex = 6;
             criticalProductsBtn.Text = "Critical Product(s)";
             criticalProductsBtn.UseVisualStyleBackColor = false;
+            criticalProductsBtn.Click += criticalProductsBtn_Click_1;
             // 
             // PhysicalCountBtn
             // 
@@ -325,6 +335,7 @@
             stockMonitorBtn.TabIndex = 3;
             stockMonitorBtn.Text = "Stock Monitoring";
             stockMonitorBtn.UseVisualStyleBackColor = false;
+            stockMonitorBtn.Click += stockMonitorBtn_Click_1;
             // 
             // OrderAndReceiveBtn
             // 
@@ -340,6 +351,7 @@
             OrderAndReceiveBtn.TabIndex = 2;
             OrderAndReceiveBtn.Text = "Order and Receive";
             OrderAndReceiveBtn.UseVisualStyleBackColor = false;
+            OrderAndReceiveBtn.Click += OrderAndReceiveBtn_Click_1;
             // 
             // panel4
             // 
@@ -612,15 +624,15 @@
             // 
             // shortcutList
             // 
-            shortcutList.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            shortcutList.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             shortcutList.Columns.AddRange(new ColumnHeader[] { columIcons, ColumnHeader1 });
             shortcutList.Font = new Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
             shortcutList.FullRowSelect = true;
-            shortcutList.Location = new Point(11, 47);
+            shortcutList.Location = new Point(11, 49);
             shortcutList.Margin = new Padding(5);
             shortcutList.Name = "shortcutList";
             shortcutList.Scrollable = false;
-            shortcutList.Size = new Size(207, 796);
+            shortcutList.Size = new Size(207, 813);
             shortcutList.TabIndex = 31;
             shortcutList.UseCompatibleStateImageBehavior = false;
             shortcutList.View = View.SmallIcon;
@@ -1386,6 +1398,8 @@
             // panel3
             // 
             panel3.BorderStyle = BorderStyle.Fixed3D;
+            panel3.Controls.Add(dateLbl);
+            panel3.Controls.Add(timeLbl);
             panel3.Controls.Add(lbltime);
             panel3.Controls.Add(logoutBtn);
             panel3.Controls.Add(lbltoday);
@@ -1399,8 +1413,30 @@
             panel3.Location = new Point(5, 37);
             panel3.Margin = new Padding(5);
             panel3.Name = "panel3";
-            panel3.Size = new Size(267, 143);
+            panel3.Size = new Size(275, 143);
             panel3.TabIndex = 12;
+            // 
+            // dateLbl
+            // 
+            dateLbl.AutoSize = true;
+            dateLbl.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            dateLbl.Location = new Point(61, 92);
+            dateLbl.Margin = new Padding(5, 0, 5, 0);
+            dateLbl.Name = "dateLbl";
+            dateLbl.Size = new Size(37, 17);
+            dateLbl.TabIndex = 16;
+            dateLbl.Text = "Date";
+            // 
+            // timeLbl
+            // 
+            timeLbl.AutoSize = true;
+            timeLbl.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            timeLbl.Location = new Point(46, 115);
+            timeLbl.Margin = new Padding(5, 0, 5, 0);
+            timeLbl.Name = "timeLbl";
+            timeLbl.Size = new Size(41, 17);
+            timeLbl.TabIndex = 15;
+            timeLbl.Text = " Time";
             // 
             // lbltime
             // 
@@ -1417,10 +1453,10 @@
             // 
             logoutBtn.BackColor = Color.White;
             logoutBtn.Image = (Image)resources.GetObject("logoutBtn.Image");
-            logoutBtn.Location = new Point(191, 69);
+            logoutBtn.Location = new Point(210, 71);
             logoutBtn.Margin = new Padding(5);
             logoutBtn.Name = "logoutBtn";
-            logoutBtn.Size = new Size(64, 61);
+            logoutBtn.Size = new Size(59, 61);
             logoutBtn.TabIndex = 3;
             logoutBtn.UseVisualStyleBackColor = false;
             // 
@@ -1472,12 +1508,12 @@
             // 
             Label5.AutoSize = true;
             Label5.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            Label5.Location = new Point(32, 115);
+            Label5.Location = new Point(4, 115);
             Label5.Margin = new Padding(5, 0, 5, 0);
             Label5.Name = "Label5";
-            Label5.Size = new Size(50, 17);
+            Label5.Size = new Size(46, 17);
             Label5.TabIndex = 11;
-            Label5.Text = "Clock :";
+            Label5.Text = "Clock:";
             // 
             // userPic
             // 
@@ -1495,33 +1531,45 @@
             // 
             Label4.AutoSize = true;
             Label4.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            Label4.Location = new Point(11, 92);
+            Label4.Location = new Point(3, 92);
             Label4.Margin = new Padding(5, 0, 5, 0);
             Label4.Name = "Label4";
-            Label4.Size = new Size(68, 17);
+            Label4.Size = new Size(64, 17);
             Label4.TabIndex = 10;
-            Label4.Text = "Today is :";
+            Label4.Text = "Today is:";
             // 
             // Label3
             // 
             Label3.AutoSize = true;
             Label3.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            Label3.Location = new Point(8, 71);
+            Label3.Location = new Point(3, 71);
             Label3.Margin = new Padding(5, 0, 5, 0);
             Label3.Name = "Label3";
-            Label3.Size = new Size(74, 17);
+            Label3.Size = new Size(70, 17);
             Label3.TabIndex = 9;
-            Label3.Text = "Welcome :";
+            Label3.Text = "Welcome:";
             // 
             // contentPanel
             // 
             contentPanel.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             contentPanel.BorderStyle = BorderStyle.FixedSingle;
+            contentPanel.Controls.Add(HomePageLogo);
             contentPanel.Location = new Point(286, 123);
             contentPanel.Margin = new Padding(5);
             contentPanel.Name = "contentPanel";
             contentPanel.Size = new Size(931, 877);
             contentPanel.TabIndex = 39;
+            // 
+            // HomePageLogo
+            // 
+            HomePageLogo.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            HomePageLogo.Image = (Image)resources.GetObject("HomePageLogo.Image");
+            HomePageLogo.Location = new Point(46, 246);
+            HomePageLogo.Name = "HomePageLogo";
+            HomePageLogo.Size = new Size(841, 393);
+            HomePageLogo.SizeMode = PictureBoxSizeMode.Zoom;
+            HomePageLogo.TabIndex = 6;
+            HomePageLogo.TabStop = false;
             // 
             // Home
             // 
@@ -1540,6 +1588,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Future Craft Digital POS";
             WindowState = FormWindowState.Maximized;
+            Load += Home_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel6.ResumeLayout(false);
@@ -1579,6 +1628,8 @@
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)userPic).EndInit();
+            contentPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)HomePageLogo).EndInit();
             ResumeLayout(false);
         }
 
@@ -1703,6 +1754,9 @@
         private ToolStripMenuItem fastMovingToolStripMenuItem;
         private ToolStripMenuItem slowMovingToolStripMenuItem;
         private Panel contentPanel;
+        private PictureBox HomePageLogo;
+        internal Label timeLbl;
+        internal Label dateLbl;
     }
 }
 
