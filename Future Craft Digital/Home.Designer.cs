@@ -188,10 +188,10 @@
             panel2.Controls.Add(SalesAndOrderLinkLabel);
             panel2.Controls.Add(linkLabel1);
             panel2.Controls.Add(linkLabel2);
-            panel2.Location = new Point(1, 142);
-            panel2.Margin = new Padding(4);
+            panel2.Location = new Point(1, 190);
+            panel2.Margin = new Padding(5, 5, 5, 5);
             panel2.Name = "panel2";
-            panel2.Size = new Size(249, 791);
+            panel2.Size = new Size(285, 851);
             panel2.TabIndex = 4;
             // 
             // panel6
@@ -200,10 +200,10 @@
             panel6.Controls.Add(salesReceiptBtn);
             panel6.Controls.Add(CashieringBtn);
             panel6.Controls.Add(orderingKioskBtn);
-            panel6.Location = new Point(8, 483);
-            panel6.Margin = new Padding(4);
+            panel6.Location = new Point(9, 671);
+            panel6.Margin = new Padding(5, 5, 5, 5);
             panel6.Name = "panel6";
-            panel6.Size = new Size(240, 109);
+            panel6.Size = new Size(274, 145);
             panel6.TabIndex = 4;
             // 
             // salesReceiptBtn
@@ -212,11 +212,11 @@
             salesReceiptBtn.BackColor = Color.White;
             salesReceiptBtn.Image = (Image)resources.GetObject("salesReceiptBtn.Image");
             salesReceiptBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            salesReceiptBtn.Location = new Point(4, 75);
-            salesReceiptBtn.Margin = new Padding(4);
+            salesReceiptBtn.Location = new Point(5, 100);
+            salesReceiptBtn.Margin = new Padding(5, 5, 5, 5);
             salesReceiptBtn.Name = "salesReceiptBtn";
-            salesReceiptBtn.Padding = new Padding(5, 2, 0, 2);
-            salesReceiptBtn.Size = new Size(232, 29);
+            salesReceiptBtn.Padding = new Padding(6, 3, 0, 3);
+            salesReceiptBtn.Size = new Size(265, 39);
             salesReceiptBtn.TabIndex = 5;
             salesReceiptBtn.Text = "Sales Receipt";
             salesReceiptBtn.UseVisualStyleBackColor = false;
@@ -227,11 +227,11 @@
             CashieringBtn.BackColor = Color.White;
             CashieringBtn.Image = (Image)resources.GetObject("CashieringBtn.Image");
             CashieringBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            CashieringBtn.Location = new Point(4, 41);
-            CashieringBtn.Margin = new Padding(4);
+            CashieringBtn.Location = new Point(5, 55);
+            CashieringBtn.Margin = new Padding(5, 5, 5, 5);
             CashieringBtn.Name = "CashieringBtn";
-            CashieringBtn.Padding = new Padding(5, 2, 0, 2);
-            CashieringBtn.Size = new Size(232, 29);
+            CashieringBtn.Padding = new Padding(6, 3, 0, 3);
+            CashieringBtn.Size = new Size(265, 39);
             CashieringBtn.TabIndex = 3;
             CashieringBtn.Text = "Cashiering";
             CashieringBtn.UseVisualStyleBackColor = false;
@@ -242,11 +242,11 @@
             orderingKioskBtn.BackColor = Color.White;
             orderingKioskBtn.Image = (Image)resources.GetObject("orderingKioskBtn.Image");
             orderingKioskBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            orderingKioskBtn.Location = new Point(4, 8);
-            orderingKioskBtn.Margin = new Padding(4);
+            orderingKioskBtn.Location = new Point(5, 11);
+            orderingKioskBtn.Margin = new Padding(5, 5, 5, 5);
             orderingKioskBtn.Name = "orderingKioskBtn";
-            orderingKioskBtn.Padding = new Padding(5, 2, 0, 2);
-            orderingKioskBtn.Size = new Size(232, 29);
+            orderingKioskBtn.Padding = new Padding(6, 3, 0, 3);
+            orderingKioskBtn.Size = new Size(265, 39);
             orderingKioskBtn.TabIndex = 2;
             orderingKioskBtn.Text = "Ordering Kiosk";
             orderingKioskBtn.UseVisualStyleBackColor = false;
@@ -259,10 +259,10 @@
             panel5.Controls.Add(PhysicalCountBtn);
             panel5.Controls.Add(stockMonitorBtn);
             panel5.Controls.Add(OrderAndReceiveBtn);
-            panel5.Location = new Point(4, 250);
-            panel5.Margin = new Padding(4);
+            panel5.Location = new Point(5, 362);
+            panel5.Margin = new Padding(5, 5, 5, 5);
             panel5.Name = "panel5";
-            panel5.Size = new Size(240, 173);
+            panel5.Size = new Size(274, 231);
             panel5.TabIndex = 3;
             // 
             // defectivestocksBtn
@@ -271,11 +271,11 @@
             defectivestocksBtn.BackColor = Color.White;
             defectivestocksBtn.Image = (Image)resources.GetObject("defectivestocksBtn.Image");
             defectivestocksBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            defectivestocksBtn.Location = new Point(6, 141);
-            defectivestocksBtn.Margin = new Padding(4);
+            defectivestocksBtn.Location = new Point(7, 188);
+            defectivestocksBtn.Margin = new Padding(5, 5, 5, 5);
             defectivestocksBtn.Name = "defectivestocksBtn";
-            defectivestocksBtn.Padding = new Padding(5, 2, 0, 2);
-            defectivestocksBtn.Size = new Size(232, 29);
+            defectivestocksBtn.Padding = new Padding(6, 3, 0, 3);
+            defectivestocksBtn.Size = new Size(265, 39);
             defectivestocksBtn.TabIndex = 7;
             defectivestocksBtn.Text = "Defective Stocks";
             defectivestocksBtn.UseVisualStyleBackColor = false;
@@ -286,11 +286,11 @@
             criticalProductsBtn.BackColor = Color.White;
             criticalProductsBtn.Image = (Image)resources.GetObject("criticalProductsBtn.Image");
             criticalProductsBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            criticalProductsBtn.Location = new Point(4, 108);
-            criticalProductsBtn.Margin = new Padding(4);
+            criticalProductsBtn.Location = new Point(5, 144);
+            criticalProductsBtn.Margin = new Padding(5, 5, 5, 5);
             criticalProductsBtn.Name = "criticalProductsBtn";
-            criticalProductsBtn.Padding = new Padding(5, 2, 0, 2);
-            criticalProductsBtn.Size = new Size(232, 29);
+            criticalProductsBtn.Padding = new Padding(6, 3, 0, 3);
+            criticalProductsBtn.Size = new Size(265, 39);
             criticalProductsBtn.TabIndex = 6;
             criticalProductsBtn.Text = "Critical Product(s)";
             criticalProductsBtn.UseVisualStyleBackColor = false;
@@ -301,11 +301,11 @@
             PhysicalCountBtn.BackColor = Color.White;
             PhysicalCountBtn.Image = Properties.Resources.pie_chart__1_;
             PhysicalCountBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            PhysicalCountBtn.Location = new Point(4, 74);
-            PhysicalCountBtn.Margin = new Padding(4);
+            PhysicalCountBtn.Location = new Point(5, 99);
+            PhysicalCountBtn.Margin = new Padding(5, 5, 5, 5);
             PhysicalCountBtn.Name = "PhysicalCountBtn";
-            PhysicalCountBtn.Padding = new Padding(5, 2, 0, 2);
-            PhysicalCountBtn.Size = new Size(232, 29);
+            PhysicalCountBtn.Padding = new Padding(6, 3, 0, 3);
+            PhysicalCountBtn.Size = new Size(265, 39);
             PhysicalCountBtn.TabIndex = 5;
             PhysicalCountBtn.Text = "Physical Counting";
             PhysicalCountBtn.UseVisualStyleBackColor = false;
@@ -317,11 +317,11 @@
             stockMonitorBtn.BackColor = Color.White;
             stockMonitorBtn.Image = (Image)resources.GetObject("stockMonitorBtn.Image");
             stockMonitorBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            stockMonitorBtn.Location = new Point(4, 40);
-            stockMonitorBtn.Margin = new Padding(4);
+            stockMonitorBtn.Location = new Point(5, 53);
+            stockMonitorBtn.Margin = new Padding(5, 5, 5, 5);
             stockMonitorBtn.Name = "stockMonitorBtn";
-            stockMonitorBtn.Padding = new Padding(5, 2, 0, 2);
-            stockMonitorBtn.Size = new Size(232, 29);
+            stockMonitorBtn.Padding = new Padding(6, 3, 0, 3);
+            stockMonitorBtn.Size = new Size(265, 39);
             stockMonitorBtn.TabIndex = 3;
             stockMonitorBtn.Text = "Stock Monitoring";
             stockMonitorBtn.UseVisualStyleBackColor = false;
@@ -332,11 +332,11 @@
             OrderAndReceiveBtn.BackColor = Color.White;
             OrderAndReceiveBtn.Image = (Image)resources.GetObject("OrderAndReceiveBtn.Image");
             OrderAndReceiveBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            OrderAndReceiveBtn.Location = new Point(4, 8);
-            OrderAndReceiveBtn.Margin = new Padding(4);
+            OrderAndReceiveBtn.Location = new Point(5, 11);
+            OrderAndReceiveBtn.Margin = new Padding(5, 5, 5, 5);
             OrderAndReceiveBtn.Name = "OrderAndReceiveBtn";
-            OrderAndReceiveBtn.Padding = new Padding(5, 2, 0, 2);
-            OrderAndReceiveBtn.Size = new Size(232, 29);
+            OrderAndReceiveBtn.Padding = new Padding(6, 3, 0, 3);
+            OrderAndReceiveBtn.Size = new Size(265, 39);
             OrderAndReceiveBtn.TabIndex = 2;
             OrderAndReceiveBtn.Text = "Order and Receive";
             OrderAndReceiveBtn.UseVisualStyleBackColor = false;
@@ -349,10 +349,10 @@
             panel4.Controls.Add(userRecordsBtn);
             panel4.Controls.Add(manageSuppliersBtn);
             panel4.Controls.Add(productListingBtn);
-            panel4.Location = new Point(6, 38);
-            panel4.Margin = new Padding(4);
+            panel4.Location = new Point(7, 57);
+            panel4.Margin = new Padding(5, 5, 5, 5);
             panel4.Name = "panel4";
-            panel4.Size = new Size(240, 175);
+            panel4.Size = new Size(274, 233);
             panel4.TabIndex = 2;
             // 
             // BusinessInfoBtn
@@ -361,11 +361,11 @@
             BusinessInfoBtn.BackColor = Color.White;
             BusinessInfoBtn.Image = (Image)resources.GetObject("BusinessInfoBtn.Image");
             BusinessInfoBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            BusinessInfoBtn.Location = new Point(6, 141);
-            BusinessInfoBtn.Margin = new Padding(4);
+            BusinessInfoBtn.Location = new Point(7, 188);
+            BusinessInfoBtn.Margin = new Padding(5, 5, 5, 5);
             BusinessInfoBtn.Name = "BusinessInfoBtn";
-            BusinessInfoBtn.Padding = new Padding(5, 2, 0, 2);
-            BusinessInfoBtn.Size = new Size(232, 29);
+            BusinessInfoBtn.Padding = new Padding(6, 3, 0, 3);
+            BusinessInfoBtn.Size = new Size(265, 39);
             BusinessInfoBtn.TabIndex = 7;
             BusinessInfoBtn.Text = "Business Information";
             BusinessInfoBtn.UseVisualStyleBackColor = false;
@@ -377,11 +377,11 @@
             userLogBtn.BackColor = Color.White;
             userLogBtn.Image = (Image)resources.GetObject("userLogBtn.Image");
             userLogBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            userLogBtn.Location = new Point(4, 108);
-            userLogBtn.Margin = new Padding(4);
+            userLogBtn.Location = new Point(5, 144);
+            userLogBtn.Margin = new Padding(5, 5, 5, 5);
             userLogBtn.Name = "userLogBtn";
-            userLogBtn.Padding = new Padding(5, 2, 0, 2);
-            userLogBtn.Size = new Size(232, 29);
+            userLogBtn.Padding = new Padding(6, 3, 0, 3);
+            userLogBtn.Size = new Size(265, 39);
             userLogBtn.TabIndex = 6;
             userLogBtn.Text = "Users Log";
             userLogBtn.UseVisualStyleBackColor = false;
@@ -393,11 +393,11 @@
             userRecordsBtn.BackColor = Color.White;
             userRecordsBtn.Image = (Image)resources.GetObject("userRecordsBtn.Image");
             userRecordsBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            userRecordsBtn.Location = new Point(4, 74);
-            userRecordsBtn.Margin = new Padding(4);
+            userRecordsBtn.Location = new Point(5, 99);
+            userRecordsBtn.Margin = new Padding(5, 5, 5, 5);
             userRecordsBtn.Name = "userRecordsBtn";
-            userRecordsBtn.Padding = new Padding(5, 2, 0, 2);
-            userRecordsBtn.Size = new Size(232, 29);
+            userRecordsBtn.Padding = new Padding(6, 3, 0, 3);
+            userRecordsBtn.Size = new Size(265, 39);
             userRecordsBtn.TabIndex = 5;
             userRecordsBtn.Text = "User Records";
             userRecordsBtn.UseVisualStyleBackColor = false;
@@ -409,11 +409,11 @@
             manageSuppliersBtn.BackColor = Color.White;
             manageSuppliersBtn.Image = (Image)resources.GetObject("manageSuppliersBtn.Image");
             manageSuppliersBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            manageSuppliersBtn.Location = new Point(4, 38);
-            manageSuppliersBtn.Margin = new Padding(4);
+            manageSuppliersBtn.Location = new Point(5, 51);
+            manageSuppliersBtn.Margin = new Padding(5, 5, 5, 5);
             manageSuppliersBtn.Name = "manageSuppliersBtn";
-            manageSuppliersBtn.Padding = new Padding(5, 2, 0, 2);
-            manageSuppliersBtn.Size = new Size(232, 29);
+            manageSuppliersBtn.Padding = new Padding(6, 3, 0, 3);
+            manageSuppliersBtn.Size = new Size(265, 39);
             manageSuppliersBtn.TabIndex = 3;
             manageSuppliersBtn.Text = "Manage Suppliers";
             manageSuppliersBtn.UseVisualStyleBackColor = false;
@@ -425,11 +425,11 @@
             productListingBtn.BackColor = Color.White;
             productListingBtn.Image = (Image)resources.GetObject("productListingBtn.Image");
             productListingBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            productListingBtn.Location = new Point(4, 4);
-            productListingBtn.Margin = new Padding(4);
+            productListingBtn.Location = new Point(5, 5);
+            productListingBtn.Margin = new Padding(5, 5, 5, 5);
             productListingBtn.Name = "productListingBtn";
-            productListingBtn.Padding = new Padding(5, 2, 0, 2);
-            productListingBtn.Size = new Size(232, 29);
+            productListingBtn.Padding = new Padding(6, 3, 0, 3);
+            productListingBtn.Size = new Size(265, 39);
             productListingBtn.TabIndex = 2;
             productListingBtn.Text = "Product Listing";
             productListingBtn.UseVisualStyleBackColor = false;
@@ -441,10 +441,10 @@
             SalesAndOrderLinkLabel.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             SalesAndOrderLinkLabel.LinkBehavior = LinkBehavior.NeverUnderline;
             SalesAndOrderLinkLabel.LinkColor = SystemColors.Highlight;
-            SalesAndOrderLinkLabel.Location = new Point(67, 454);
-            SalesAndOrderLinkLabel.Margin = new Padding(4, 0, 4, 0);
+            SalesAndOrderLinkLabel.Location = new Point(77, 639);
+            SalesAndOrderLinkLabel.Margin = new Padding(5, 0, 5, 0);
             SalesAndOrderLinkLabel.Name = "SalesAndOrderLinkLabel";
-            SalesAndOrderLinkLabel.Size = new Size(117, 17);
+            SalesAndOrderLinkLabel.Size = new Size(145, 21);
             SalesAndOrderLinkLabel.TabIndex = 1;
             SalesAndOrderLinkLabel.TabStop = true;
             SalesAndOrderLinkLabel.Text = "Sales and Order";
@@ -457,10 +457,10 @@
             linkLabel1.ForeColor = SystemColors.ControlText;
             linkLabel1.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel1.LinkColor = SystemColors.Highlight;
-            linkLabel1.Location = new Point(76, 14);
-            linkLabel1.Margin = new Padding(4, 0, 4, 0);
+            linkLabel1.Location = new Point(87, 25);
+            linkLabel1.Margin = new Padding(5, 0, 5, 0);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(95, 17);
+            linkLabel1.Size = new Size(119, 21);
             linkLabel1.TabIndex = 1;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Maintenance";
@@ -471,10 +471,10 @@
             linkLabel2.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             linkLabel2.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel2.LinkColor = SystemColors.Highlight;
-            linkLabel2.Location = new Point(42, 225);
-            linkLabel2.Margin = new Padding(4, 0, 4, 0);
+            linkLabel2.Location = new Point(48, 333);
+            linkLabel2.Margin = new Padding(5, 0, 5, 0);
             linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(164, 17);
+            linkLabel2.Size = new Size(204, 21);
             linkLabel2.TabIndex = 1;
             linkLabel2.TabStop = true;
             linkLabel2.Text = "Purchasing and Stocks";
@@ -485,10 +485,10 @@
             homeBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             homeBtn.Image = Properties.Resources.home__2_;
             homeBtn.ImageAlign = ContentAlignment.TopCenter;
-            homeBtn.Location = new Point(4, 4);
-            homeBtn.Margin = new Padding(4);
+            homeBtn.Location = new Point(5, 5);
+            homeBtn.Margin = new Padding(5, 5, 5, 5);
             homeBtn.Name = "homeBtn";
-            homeBtn.Size = new Size(94, 79);
+            homeBtn.Size = new Size(107, 105);
             homeBtn.TabIndex = 59;
             homeBtn.Text = "Home";
             homeBtn.TextAlign = ContentAlignment.BottomCenter;
@@ -500,10 +500,10 @@
             printBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             printBtn.Image = Properties.Resources.printer__2_;
             printBtn.ImageAlign = ContentAlignment.TopCenter;
-            printBtn.Location = new Point(616, 4);
-            printBtn.Margin = new Padding(4);
+            printBtn.Location = new Point(707, 5);
+            printBtn.Margin = new Padding(5, 5, 5, 5);
             printBtn.Name = "printBtn";
-            printBtn.Size = new Size(94, 79);
+            printBtn.Size = new Size(107, 105);
             printBtn.TabIndex = 58;
             printBtn.Text = "Print";
             printBtn.TextAlign = ContentAlignment.BottomCenter;
@@ -515,10 +515,10 @@
             searchBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             searchBtn.Image = Properties.Resources.search;
             searchBtn.ImageAlign = ContentAlignment.TopCenter;
-            searchBtn.Location = new Point(412, 4);
-            searchBtn.Margin = new Padding(4);
+            searchBtn.Location = new Point(473, 5);
+            searchBtn.Margin = new Padding(5, 5, 5, 5);
             searchBtn.Name = "searchBtn";
-            searchBtn.Size = new Size(94, 79);
+            searchBtn.Size = new Size(107, 105);
             searchBtn.TabIndex = 57;
             searchBtn.Text = "Search";
             searchBtn.TextAlign = ContentAlignment.BottomCenter;
@@ -530,10 +530,10 @@
             refreshBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             refreshBtn.Image = Properties.Resources.refresh;
             refreshBtn.ImageAlign = ContentAlignment.TopCenter;
-            refreshBtn.Location = new Point(514, 4);
-            refreshBtn.Margin = new Padding(4);
+            refreshBtn.Location = new Point(590, 5);
+            refreshBtn.Margin = new Padding(5, 5, 5, 5);
             refreshBtn.Name = "refreshBtn";
-            refreshBtn.Size = new Size(94, 79);
+            refreshBtn.Size = new Size(107, 105);
             refreshBtn.TabIndex = 55;
             refreshBtn.Text = "Refresh";
             refreshBtn.TextAlign = ContentAlignment.BottomCenter;
@@ -545,10 +545,10 @@
             deleteBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             deleteBtn.Image = Properties.Resources.delete1;
             deleteBtn.ImageAlign = ContentAlignment.TopCenter;
-            deleteBtn.Location = new Point(310, 4);
-            deleteBtn.Margin = new Padding(4);
+            deleteBtn.Location = new Point(356, 5);
+            deleteBtn.Margin = new Padding(5, 5, 5, 5);
             deleteBtn.Name = "deleteBtn";
-            deleteBtn.Size = new Size(94, 79);
+            deleteBtn.Size = new Size(107, 105);
             deleteBtn.TabIndex = 54;
             deleteBtn.Text = "Delete";
             deleteBtn.TextAlign = ContentAlignment.BottomCenter;
@@ -560,10 +560,10 @@
             editBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             editBtn.Image = Properties.Resources.edit;
             editBtn.ImageAlign = ContentAlignment.TopCenter;
-            editBtn.Location = new Point(208, 4);
-            editBtn.Margin = new Padding(4);
+            editBtn.Location = new Point(239, 5);
+            editBtn.Margin = new Padding(5, 5, 5, 5);
             editBtn.Name = "editBtn";
-            editBtn.Size = new Size(94, 79);
+            editBtn.Size = new Size(107, 105);
             editBtn.TabIndex = 53;
             editBtn.Text = "Edit";
             editBtn.TextAlign = ContentAlignment.BottomCenter;
@@ -575,10 +575,10 @@
             newBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             newBtn.Image = Properties.Resources.new_file;
             newBtn.ImageAlign = ContentAlignment.TopCenter;
-            newBtn.Location = new Point(106, 4);
-            newBtn.Margin = new Padding(4);
+            newBtn.Location = new Point(122, 5);
+            newBtn.Margin = new Padding(5, 5, 5, 5);
             newBtn.Name = "newBtn";
-            newBtn.Size = new Size(94, 79);
+            newBtn.Size = new Size(107, 105);
             newBtn.TabIndex = 52;
             newBtn.Text = "New";
             newBtn.TextAlign = ContentAlignment.BottomCenter;
@@ -590,10 +590,10 @@
             PanelShortCut.BackColor = Color.WhiteSmoke;
             PanelShortCut.Controls.Add(openShortCutsLink);
             PanelShortCut.Controls.Add(shortcutList);
-            PanelShortCut.Location = new Point(1124, 92);
-            PanelShortCut.Margin = new Padding(4);
+            PanelShortCut.Location = new Point(1216, 123);
+            PanelShortCut.Margin = new Padding(5, 5, 5, 5);
             PanelShortCut.Name = "PanelShortCut";
-            PanelShortCut.Size = new Size(199, 736);
+            PanelShortCut.Size = new Size(227, 918);
             PanelShortCut.TabIndex = 34;
             // 
             // openShortCutsLink
@@ -602,10 +602,10 @@
             openShortCutsLink.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             openShortCutsLink.LinkBehavior = LinkBehavior.NeverUnderline;
             openShortCutsLink.LinkColor = Color.Black;
-            openShortCutsLink.Location = new Point(34, 11);
-            openShortCutsLink.Margin = new Padding(4, 0, 4, 0);
+            openShortCutsLink.Location = new Point(39, 15);
+            openShortCutsLink.Margin = new Padding(5, 0, 5, 0);
             openShortCutsLink.Name = "openShortCutsLink";
-            openShortCutsLink.Size = new Size(104, 14);
+            openShortCutsLink.Size = new Size(123, 18);
             openShortCutsLink.TabIndex = 30;
             openShortCutsLink.TabStop = true;
             openShortCutsLink.Text = "Open Shortcuts";
@@ -616,11 +616,11 @@
             shortcutList.Columns.AddRange(new ColumnHeader[] { columIcons, ColumnHeader1 });
             shortcutList.Font = new Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
             shortcutList.FullRowSelect = true;
-            shortcutList.Location = new Point(10, 28);
-            shortcutList.Margin = new Padding(4);
+            shortcutList.Location = new Point(11, 47);
+            shortcutList.Margin = new Padding(5, 5, 5, 5);
             shortcutList.Name = "shortcutList";
             shortcutList.Scrollable = false;
-            shortcutList.Size = new Size(182, 738);
+            shortcutList.Size = new Size(207, 859);
             shortcutList.TabIndex = 31;
             shortcutList.UseCompatibleStateImageBehavior = false;
             shortcutList.View = View.SmallIcon;
@@ -632,10 +632,10 @@
             // panel7
             // 
             panel7.Controls.Add(PanelAdvisory);
-            panel7.Location = new Point(1, 832);
+            panel7.Location = new Point(1, 1109);
             panel7.Margin = new Padding(0);
             panel7.Name = "panel7";
-            panel7.Size = new Size(1096, 64);
+            panel7.Size = new Size(1253, 85);
             panel7.TabIndex = 35;
             // 
             // PanelAdvisory
@@ -644,10 +644,10 @@
             PanelAdvisory.Controls.Add(panel8);
             PanelAdvisory.Controls.Add(Panel10);
             PanelAdvisory.ImeMode = ImeMode.On;
-            PanelAdvisory.Location = new Point(7, 14);
-            PanelAdvisory.Margin = new Padding(4);
+            PanelAdvisory.Location = new Point(8, 19);
+            PanelAdvisory.Margin = new Padding(5, 5, 5, 5);
             PanelAdvisory.Name = "PanelAdvisory";
-            PanelAdvisory.Size = new Size(1494, 38);
+            PanelAdvisory.Size = new Size(1707, 51);
             PanelAdvisory.TabIndex = 47;
             // 
             // panel8
@@ -655,9 +655,9 @@
             panel8.BackColor = Color.DimGray;
             panel8.Controls.Add(Panel9);
             panel8.Location = new Point(0, 0);
-            panel8.Margin = new Padding(4);
+            panel8.Margin = new Padding(5, 5, 5, 5);
             panel8.Name = "panel8";
-            panel8.Size = new Size(213, 38);
+            panel8.Size = new Size(243, 51);
             panel8.TabIndex = 45;
             // 
             // Panel9
@@ -666,9 +666,9 @@
             Panel9.Controls.Add(advisoryLabel);
             Panel9.Controls.Add(txttabstop);
             Panel9.Location = new Point(0, 0);
-            Panel9.Margin = new Padding(4);
+            Panel9.Margin = new Padding(5, 5, 5, 5);
             Panel9.Name = "Panel9";
-            Panel9.Size = new Size(206, 39);
+            Panel9.Size = new Size(235, 52);
             Panel9.TabIndex = 47;
             // 
             // advisoryLabel
@@ -676,10 +676,10 @@
             advisoryLabel.AutoSize = true;
             advisoryLabel.Font = new Font("Arial Black", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             advisoryLabel.ForeColor = Color.White;
-            advisoryLabel.Location = new Point(45, 4);
-            advisoryLabel.Margin = new Padding(4, 0, 4, 0);
+            advisoryLabel.Location = new Point(51, 5);
+            advisoryLabel.Margin = new Padding(5, 0, 5, 0);
             advisoryLabel.Name = "advisoryLabel";
-            advisoryLabel.Size = new Size(132, 30);
+            advisoryLabel.Size = new Size(173, 38);
             advisoryLabel.TabIndex = 41;
             advisoryLabel.Text = "ADVISORY";
             // 
@@ -687,10 +687,10 @@
             // 
             txttabstop.BackColor = Color.DimGray;
             txttabstop.BorderStyle = BorderStyle.None;
-            txttabstop.Location = new Point(83, 9);
-            txttabstop.Margin = new Padding(4);
+            txttabstop.Location = new Point(95, 12);
+            txttabstop.Margin = new Padding(5, 5, 5, 5);
             txttabstop.Name = "txttabstop";
-            txttabstop.Size = new Size(116, 16);
+            txttabstop.Size = new Size(133, 20);
             txttabstop.TabIndex = 4;
             // 
             // Panel10
@@ -700,20 +700,20 @@
             Panel10.Controls.Add(pnadvisory_Admin);
             Panel10.Controls.Add(pnAdvisory_SalesAgent);
             Panel10.Controls.Add(pnAdvisory_Stock);
-            Panel10.Location = new Point(211, 0);
-            Panel10.Margin = new Padding(4);
+            Panel10.Location = new Point(241, 0);
+            Panel10.Margin = new Padding(5, 5, 5, 5);
             Panel10.Name = "Panel10";
-            Panel10.Size = new Size(1282, 38);
+            Panel10.Size = new Size(1465, 51);
             Panel10.TabIndex = 48;
             // 
             // pnAdvisory_Cashier
             // 
             pnAdvisory_Cashier.Controls.Add(Label8);
             pnAdvisory_Cashier.Controls.Add(PictureBox11);
-            pnAdvisory_Cashier.Location = new Point(1, 6);
-            pnAdvisory_Cashier.Margin = new Padding(4);
+            pnAdvisory_Cashier.Location = new Point(1, 8);
+            pnAdvisory_Cashier.Margin = new Padding(5, 5, 5, 5);
             pnAdvisory_Cashier.Name = "pnAdvisory_Cashier";
-            pnAdvisory_Cashier.Size = new Size(1852, 28);
+            pnAdvisory_Cashier.Size = new Size(2117, 37);
             pnAdvisory_Cashier.TabIndex = 53;
             pnAdvisory_Cashier.Visible = false;
             // 
@@ -722,20 +722,20 @@
             Label8.AutoSize = true;
             Label8.Font = new Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             Label8.ForeColor = Color.White;
-            Label8.Location = new Point(955, 2);
-            Label8.Margin = new Padding(4, 0, 4, 0);
+            Label8.Location = new Point(1091, 3);
+            Label8.Margin = new Padding(5, 0, 5, 0);
             Label8.Name = "Label8";
-            Label8.Size = new Size(734, 22);
+            Label8.Size = new Size(916, 27);
             Label8.TabIndex = 61;
             Label8.Text = "GAZUTO MERCHANDISING INCORPORATED DEALER OF ALL PARTS AND ACCESORIES";
             // 
             // PictureBox11
             // 
             PictureBox11.Image = (Image)resources.GetObject("PictureBox11.Image");
-            PictureBox11.Location = new Point(934, 0);
-            PictureBox11.Margin = new Padding(4);
+            PictureBox11.Location = new Point(1067, 0);
+            PictureBox11.Margin = new Padding(5, 5, 5, 5);
             PictureBox11.Name = "PictureBox11";
-            PictureBox11.Size = new Size(18, 24);
+            PictureBox11.Size = new Size(21, 32);
             PictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             PictureBox11.TabIndex = 59;
             PictureBox11.TabStop = false;
@@ -754,20 +754,20 @@
             pnadvisory_Admin.Controls.Add(lbltotalprod);
             pnadvisory_Admin.Controls.Add(lblmonthsales);
             pnadvisory_Admin.Controls.Add(lblyrsales);
-            pnadvisory_Admin.Location = new Point(97, 6);
-            pnadvisory_Admin.Margin = new Padding(4);
+            pnadvisory_Admin.Location = new Point(111, 8);
+            pnadvisory_Admin.Margin = new Padding(5, 5, 5, 5);
             pnadvisory_Admin.Name = "pnadvisory_Admin";
-            pnadvisory_Admin.Size = new Size(2296, 28);
+            pnadvisory_Admin.Size = new Size(2624, 37);
             pnadvisory_Admin.TabIndex = 47;
             pnadvisory_Admin.Visible = false;
             // 
             // PictureBox6
             // 
             PictureBox6.Image = (Image)resources.GetObject("PictureBox6.Image");
-            PictureBox6.Location = new Point(1089, 2);
-            PictureBox6.Margin = new Padding(4);
+            PictureBox6.Location = new Point(1245, 3);
+            PictureBox6.Margin = new Padding(5, 5, 5, 5);
             PictureBox6.Name = "PictureBox6";
-            PictureBox6.Size = new Size(18, 24);
+            PictureBox6.Size = new Size(21, 32);
             PictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             PictureBox6.TabIndex = 55;
             PictureBox6.TabStop = false;
@@ -775,10 +775,10 @@
             // PictureBox5
             // 
             PictureBox5.Image = (Image)resources.GetObject("PictureBox5.Image");
-            PictureBox5.Location = new Point(1568, 0);
-            PictureBox5.Margin = new Padding(4);
+            PictureBox5.Location = new Point(1792, 0);
+            PictureBox5.Margin = new Padding(5, 5, 5, 5);
             PictureBox5.Name = "PictureBox5";
-            PictureBox5.Size = new Size(18, 24);
+            PictureBox5.Size = new Size(21, 32);
             PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             PictureBox5.TabIndex = 54;
             PictureBox5.TabStop = false;
@@ -786,10 +786,10 @@
             // PictureBox4
             // 
             PictureBox4.Image = (Image)resources.GetObject("PictureBox4.Image");
-            PictureBox4.Location = new Point(671, 0);
-            PictureBox4.Margin = new Padding(4);
+            PictureBox4.Location = new Point(767, 0);
+            PictureBox4.Margin = new Padding(5, 5, 5, 5);
             PictureBox4.Name = "PictureBox4";
-            PictureBox4.Size = new Size(18, 24);
+            PictureBox4.Size = new Size(21, 32);
             PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             PictureBox4.TabIndex = 53;
             PictureBox4.TabStop = false;
@@ -797,10 +797,10 @@
             // PictureBox3
             // 
             PictureBox3.Image = (Image)resources.GetObject("PictureBox3.Image");
-            PictureBox3.Location = new Point(18, 0);
-            PictureBox3.Margin = new Padding(4);
+            PictureBox3.Location = new Point(21, 0);
+            PictureBox3.Margin = new Padding(5, 5, 5, 5);
             PictureBox3.Name = "PictureBox3";
-            PictureBox3.Size = new Size(18, 24);
+            PictureBox3.Size = new Size(21, 32);
             PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             PictureBox3.TabIndex = 48;
             PictureBox3.TabStop = false;
@@ -810,10 +810,10 @@
             lblpurchasemonth.AutoSize = true;
             lblpurchasemonth.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblpurchasemonth.ForeColor = Color.Linen;
-            lblpurchasemonth.Location = new Point(1928, 4);
-            lblpurchasemonth.Margin = new Padding(4, 0, 4, 0);
+            lblpurchasemonth.Location = new Point(2203, 5);
+            lblpurchasemonth.Margin = new Padding(5, 0, 5, 0);
             lblpurchasemonth.Name = "lblpurchasemonth";
-            lblpurchasemonth.Size = new Size(295, 14);
+            lblpurchasemonth.Size = new Size(353, 18);
             lblpurchasemonth.TabIndex = 36;
             lblpurchasemonth.Text = "Amount Purchase This Month =12,345,678.00";
             // 
@@ -822,10 +822,10 @@
             lblPurchaseYr.AutoSize = true;
             lblPurchaseYr.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblPurchaseYr.ForeColor = Color.Linen;
-            lblPurchaseYr.Location = new Point(1586, 4);
-            lblPurchaseYr.Margin = new Padding(4, 0, 4, 0);
+            lblPurchaseYr.Location = new Point(1813, 5);
+            lblPurchaseYr.Margin = new Padding(5, 0, 5, 0);
             lblPurchaseYr.Name = "lblPurchaseYr";
-            lblPurchaseYr.Size = new Size(280, 14);
+            lblPurchaseYr.Size = new Size(343, 18);
             lblPurchaseYr.TabIndex = 35;
             lblPurchaseYr.Text = "Amount Purchase This Year =12,345,678.00";
             // 
@@ -834,10 +834,10 @@
             lblreorder.AutoSize = true;
             lblreorder.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblreorder.ForeColor = Color.Linen;
-            lblreorder.Location = new Point(1317, 4);
-            lblreorder.Margin = new Padding(4, 0, 4, 0);
+            lblreorder.Location = new Point(1505, 5);
+            lblreorder.Margin = new Padding(5, 0, 5, 0);
             lblreorder.Name = "lblreorder";
-            lblreorder.Size = new Size(208, 14);
+            lblreorder.Size = new Size(257, 18);
             lblreorder.TabIndex = 34;
             lblreorder.Text = "Products on Critical level =1,234";
             // 
@@ -846,10 +846,10 @@
             lblremainorder.AutoSize = true;
             lblremainorder.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblremainorder.ForeColor = Color.Linen;
-            lblremainorder.Location = new Point(1109, 4);
-            lblremainorder.Margin = new Padding(4, 0, 4, 0);
+            lblremainorder.Location = new Point(1267, 5);
+            lblremainorder.Margin = new Padding(5, 0, 5, 0);
             lblremainorder.Name = "lblremainorder";
-            lblremainorder.Size = new Size(179, 14);
+            lblremainorder.Size = new Size(221, 18);
             lblremainorder.TabIndex = 33;
             lblremainorder.Text = "Remaining Order No =1,234";
             // 
@@ -858,10 +858,10 @@
             lblinventory.AutoSize = true;
             lblinventory.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblinventory.ForeColor = Color.Linen;
-            lblinventory.Location = new Point(872, 4);
-            lblinventory.Margin = new Padding(4, 0, 4, 0);
+            lblinventory.Location = new Point(997, 5);
+            lblinventory.Margin = new Padding(5, 0, 5, 0);
             lblinventory.Name = "lblinventory";
-            lblinventory.Size = new Size(177, 14);
+            lblinventory.Size = new Size(215, 18);
             lblinventory.TabIndex = 29;
             lblinventory.Text = "Current Iventory =12,3456";
             // 
@@ -870,10 +870,10 @@
             lbltotalprod.AutoSize = true;
             lbltotalprod.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lbltotalprod.ForeColor = Color.Linen;
-            lbltotalprod.Location = new Point(689, 4);
-            lbltotalprod.Margin = new Padding(4, 0, 4, 0);
+            lbltotalprod.Location = new Point(787, 5);
+            lbltotalprod.Margin = new Padding(5, 0, 5, 0);
             lbltotalprod.Name = "lbltotalprod";
-            lbltotalprod.Size = new Size(151, 14);
+            lbltotalprod.Size = new Size(181, 18);
             lbltotalprod.TabIndex = 27;
             lbltotalprod.Text = "Total Products = 1,234";
             // 
@@ -882,10 +882,10 @@
             lblmonthsales.AutoSize = true;
             lblmonthsales.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblmonthsales.ForeColor = Color.Linen;
-            lblmonthsales.Location = new Point(346, 4);
-            lblmonthsales.Margin = new Padding(4, 0, 4, 0);
+            lblmonthsales.Location = new Point(395, 5);
+            lblmonthsales.Margin = new Padding(5, 0, 5, 0);
             lblmonthsales.Name = "lblmonthsales";
-            lblmonthsales.Size = new Size(269, 14);
+            lblmonthsales.Size = new Size(324, 18);
             lblmonthsales.TabIndex = 25;
             lblmonthsales.Text = "Total Sales In This Month =Php 1,234,567";
             // 
@@ -894,10 +894,10 @@
             lblyrsales.AutoSize = true;
             lblyrsales.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblyrsales.ForeColor = Color.Linen;
-            lblyrsales.Location = new Point(34, 4);
-            lblyrsales.Margin = new Padding(4, 0, 4, 0);
+            lblyrsales.Location = new Point(39, 5);
+            lblyrsales.Margin = new Padding(5, 0, 5, 0);
             lblyrsales.Name = "lblyrsales";
-            lblyrsales.Size = new Size(262, 14);
+            lblyrsales.Size = new Size(324, 18);
             lblyrsales.TabIndex = 22;
             lblyrsales.Text = "Total Sales In This Year =Php 12,345,678";
             // 
@@ -912,20 +912,20 @@
             pnAdvisory_SalesAgent.Controls.Add(lblsalesagent_totalInventory);
             pnAdvisory_SalesAgent.Controls.Add(lblsalesagent_totalorder);
             pnAdvisory_SalesAgent.Controls.Add(PictureBox12);
-            pnAdvisory_SalesAgent.Location = new Point(38, 6);
-            pnAdvisory_SalesAgent.Margin = new Padding(4);
+            pnAdvisory_SalesAgent.Location = new Point(43, 8);
+            pnAdvisory_SalesAgent.Margin = new Padding(5, 5, 5, 5);
             pnAdvisory_SalesAgent.Name = "pnAdvisory_SalesAgent";
-            pnAdvisory_SalesAgent.Size = new Size(2400, 28);
+            pnAdvisory_SalesAgent.Size = new Size(2743, 37);
             pnAdvisory_SalesAgent.TabIndex = 53;
             pnAdvisory_SalesAgent.Visible = false;
             // 
             // PictureBox14
             // 
             PictureBox14.Image = (Image)resources.GetObject("PictureBox14.Image");
-            PictureBox14.Location = new Point(1483, 0);
-            PictureBox14.Margin = new Padding(4);
+            PictureBox14.Location = new Point(1695, 0);
+            PictureBox14.Margin = new Padding(5, 5, 5, 5);
             PictureBox14.Name = "PictureBox14";
-            PictureBox14.Size = new Size(18, 24);
+            PictureBox14.Size = new Size(21, 32);
             PictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
             PictureBox14.TabIndex = 65;
             PictureBox14.TabStop = false;
@@ -935,10 +935,10 @@
             Label9.AutoSize = true;
             Label9.Font = new Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             Label9.ForeColor = Color.White;
-            Label9.Location = new Point(1502, 2);
-            Label9.Margin = new Padding(4, 0, 4, 0);
+            Label9.Location = new Point(1717, 3);
+            Label9.Margin = new Padding(5, 0, 5, 0);
             Label9.Name = "Label9";
-            Label9.Size = new Size(734, 22);
+            Label9.Size = new Size(916, 27);
             Label9.TabIndex = 64;
             Label9.Text = "GAZUTO MERCHANDISING INCORPORATED DEALER OF ALL PARTS AND ACCESORIES";
             // 
@@ -947,10 +947,10 @@
             lblsalesagent_Criticalproduct.AutoSize = true;
             lblsalesagent_Criticalproduct.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblsalesagent_Criticalproduct.ForeColor = Color.Linen;
-            lblsalesagent_Criticalproduct.Location = new Point(1292, 4);
-            lblsalesagent_Criticalproduct.Margin = new Padding(4, 0, 4, 0);
+            lblsalesagent_Criticalproduct.Location = new Point(1477, 5);
+            lblsalesagent_Criticalproduct.Margin = new Padding(5, 0, 5, 0);
             lblsalesagent_Criticalproduct.Name = "lblsalesagent_Criticalproduct";
-            lblsalesagent_Criticalproduct.Size = new Size(155, 14);
+            lblsalesagent_Criticalproduct.Size = new Size(191, 18);
             lblsalesagent_Criticalproduct.TabIndex = 63;
             lblsalesagent_Criticalproduct.Text = "Critical Product =12345";
             // 
@@ -959,10 +959,10 @@
             lblsalesagent_purchaseyear.AutoSize = true;
             lblsalesagent_purchaseyear.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblsalesagent_purchaseyear.ForeColor = Color.Linen;
-            lblsalesagent_purchaseyear.Location = new Point(921, 4);
-            lblsalesagent_purchaseyear.Margin = new Padding(4, 0, 4, 0);
+            lblsalesagent_purchaseyear.Location = new Point(1053, 5);
+            lblsalesagent_purchaseyear.Margin = new Padding(5, 0, 5, 0);
             lblsalesagent_purchaseyear.Name = "lblsalesagent_purchaseyear";
-            lblsalesagent_purchaseyear.Size = new Size(311, 14);
+            lblsalesagent_purchaseyear.Size = new Size(371, 18);
             lblsalesagent_purchaseyear.TabIndex = 62;
             lblsalesagent_purchaseyear.Text = "Amount purchase for the year =Php 1234567.00";
             // 
@@ -971,20 +971,20 @@
             lblsalesagent_purchaseMonth.AutoSize = true;
             lblsalesagent_purchaseMonth.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblsalesagent_purchaseMonth.ForeColor = Color.Linen;
-            lblsalesagent_purchaseMonth.Location = new Point(543, 4);
-            lblsalesagent_purchaseMonth.Margin = new Padding(4, 0, 4, 0);
+            lblsalesagent_purchaseMonth.Location = new Point(621, 5);
+            lblsalesagent_purchaseMonth.Margin = new Padding(5, 0, 5, 0);
             lblsalesagent_purchaseMonth.Name = "lblsalesagent_purchaseMonth";
-            lblsalesagent_purchaseMonth.Size = new Size(318, 14);
+            lblsalesagent_purchaseMonth.Size = new Size(373, 18);
             lblsalesagent_purchaseMonth.TabIndex = 61;
             lblsalesagent_purchaseMonth.Text = "Amount purchase for the month =Php 123456.00";
             // 
             // PictureBox13
             // 
             PictureBox13.Image = (Image)resources.GetObject("PictureBox13.Image");
-            PictureBox13.Location = new Point(517, 2);
-            PictureBox13.Margin = new Padding(4);
+            PictureBox13.Location = new Point(591, 3);
+            PictureBox13.Margin = new Padding(5, 5, 5, 5);
             PictureBox13.Name = "PictureBox13";
-            PictureBox13.Size = new Size(18, 24);
+            PictureBox13.Size = new Size(21, 32);
             PictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
             PictureBox13.TabIndex = 60;
             PictureBox13.TabStop = false;
@@ -994,10 +994,10 @@
             lblsalesagent_totalInventory.AutoSize = true;
             lblsalesagent_totalInventory.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblsalesagent_totalInventory.ForeColor = Color.Linen;
-            lblsalesagent_totalInventory.Location = new Point(326, 4);
-            lblsalesagent_totalInventory.Margin = new Padding(4, 0, 4, 0);
+            lblsalesagent_totalInventory.Location = new Point(373, 5);
+            lblsalesagent_totalInventory.Margin = new Padding(5, 0, 5, 0);
             lblsalesagent_totalInventory.Name = "lblsalesagent_totalInventory";
-            lblsalesagent_totalInventory.Size = new Size(157, 14);
+            lblsalesagent_totalInventory.Size = new Size(190, 18);
             lblsalesagent_totalInventory.TabIndex = 59;
             lblsalesagent_totalInventory.Text = "Total Inventory =12345";
             // 
@@ -1006,20 +1006,20 @@
             lblsalesagent_totalorder.AutoSize = true;
             lblsalesagent_totalorder.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblsalesagent_totalorder.ForeColor = Color.Linen;
-            lblsalesagent_totalorder.Location = new Point(29, 4);
-            lblsalesagent_totalorder.Margin = new Padding(4, 0, 4, 0);
+            lblsalesagent_totalorder.Location = new Point(33, 5);
+            lblsalesagent_totalorder.Margin = new Padding(5, 0, 5, 0);
             lblsalesagent_totalorder.Name = "lblsalesagent_totalorder";
-            lblsalesagent_totalorder.Size = new Size(233, 14);
+            lblsalesagent_totalorder.Size = new Size(275, 18);
             lblsalesagent_totalorder.TabIndex = 58;
             lblsalesagent_totalorder.Text = "Total order for the month  =123456";
             // 
             // PictureBox12
             // 
             PictureBox12.Image = (Image)resources.GetObject("PictureBox12.Image");
-            PictureBox12.Location = new Point(4, 2);
-            PictureBox12.Margin = new Padding(4);
+            PictureBox12.Location = new Point(5, 3);
+            PictureBox12.Margin = new Padding(5, 5, 5, 5);
             PictureBox12.Name = "PictureBox12";
-            PictureBox12.Size = new Size(18, 24);
+            PictureBox12.Size = new Size(21, 32);
             PictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
             PictureBox12.TabIndex = 57;
             PictureBox12.TabStop = false;
@@ -1034,10 +1034,10 @@
             pnAdvisory_Stock.Controls.Add(lblstock_received_month);
             pnAdvisory_Stock.Controls.Add(lblstock_tot_product);
             pnAdvisory_Stock.Controls.Add(PictureBox7);
-            pnAdvisory_Stock.Location = new Point(8, 6);
-            pnAdvisory_Stock.Margin = new Padding(4);
+            pnAdvisory_Stock.Location = new Point(9, 8);
+            pnAdvisory_Stock.Margin = new Padding(5, 5, 5, 5);
             pnAdvisory_Stock.Name = "pnAdvisory_Stock";
-            pnAdvisory_Stock.Size = new Size(2114, 28);
+            pnAdvisory_Stock.Size = new Size(2416, 37);
             pnAdvisory_Stock.TabIndex = 56;
             pnAdvisory_Stock.Visible = false;
             // 
@@ -1046,10 +1046,10 @@
             lblstock_Undeliver.AutoSize = true;
             lblstock_Undeliver.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblstock_Undeliver.ForeColor = Color.Linen;
-            lblstock_Undeliver.Location = new Point(819, 4);
-            lblstock_Undeliver.Margin = new Padding(4, 0, 4, 0);
+            lblstock_Undeliver.Location = new Point(936, 5);
+            lblstock_Undeliver.Margin = new Padding(5, 0, 5, 0);
             lblstock_Undeliver.Name = "lblstock_Undeliver";
-            lblstock_Undeliver.Size = new Size(146, 14);
+            lblstock_Undeliver.Size = new Size(182, 18);
             lblstock_Undeliver.TabIndex = 60;
             lblstock_Undeliver.Text = "Undeliver order =1234";
             // 
@@ -1058,10 +1058,10 @@
             Label7.AutoSize = true;
             Label7.Font = new Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             Label7.ForeColor = Color.White;
-            Label7.Location = new Point(1235, 0);
-            Label7.Margin = new Padding(4, 0, 4, 0);
+            Label7.Location = new Point(1411, 0);
+            Label7.Margin = new Padding(5, 0, 5, 0);
             Label7.Name = "Label7";
-            Label7.Size = new Size(734, 22);
+            Label7.Size = new Size(916, 27);
             Label7.TabIndex = 60;
             Label7.Text = "GAZUTO MERCHANDISING INCORPORATED DEALER OF ALL PARTS AND ACCESORIES";
             // 
@@ -1070,20 +1070,20 @@
             lblstock_critical.AutoSize = true;
             lblstock_critical.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblstock_critical.ForeColor = Color.Linen;
-            lblstock_critical.Location = new Point(997, 4);
-            lblstock_critical.Margin = new Padding(4, 0, 4, 0);
+            lblstock_critical.Location = new Point(1139, 5);
+            lblstock_critical.Margin = new Padding(5, 0, 5, 0);
             lblstock_critical.Name = "lblstock_critical";
-            lblstock_critical.Size = new Size(183, 14);
+            lblstock_critical.Size = new Size(225, 18);
             lblstock_critical.TabIndex = 59;
             lblstock_critical.Text = "Product(s) on Critical =1234";
             // 
             // PictureBox8
             // 
             PictureBox8.Image = (Image)resources.GetObject("PictureBox8.Image");
-            PictureBox8.Location = new Point(1217, 0);
-            PictureBox8.Margin = new Padding(4);
+            PictureBox8.Location = new Point(1391, 0);
+            PictureBox8.Margin = new Padding(5, 5, 5, 5);
             PictureBox8.Name = "PictureBox8";
-            PictureBox8.Size = new Size(18, 24);
+            PictureBox8.Size = new Size(21, 32);
             PictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             PictureBox8.TabIndex = 56;
             PictureBox8.TabStop = false;
@@ -1093,10 +1093,10 @@
             lblstock_received_year.AutoSize = true;
             lblstock_received_year.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblstock_received_year.ForeColor = Color.Linen;
-            lblstock_received_year.Location = new Point(242, 4);
-            lblstock_received_year.Margin = new Padding(4, 0, 4, 0);
+            lblstock_received_year.Location = new Point(277, 5);
+            lblstock_received_year.Margin = new Padding(5, 0, 5, 0);
             lblstock_received_year.Name = "lblstock_received_year";
-            lblstock_received_year.Size = new Size(237, 14);
+            lblstock_received_year.Size = new Size(290, 18);
             lblstock_received_year.TabIndex = 59;
             lblstock_received_year.Text = "Received order for the year =123456";
             // 
@@ -1105,10 +1105,10 @@
             lblstock_received_month.AutoSize = true;
             lblstock_received_month.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblstock_received_month.ForeColor = Color.Linen;
-            lblstock_received_month.Location = new Point(528, 4);
-            lblstock_received_month.Margin = new Padding(4, 0, 4, 0);
+            lblstock_received_month.Location = new Point(603, 5);
+            lblstock_received_month.Margin = new Padding(5, 0, 5, 0);
             lblstock_received_month.Name = "lblstock_received_month";
-            lblstock_received_month.Size = new Size(244, 14);
+            lblstock_received_month.Size = new Size(292, 18);
             lblstock_received_month.TabIndex = 58;
             lblstock_received_month.Text = "Received order for the month =12345";
             // 
@@ -1117,20 +1117,20 @@
             lblstock_tot_product.AutoSize = true;
             lblstock_tot_product.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblstock_tot_product.ForeColor = Color.Linen;
-            lblstock_tot_product.Location = new Point(29, 4);
-            lblstock_tot_product.Margin = new Padding(4, 0, 4, 0);
+            lblstock_tot_product.Location = new Point(33, 5);
+            lblstock_tot_product.Margin = new Padding(5, 0, 5, 0);
             lblstock_tot_product.Name = "lblstock_tot_product";
-            lblstock_tot_product.Size = new Size(181, 14);
+            lblstock_tot_product.Size = new Size(217, 18);
             lblstock_tot_product.TabIndex = 56;
             lblstock_tot_product.Text = "Current Inventory  =12346 ";
             // 
             // PictureBox7
             // 
             PictureBox7.Image = (Image)resources.GetObject("PictureBox7.Image");
-            PictureBox7.Location = new Point(4, 0);
-            PictureBox7.Margin = new Padding(4);
+            PictureBox7.Location = new Point(5, 0);
+            PictureBox7.Margin = new Padding(5, 5, 5, 5);
             PictureBox7.Name = "PictureBox7";
-            PictureBox7.Size = new Size(18, 24);
+            PictureBox7.Size = new Size(21, 32);
             PictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             PictureBox7.TabIndex = 55;
             PictureBox7.TabStop = false;
@@ -1146,10 +1146,10 @@
             flowLayoutPanel1.Controls.Add(refreshBtn);
             flowLayoutPanel1.Controls.Add(printBtn);
             flowLayoutPanel1.Controls.Add(exitBtn);
-            flowLayoutPanel1.Location = new Point(250, 0);
-            flowLayoutPanel1.Margin = new Padding(4);
+            flowLayoutPanel1.Location = new Point(286, 0);
+            flowLayoutPanel1.Margin = new Padding(5, 5, 5, 5);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(1073, 94);
+            flowLayoutPanel1.Size = new Size(1226, 125);
             flowLayoutPanel1.TabIndex = 36;
             // 
             // exitBtn
@@ -1158,10 +1158,10 @@
             exitBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
             exitBtn.Image = Properties.Resources.cross;
             exitBtn.ImageAlign = ContentAlignment.TopCenter;
-            exitBtn.Location = new Point(718, 4);
-            exitBtn.Margin = new Padding(4);
+            exitBtn.Location = new Point(824, 5);
+            exitBtn.Margin = new Padding(5, 5, 5, 5);
             exitBtn.Name = "exitBtn";
-            exitBtn.Size = new Size(94, 79);
+            exitBtn.Size = new Size(107, 105);
             exitBtn.TabIndex = 60;
             exitBtn.Text = "Exit";
             exitBtn.TextAlign = ContentAlignment.BottomCenter;
@@ -1171,10 +1171,10 @@
             // 
             panel1.Controls.Add(menuStrip1);
             panel1.Controls.Add(panel3);
-            panel1.Location = new Point(1, -2);
-            panel1.Margin = new Padding(4);
+            panel1.Location = new Point(1, -3);
+            panel1.Margin = new Padding(5, 5, 5, 5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(250, 146);
+            panel1.Size = new Size(286, 195);
             panel1.TabIndex = 37;
             // 
             // menuStrip1
@@ -1185,8 +1185,8 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { systemFileToolStripMenuItem, reportsToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Padding = new Padding(7, 2, 0, 2);
-            menuStrip1.Size = new Size(250, 24);
+            menuStrip1.Padding = new Padding(8, 3, 0, 3);
+            menuStrip1.Size = new Size(286, 28);
             menuStrip1.TabIndex = 16;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -1195,7 +1195,7 @@
             systemFileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { inventoryFileToolStripMenuItem, pointToolStripMenuItem, manageUsersToolStripMenuItem, usersLogToolStripMenuItem, aboutToolStripMenuItem, exitToolStripMenuItem });
             systemFileToolStripMenuItem.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             systemFileToolStripMenuItem.Name = "systemFileToolStripMenuItem";
-            systemFileToolStripMenuItem.Size = new Size(80, 20);
+            systemFileToolStripMenuItem.Size = new Size(96, 22);
             systemFileToolStripMenuItem.Text = "System File";
             // 
             // inventoryFileToolStripMenuItem
@@ -1203,82 +1203,82 @@
             inventoryFileToolStripMenuItem.BackColor = SystemColors.Control;
             inventoryFileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { categoryListToolStripMenuItem, categoryItemListToolStripMenuItem, toolStripSeparator1, manageSuppliesToolStripMenuItem, suppliersProductToolStripMenuItem, toolStripSeparator2 });
             inventoryFileToolStripMenuItem.Name = "inventoryFileToolStripMenuItem";
-            inventoryFileToolStripMenuItem.Size = new Size(171, 22);
+            inventoryFileToolStripMenuItem.Size = new Size(205, 26);
             inventoryFileToolStripMenuItem.Text = "Inventory File";
             // 
             // categoryListToolStripMenuItem
             // 
             categoryListToolStripMenuItem.Name = "categoryListToolStripMenuItem";
-            categoryListToolStripMenuItem.Size = new Size(175, 22);
+            categoryListToolStripMenuItem.Size = new Size(212, 26);
             categoryListToolStripMenuItem.Text = "Category List";
             // 
             // categoryItemListToolStripMenuItem
             // 
             categoryItemListToolStripMenuItem.Name = "categoryItemListToolStripMenuItem";
-            categoryItemListToolStripMenuItem.Size = new Size(175, 22);
+            categoryItemListToolStripMenuItem.Size = new Size(212, 26);
             categoryItemListToolStripMenuItem.Text = "Category Item List";
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(172, 6);
+            toolStripSeparator1.Size = new Size(209, 6);
             // 
             // manageSuppliesToolStripMenuItem
             // 
             manageSuppliesToolStripMenuItem.Name = "manageSuppliesToolStripMenuItem";
-            manageSuppliesToolStripMenuItem.Size = new Size(175, 22);
+            manageSuppliesToolStripMenuItem.Size = new Size(212, 26);
             manageSuppliesToolStripMenuItem.Text = "Manage Supplies";
             // 
             // suppliersProductToolStripMenuItem
             // 
             suppliersProductToolStripMenuItem.Name = "suppliersProductToolStripMenuItem";
-            suppliersProductToolStripMenuItem.Size = new Size(175, 22);
+            suppliersProductToolStripMenuItem.Size = new Size(212, 26);
             suppliersProductToolStripMenuItem.Text = "Suppliers Product";
             // 
             // toolStripSeparator2
             // 
             toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(172, 6);
+            toolStripSeparator2.Size = new Size(209, 6);
             // 
             // pointToolStripMenuItem
             // 
             pointToolStripMenuItem.BackColor = SystemColors.Control;
             pointToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { cashieringToolStripMenuItem, salesReceiptToolStripMenuItem });
             pointToolStripMenuItem.Name = "pointToolStripMenuItem";
-            pointToolStripMenuItem.Size = new Size(171, 22);
+            pointToolStripMenuItem.Size = new Size(205, 26);
             pointToolStripMenuItem.Text = "Point Of Payment";
             // 
             // cashieringToolStripMenuItem
             // 
             cashieringToolStripMenuItem.Name = "cashieringToolStripMenuItem";
-            cashieringToolStripMenuItem.Size = new Size(146, 22);
+            cashieringToolStripMenuItem.Size = new Size(175, 26);
             cashieringToolStripMenuItem.Text = "Cashiering";
             // 
             // salesReceiptToolStripMenuItem
             // 
             salesReceiptToolStripMenuItem.Name = "salesReceiptToolStripMenuItem";
-            salesReceiptToolStripMenuItem.Size = new Size(146, 22);
+            salesReceiptToolStripMenuItem.Size = new Size(175, 26);
             salesReceiptToolStripMenuItem.Text = "Sales Receipt";
             // 
             // manageUsersToolStripMenuItem
             // 
             manageUsersToolStripMenuItem.BackColor = SystemColors.Control;
             manageUsersToolStripMenuItem.Name = "manageUsersToolStripMenuItem";
-            manageUsersToolStripMenuItem.Size = new Size(171, 22);
+            manageUsersToolStripMenuItem.Size = new Size(205, 26);
             manageUsersToolStripMenuItem.Text = "Manage Users";
             // 
             // usersLogToolStripMenuItem
             // 
             usersLogToolStripMenuItem.BackColor = SystemColors.Control;
             usersLogToolStripMenuItem.Name = "usersLogToolStripMenuItem";
-            usersLogToolStripMenuItem.Size = new Size(171, 22);
+            usersLogToolStripMenuItem.Size = new Size(205, 26);
             usersLogToolStripMenuItem.Text = "Users Log";
             // 
             // aboutToolStripMenuItem
             // 
             aboutToolStripMenuItem.BackColor = SystemColors.Control;
             aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            aboutToolStripMenuItem.Size = new Size(171, 22);
+            aboutToolStripMenuItem.Size = new Size(205, 26);
             aboutToolStripMenuItem.Text = "About";
             // 
             // exitToolStripMenuItem
@@ -1286,7 +1286,7 @@
             exitToolStripMenuItem.BackColor = SystemColors.Control;
             exitToolStripMenuItem.Image = (Image)resources.GetObject("exitToolStripMenuItem.Image");
             exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            exitToolStripMenuItem.Size = new Size(171, 22);
+            exitToolStripMenuItem.Size = new Size(205, 26);
             exitToolStripMenuItem.Text = "Exit";
             // 
             // reportsToolStripMenuItem
@@ -1294,93 +1294,93 @@
             reportsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { supplierProfileToolStripMenuItem, supplierProductsToolStripMenuItem, productsReorderToolStripMenuItem, purchaseOrderToolStripMenuItem, purchaseProductToolStripMenuItem, stockBalancesToolStripMenuItem, pointOfPaymentToolStripMenuItem });
             reportsToolStripMenuItem.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
-            reportsToolStripMenuItem.Size = new Size(61, 20);
+            reportsToolStripMenuItem.Size = new Size(72, 22);
             reportsToolStripMenuItem.Text = "Reports";
             // 
             // supplierProfileToolStripMenuItem
             // 
             supplierProfileToolStripMenuItem.Name = "supplierProfileToolStripMenuItem";
-            supplierProfileToolStripMenuItem.Size = new Size(205, 22);
+            supplierProfileToolStripMenuItem.Size = new Size(243, 26);
             supplierProfileToolStripMenuItem.Text = "Supplier Profile";
             // 
             // supplierProductsToolStripMenuItem
             // 
             supplierProductsToolStripMenuItem.Name = "supplierProductsToolStripMenuItem";
-            supplierProductsToolStripMenuItem.Size = new Size(205, 22);
+            supplierProductsToolStripMenuItem.Size = new Size(243, 26);
             supplierProductsToolStripMenuItem.Text = "Supplier Products";
             // 
             // productsReorderToolStripMenuItem
             // 
             productsReorderToolStripMenuItem.Name = "productsReorderToolStripMenuItem";
-            productsReorderToolStripMenuItem.Size = new Size(205, 22);
+            productsReorderToolStripMenuItem.Size = new Size(243, 26);
             productsReorderToolStripMenuItem.Text = "Products Reorder  Point";
             // 
             // purchaseOrderToolStripMenuItem
             // 
             purchaseOrderToolStripMenuItem.Name = "purchaseOrderToolStripMenuItem";
-            purchaseOrderToolStripMenuItem.Size = new Size(205, 22);
+            purchaseOrderToolStripMenuItem.Size = new Size(243, 26);
             purchaseOrderToolStripMenuItem.Text = "Purchase Order";
             // 
             // purchaseProductToolStripMenuItem
             // 
             purchaseProductToolStripMenuItem.Name = "purchaseProductToolStripMenuItem";
-            purchaseProductToolStripMenuItem.Size = new Size(205, 22);
+            purchaseProductToolStripMenuItem.Size = new Size(243, 26);
             purchaseProductToolStripMenuItem.Text = "Purchase Reiceve";
             // 
             // stockBalancesToolStripMenuItem
             // 
             stockBalancesToolStripMenuItem.Name = "stockBalancesToolStripMenuItem";
-            stockBalancesToolStripMenuItem.Size = new Size(205, 22);
+            stockBalancesToolStripMenuItem.Size = new Size(243, 26);
             stockBalancesToolStripMenuItem.Text = "Stock Balances";
             // 
             // pointOfPaymentToolStripMenuItem
             // 
             pointOfPaymentToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { salesCollectionReportToolStripMenuItem, salesCollectionReportVOIDToolStripMenuItem, collectionSummaryReportToolStripMenuItem, salesReceiptReportToolStripMenuItem, fastAndSlowMovingToolStripMenuItem });
             pointOfPaymentToolStripMenuItem.Name = "pointOfPaymentToolStripMenuItem";
-            pointOfPaymentToolStripMenuItem.Size = new Size(205, 22);
+            pointOfPaymentToolStripMenuItem.Size = new Size(243, 26);
             pointOfPaymentToolStripMenuItem.Text = "Point Of Payment";
             // 
             // salesCollectionReportToolStripMenuItem
             // 
             salesCollectionReportToolStripMenuItem.Name = "salesCollectionReportToolStripMenuItem";
-            salesCollectionReportToolStripMenuItem.Size = new Size(249, 22);
+            salesCollectionReportToolStripMenuItem.Size = new Size(298, 26);
             salesCollectionReportToolStripMenuItem.Text = "Sales Collection Report";
             // 
             // salesCollectionReportVOIDToolStripMenuItem
             // 
             salesCollectionReportVOIDToolStripMenuItem.Name = "salesCollectionReportVOIDToolStripMenuItem";
-            salesCollectionReportVOIDToolStripMenuItem.Size = new Size(249, 22);
+            salesCollectionReportVOIDToolStripMenuItem.Size = new Size(298, 26);
             salesCollectionReportVOIDToolStripMenuItem.Text = "Sales Collection Report ( VOID )";
             // 
             // collectionSummaryReportToolStripMenuItem
             // 
             collectionSummaryReportToolStripMenuItem.Name = "collectionSummaryReportToolStripMenuItem";
-            collectionSummaryReportToolStripMenuItem.Size = new Size(249, 22);
+            collectionSummaryReportToolStripMenuItem.Size = new Size(298, 26);
             collectionSummaryReportToolStripMenuItem.Text = "Collection Summary Report";
             // 
             // salesReceiptReportToolStripMenuItem
             // 
             salesReceiptReportToolStripMenuItem.Name = "salesReceiptReportToolStripMenuItem";
-            salesReceiptReportToolStripMenuItem.Size = new Size(249, 22);
+            salesReceiptReportToolStripMenuItem.Size = new Size(298, 26);
             salesReceiptReportToolStripMenuItem.Text = "Sales Receipt Report";
             // 
             // fastAndSlowMovingToolStripMenuItem
             // 
             fastAndSlowMovingToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { fastMovingToolStripMenuItem, slowMovingToolStripMenuItem });
             fastAndSlowMovingToolStripMenuItem.Name = "fastAndSlowMovingToolStripMenuItem";
-            fastAndSlowMovingToolStripMenuItem.Size = new Size(249, 22);
+            fastAndSlowMovingToolStripMenuItem.Size = new Size(298, 26);
             fastAndSlowMovingToolStripMenuItem.Text = "Fast and Slow Moving";
             // 
             // fastMovingToolStripMenuItem
             // 
             fastMovingToolStripMenuItem.Name = "fastMovingToolStripMenuItem";
-            fastMovingToolStripMenuItem.Size = new Size(142, 22);
+            fastMovingToolStripMenuItem.Size = new Size(169, 26);
             fastMovingToolStripMenuItem.Text = "Fast Moving";
             // 
             // slowMovingToolStripMenuItem
             // 
             slowMovingToolStripMenuItem.Name = "slowMovingToolStripMenuItem";
-            slowMovingToolStripMenuItem.Size = new Size(142, 22);
+            slowMovingToolStripMenuItem.Size = new Size(169, 26);
             slowMovingToolStripMenuItem.Text = "Slow Moving";
             // 
             // panel3
@@ -1396,10 +1396,10 @@
             panel3.Controls.Add(userPic);
             panel3.Controls.Add(Label4);
             panel3.Controls.Add(Label3);
-            panel3.Location = new Point(4, 28);
-            panel3.Margin = new Padding(4);
+            panel3.Location = new Point(5, 37);
+            panel3.Margin = new Padding(5, 5, 5, 5);
             panel3.Name = "panel3";
-            panel3.Size = new Size(234, 108);
+            panel3.Size = new Size(267, 143);
             panel3.TabIndex = 12;
             // 
             // lbltime
@@ -1407,20 +1407,20 @@
             lbltime.AutoSize = true;
             lbltime.Font = new Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
             lbltime.ForeColor = Color.Red;
-            lbltime.Location = new Point(70, 86);
-            lbltime.Margin = new Padding(4, 0, 4, 0);
+            lbltime.Location = new Point(80, 115);
+            lbltime.Margin = new Padding(5, 0, 5, 0);
             lbltime.Name = "lbltime";
-            lbltime.Size = new Size(0, 13);
+            lbltime.Size = new Size(0, 17);
             lbltime.TabIndex = 14;
             // 
             // logoutBtn
             // 
             logoutBtn.BackColor = Color.White;
             logoutBtn.Image = (Image)resources.GetObject("logoutBtn.Image");
-            logoutBtn.Location = new Point(167, 52);
-            logoutBtn.Margin = new Padding(4);
+            logoutBtn.Location = new Point(191, 69);
+            logoutBtn.Margin = new Padding(5, 5, 5, 5);
             logoutBtn.Name = "logoutBtn";
-            logoutBtn.Size = new Size(56, 46);
+            logoutBtn.Size = new Size(64, 61);
             logoutBtn.TabIndex = 3;
             logoutBtn.UseVisualStyleBackColor = false;
             // 
@@ -1428,10 +1428,10 @@
             // 
             lbltoday.AutoSize = true;
             lbltoday.Font = new Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            lbltoday.Location = new Point(71, 70);
-            lbltoday.Margin = new Padding(4, 0, 4, 0);
+            lbltoday.Location = new Point(81, 93);
+            lbltoday.Margin = new Padding(5, 0, 5, 0);
             lbltoday.Name = "lbltoday";
-            lbltoday.Size = new Size(0, 13);
+            lbltoday.Size = new Size(0, 17);
             lbltoday.TabIndex = 13;
             // 
             // label2
@@ -1439,10 +1439,10 @@
             label2.AutoSize = true;
             label2.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.Highlight;
-            label2.Location = new Point(65, 18);
-            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Location = new Point(74, 24);
+            label2.Margin = new Padding(5, 0, 5, 0);
             label2.Name = "label2";
-            label2.Size = new Size(149, 17);
+            label2.Size = new Size(187, 21);
             label2.TabIndex = 2;
             label2.Text = "Point of Sale System";
             // 
@@ -1450,10 +1450,10 @@
             // 
             lblUser.AutoSize = true;
             lblUser.Font = new Font("Tahoma", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            lblUser.Location = new Point(70, 53);
-            lblUser.Margin = new Padding(4, 0, 4, 0);
+            lblUser.Location = new Point(80, 71);
+            lblUser.Margin = new Padding(5, 0, 5, 0);
             lblUser.Name = "lblUser";
-            lblUser.Size = new Size(0, 13);
+            lblUser.Size = new Size(0, 17);
             lblUser.TabIndex = 12;
             // 
             // label1
@@ -1461,10 +1461,10 @@
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.Highlight;
-            label1.Location = new Point(66, 2);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(75, 3);
+            label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
-            label1.Size = new Size(139, 17);
+            label1.Size = new Size(174, 21);
             label1.TabIndex = 1;
             label1.Text = "Future Craft Digital";
             // 
@@ -1472,10 +1472,10 @@
             // 
             Label5.AutoSize = true;
             Label5.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            Label5.Location = new Point(28, 86);
-            Label5.Margin = new Padding(4, 0, 4, 0);
+            Label5.Location = new Point(32, 115);
+            Label5.Margin = new Padding(5, 0, 5, 0);
             Label5.Name = "Label5";
-            Label5.Size = new Size(39, 13);
+            Label5.Size = new Size(50, 17);
             Label5.TabIndex = 11;
             Label5.Text = "Clock :";
             // 
@@ -1485,9 +1485,9 @@
             userPic.BackgroundImageLayout = ImageLayout.Center;
             userPic.BorderStyle = BorderStyle.FixedSingle;
             userPic.Location = new Point(-2, 0);
-            userPic.Margin = new Padding(4);
+            userPic.Margin = new Padding(5, 5, 5, 5);
             userPic.Name = "userPic";
-            userPic.Size = new Size(56, 49);
+            userPic.Size = new Size(64, 65);
             userPic.TabIndex = 0;
             userPic.TabStop = false;
             // 
@@ -1495,10 +1495,10 @@
             // 
             Label4.AutoSize = true;
             Label4.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            Label4.Location = new Point(10, 69);
-            Label4.Margin = new Padding(4, 0, 4, 0);
+            Label4.Location = new Point(11, 92);
+            Label4.Margin = new Padding(5, 0, 5, 0);
             Label4.Name = "Label4";
-            Label4.Size = new Size(54, 13);
+            Label4.Size = new Size(68, 17);
             Label4.TabIndex = 10;
             Label4.Text = "Today is :";
             // 
@@ -1506,10 +1506,10 @@
             // 
             Label3.AutoSize = true;
             Label3.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            Label3.Location = new Point(7, 53);
-            Label3.Margin = new Padding(4, 0, 4, 0);
+            Label3.Location = new Point(8, 71);
+            Label3.Margin = new Padding(5, 0, 5, 0);
             Label3.Name = "Label3";
-            Label3.Size = new Size(57, 13);
+            Label3.Size = new Size(74, 17);
             Label3.TabIndex = 9;
             Label3.Text = "Welcome :";
             // 
@@ -1517,17 +1517,17 @@
             // 
             contentPanel.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             contentPanel.BorderStyle = BorderStyle.FixedSingle;
-            contentPanel.Location = new Point(250, 92);
-            contentPanel.Margin = new Padding(4);
+            contentPanel.Location = new Point(286, 123);
+            contentPanel.Margin = new Padding(5, 5, 5, 5);
             contentPanel.Name = "contentPanel";
-            contentPanel.Size = new Size(874, 700);
+            contentPanel.Size = new Size(931, 918);
             contentPanel.TabIndex = 39;
             // 
             // Home
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1264, 782);
+            ClientSize = new Size(1445, 1043);
             Controls.Add(contentPanel);
             Controls.Add(panel1);
             Controls.Add(flowLayoutPanel1);
@@ -1535,7 +1535,7 @@
             Controls.Add(PanelShortCut);
             Controls.Add(panel2);
             IsMdiContainer = true;
-            Margin = new Padding(4);
+            Margin = new Padding(5, 5, 5, 5);
             Name = "Home";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Future Craft Digital POS";
