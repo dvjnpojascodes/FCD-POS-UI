@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddUserAccountForm));
             userDesc = new Label();
             useAddLbl = new Label();
             systemUserIcon = new PictureBox();
@@ -52,8 +53,8 @@
             addFNameTxt = new TextBox();
             addAccNameLbl = new Label();
             addLNameTxt = new TextBox();
-            userUpdateBtn = new Button();
-            userRemoveBtn = new Button();
+            BtnUserUpdate = new Button();
+            BtnUserRemove = new Button();
             ((System.ComponentModel.ISupportInitialize)systemUserIcon).BeginInit();
             UserGroupBox.SuspendLayout();
             SuspendLayout();
@@ -81,10 +82,12 @@
             // 
             // systemUserIcon
             // 
+            systemUserIcon.Image = (Image)resources.GetObject("systemUserIcon.Image");
             systemUserIcon.Location = new Point(16, 17);
             systemUserIcon.Margin = new Padding(3, 4, 3, 4);
             systemUserIcon.Name = "systemUserIcon";
             systemUserIcon.Size = new Size(79, 85);
+            systemUserIcon.SizeMode = PictureBoxSizeMode.StretchImage;
             systemUserIcon.TabIndex = 5;
             systemUserIcon.TabStop = false;
             // 
@@ -292,47 +295,47 @@
             addLNameTxt.Size = new Size(328, 27);
             addLNameTxt.TabIndex = 0;
             // 
-            // userUpdateBtn
+            // BtnUserUpdate
             // 
-            userUpdateBtn.BackColor = SystemColors.MenuHighlight;
-            userUpdateBtn.Cursor = Cursors.Hand;
-            userUpdateBtn.FlatAppearance.BorderSize = 0;
-            userUpdateBtn.FlatStyle = FlatStyle.Flat;
-            userUpdateBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            userUpdateBtn.ForeColor = SystemColors.HighlightText;
-            userUpdateBtn.Location = new Point(17, 475);
-            userUpdateBtn.Margin = new Padding(3, 4, 3, 4);
-            userUpdateBtn.Name = "userUpdateBtn";
-            userUpdateBtn.Size = new Size(219, 52);
-            userUpdateBtn.TabIndex = 10;
-            userUpdateBtn.Text = "Update";
-            userUpdateBtn.UseVisualStyleBackColor = false;
+            BtnUserUpdate.BackColor = SystemColors.MenuHighlight;
+            BtnUserUpdate.Cursor = Cursors.Hand;
+            BtnUserUpdate.FlatAppearance.BorderSize = 0;
+            BtnUserUpdate.FlatStyle = FlatStyle.Flat;
+            BtnUserUpdate.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnUserUpdate.ForeColor = SystemColors.HighlightText;
+            BtnUserUpdate.Location = new Point(17, 475);
+            BtnUserUpdate.Margin = new Padding(3, 4, 3, 4);
+            BtnUserUpdate.Name = "BtnUserUpdate";
+            BtnUserUpdate.Size = new Size(219, 52);
+            BtnUserUpdate.TabIndex = 10;
+            BtnUserUpdate.Text = "Update";
+            BtnUserUpdate.UseVisualStyleBackColor = false;
             // 
-            // userRemoveBtn
+            // BtnUserRemove
             // 
-            userRemoveBtn.BackColor = SystemColors.ButtonHighlight;
-            userRemoveBtn.Cursor = Cursors.Hand;
-            userRemoveBtn.FlatAppearance.BorderColor = SystemColors.ButtonHighlight;
-            userRemoveBtn.FlatAppearance.BorderSize = 0;
-            userRemoveBtn.FlatAppearance.MouseDownBackColor = SystemColors.ButtonHighlight;
-            userRemoveBtn.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
-            userRemoveBtn.FlatStyle = FlatStyle.Flat;
-            userRemoveBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            userRemoveBtn.Location = new Point(280, 475);
-            userRemoveBtn.Margin = new Padding(3, 4, 3, 4);
-            userRemoveBtn.Name = "userRemoveBtn";
-            userRemoveBtn.Size = new Size(214, 52);
-            userRemoveBtn.TabIndex = 11;
-            userRemoveBtn.Text = "Remove";
-            userRemoveBtn.UseVisualStyleBackColor = false;
+            BtnUserRemove.BackColor = SystemColors.ButtonHighlight;
+            BtnUserRemove.Cursor = Cursors.Hand;
+            BtnUserRemove.FlatAppearance.BorderColor = SystemColors.ButtonHighlight;
+            BtnUserRemove.FlatAppearance.BorderSize = 0;
+            BtnUserRemove.FlatAppearance.MouseDownBackColor = SystemColors.ButtonHighlight;
+            BtnUserRemove.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
+            BtnUserRemove.FlatStyle = FlatStyle.Flat;
+            BtnUserRemove.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnUserRemove.Location = new Point(280, 475);
+            BtnUserRemove.Margin = new Padding(3, 4, 3, 4);
+            BtnUserRemove.Name = "BtnUserRemove";
+            BtnUserRemove.Size = new Size(214, 52);
+            BtnUserRemove.TabIndex = 11;
+            BtnUserRemove.Text = "Remove";
+            BtnUserRemove.UseVisualStyleBackColor = false;
             // 
             // AddUserAccountForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1031, 545);
-            Controls.Add(userRemoveBtn);
-            Controls.Add(userUpdateBtn);
+            Controls.Add(BtnUserRemove);
+            Controls.Add(BtnUserUpdate);
             Controls.Add(UserGroupBox);
             Controls.Add(userDesc);
             Controls.Add(useAddLbl);
@@ -373,7 +376,7 @@
         private Label accTypeLbl;
         private Label confirmPassLbl;
         private TextBox confirmPassTxt;
-        private Button userUpdateBtn;
-        private Button userRemoveBtn;
+        private Button BtnUserUpdate;
+        private Button BtnUserRemove;
     }
 }

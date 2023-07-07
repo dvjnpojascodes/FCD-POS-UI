@@ -45,7 +45,7 @@ namespace Future_Craft_Digital.Maintenance
             userLogFromDate = new DateTimePicker();
             label3 = new Label();
             label2 = new Label();
-            unLogComboBox = new ComboBox();
+            userLogComboBox = new ComboBox();
             label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)userlogIcon).BeginInit();
             ((System.ComponentModel.ISupportInitialize)userlogIcon2).BeginInit();
@@ -103,7 +103,7 @@ namespace Future_Craft_Digital.Maintenance
             usersLogGroupBox.Controls.Add(userLogFromDate);
             usersLogGroupBox.Controls.Add(label3);
             usersLogGroupBox.Controls.Add(label2);
-            usersLogGroupBox.Controls.Add(unLogComboBox);
+            usersLogGroupBox.Controls.Add(userLogComboBox);
             usersLogGroupBox.Controls.Add(label1);
             usersLogGroupBox.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             usersLogGroupBox.Location = new Point(12, 114);
@@ -200,16 +200,16 @@ namespace Future_Craft_Digital.Maintenance
             label2.TabIndex = 16;
             label2.Text = "From :";
             // 
-            // unLogComboBox
+            // userLogComboBox
             // 
-            unLogComboBox.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            unLogComboBox.FormattingEnabled = true;
-            unLogComboBox.Items.AddRange(new object[] { "9 - admin", "12 - cashier", "14 - sales", "13 - stock" });
-            unLogComboBox.Location = new Point(113, 31);
-            unLogComboBox.Margin = new Padding(3, 4, 3, 4);
-            unLogComboBox.Name = "unLogComboBox";
-            unLogComboBox.Size = new Size(193, 26);
-            unLogComboBox.TabIndex = 15;
+            userLogComboBox.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            userLogComboBox.FormattingEnabled = true;
+            userLogComboBox.Items.AddRange(new object[] { "9 - admin", "12 - cashier", "14 - sales", "13 - stock" });
+            userLogComboBox.Location = new Point(113, 31);
+            userLogComboBox.Margin = new Padding(3, 4, 3, 4);
+            userLogComboBox.Name = "userLogComboBox";
+            userLogComboBox.Size = new Size(193, 26);
+            userLogComboBox.TabIndex = 15;
             // 
             // label1
             // 
@@ -256,7 +256,7 @@ namespace Future_Craft_Digital.Maintenance
         private DateTimePicker userLogFromDate;
         private Label label3;
         private Label label2;
-        private ComboBox unLogComboBox;
+        private ComboBox userLogComboBox;
         private Label label1;
         private ListView userLogListView;
         private ColumnHeader userActions;

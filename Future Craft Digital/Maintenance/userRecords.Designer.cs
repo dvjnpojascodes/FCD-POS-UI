@@ -38,11 +38,11 @@ namespace Future_Craft_Digital.Maintenance
             profileAccNo = new ColumnHeader();
             profileUserName = new ColumnHeader();
             profileAccess = new ColumnHeader();
-            userSearchBtn = new Button();
-            textBox1 = new TextBox();
-            userAddBtn = new Button();
-            userRemoveBtn = new Button();
-            userEditBtn = new Button();
+            BtnUserSearch = new Button();
+            txtBoxUserSearch = new TextBox();
+            BtnUserAdd = new Button();
+            BtnUserRemove = new Button();
+            BtnUserEdit = new Button();
             userCloseBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)systemUserIcon).BeginInit();
             UserGroupBox.SuspendLayout();
@@ -84,8 +84,8 @@ namespace Future_Craft_Digital.Maintenance
             // 
             UserGroupBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             UserGroupBox.Controls.Add(listView1);
-            UserGroupBox.Controls.Add(userSearchBtn);
-            UserGroupBox.Controls.Add(textBox1);
+            UserGroupBox.Controls.Add(BtnUserSearch);
+            UserGroupBox.Controls.Add(txtBoxUserSearch);
             UserGroupBox.Font = new Font("Tahoma", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             UserGroupBox.Location = new Point(15, 118);
             UserGroupBox.Margin = new Padding(3, 4, 3, 4);
@@ -125,79 +125,79 @@ namespace Future_Craft_Digital.Maintenance
             profileAccess.Text = "Access Type";
             profileAccess.Width = 220;
             // 
-            // userSearchBtn
+            // BtnUserSearch
             // 
-            userSearchBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            userSearchBtn.Location = new Point(558, 36);
-            userSearchBtn.Margin = new Padding(3, 4, 3, 4);
-            userSearchBtn.Name = "userSearchBtn";
-            userSearchBtn.Size = new Size(199, 41);
-            userSearchBtn.TabIndex = 7;
-            userSearchBtn.Text = "Search";
-            userSearchBtn.UseVisualStyleBackColor = true;
+            BtnUserSearch.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnUserSearch.Location = new Point(558, 36);
+            BtnUserSearch.Margin = new Padding(3, 4, 3, 4);
+            BtnUserSearch.Name = "BtnUserSearch";
+            BtnUserSearch.Size = new Size(199, 41);
+            BtnUserSearch.TabIndex = 7;
+            BtnUserSearch.Text = "Search";
+            BtnUserSearch.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtBoxUserSearch
             // 
-            textBox1.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(12, 36);
-            textBox1.Margin = new Padding(3, 4, 3, 4);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(522, 37);
-            textBox1.TabIndex = 0;
+            txtBoxUserSearch.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtBoxUserSearch.Location = new Point(12, 36);
+            txtBoxUserSearch.Margin = new Padding(3, 4, 3, 4);
+            txtBoxUserSearch.Multiline = true;
+            txtBoxUserSearch.Name = "txtBoxUserSearch";
+            txtBoxUserSearch.Size = new Size(522, 37);
+            txtBoxUserSearch.TabIndex = 0;
             // 
-            // userAddBtn
+            // BtnUserAdd
             // 
-            userAddBtn.BackColor = SystemColors.MenuHighlight;
-            userAddBtn.Cursor = Cursors.Hand;
-            userAddBtn.FlatAppearance.BorderSize = 0;
-            userAddBtn.FlatStyle = FlatStyle.Flat;
-            userAddBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            userAddBtn.ForeColor = SystemColors.HighlightText;
-            userAddBtn.Location = new Point(62, 594);
-            userAddBtn.Margin = new Padding(3, 4, 3, 4);
-            userAddBtn.Name = "userAddBtn";
-            userAddBtn.Size = new Size(143, 52);
-            userAddBtn.TabIndex = 9;
-            userAddBtn.Text = "Add";
-            userAddBtn.UseVisualStyleBackColor = false;
-            userAddBtn.Click += userAddBtn_Click;
+            BtnUserAdd.BackColor = SystemColors.MenuHighlight;
+            BtnUserAdd.Cursor = Cursors.Hand;
+            BtnUserAdd.FlatAppearance.BorderSize = 0;
+            BtnUserAdd.FlatStyle = FlatStyle.Flat;
+            BtnUserAdd.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnUserAdd.ForeColor = SystemColors.HighlightText;
+            BtnUserAdd.Location = new Point(62, 594);
+            BtnUserAdd.Margin = new Padding(3, 4, 3, 4);
+            BtnUserAdd.Name = "BtnUserAdd";
+            BtnUserAdd.Size = new Size(143, 52);
+            BtnUserAdd.TabIndex = 9;
+            BtnUserAdd.Text = "Add";
+            BtnUserAdd.UseVisualStyleBackColor = false;
+            BtnUserAdd.Click += userAddBtn_Click;
             // 
-            // userRemoveBtn
+            // BtnUserRemove
             // 
-            userRemoveBtn.BackColor = SystemColors.ButtonHighlight;
-            userRemoveBtn.Cursor = Cursors.Hand;
-            userRemoveBtn.FlatAppearance.BorderColor = SystemColors.ButtonHighlight;
-            userRemoveBtn.FlatAppearance.BorderSize = 0;
-            userRemoveBtn.FlatAppearance.MouseDownBackColor = SystemColors.ButtonHighlight;
-            userRemoveBtn.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
-            userRemoveBtn.FlatStyle = FlatStyle.Flat;
-            userRemoveBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            userRemoveBtn.Location = new Point(233, 594);
-            userRemoveBtn.Margin = new Padding(3, 4, 3, 4);
-            userRemoveBtn.Name = "userRemoveBtn";
-            userRemoveBtn.Size = new Size(143, 52);
-            userRemoveBtn.TabIndex = 10;
-            userRemoveBtn.Text = "Remove";
-            userRemoveBtn.UseVisualStyleBackColor = false;
-            userRemoveBtn.Click += userRemoveBtn_Click;
+            BtnUserRemove.BackColor = SystemColors.ButtonHighlight;
+            BtnUserRemove.Cursor = Cursors.Hand;
+            BtnUserRemove.FlatAppearance.BorderColor = SystemColors.ButtonHighlight;
+            BtnUserRemove.FlatAppearance.BorderSize = 0;
+            BtnUserRemove.FlatAppearance.MouseDownBackColor = SystemColors.ButtonHighlight;
+            BtnUserRemove.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
+            BtnUserRemove.FlatStyle = FlatStyle.Flat;
+            BtnUserRemove.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnUserRemove.Location = new Point(233, 594);
+            BtnUserRemove.Margin = new Padding(3, 4, 3, 4);
+            BtnUserRemove.Name = "BtnUserRemove";
+            BtnUserRemove.Size = new Size(143, 52);
+            BtnUserRemove.TabIndex = 10;
+            BtnUserRemove.Text = "Remove";
+            BtnUserRemove.UseVisualStyleBackColor = false;
+            BtnUserRemove.Click += userRemoveBtn_Click;
             // 
-            // userEditBtn
+            // BtnUserEdit
             // 
-            userEditBtn.BackColor = SystemColors.ButtonHighlight;
-            userEditBtn.Cursor = Cursors.Hand;
-            userEditBtn.FlatAppearance.BorderSize = 0;
-            userEditBtn.FlatAppearance.MouseDownBackColor = SystemColors.ButtonHighlight;
-            userEditBtn.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
-            userEditBtn.FlatStyle = FlatStyle.Flat;
-            userEditBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            userEditBtn.Location = new Point(406, 594);
-            userEditBtn.Margin = new Padding(3, 4, 3, 4);
-            userEditBtn.Name = "userEditBtn";
-            userEditBtn.Size = new Size(143, 52);
-            userEditBtn.TabIndex = 11;
-            userEditBtn.Text = "Edit";
-            userEditBtn.UseVisualStyleBackColor = false;
+            BtnUserEdit.BackColor = SystemColors.ButtonHighlight;
+            BtnUserEdit.Cursor = Cursors.Hand;
+            BtnUserEdit.FlatAppearance.BorderSize = 0;
+            BtnUserEdit.FlatAppearance.MouseDownBackColor = SystemColors.ButtonHighlight;
+            BtnUserEdit.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
+            BtnUserEdit.FlatStyle = FlatStyle.Flat;
+            BtnUserEdit.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnUserEdit.Location = new Point(406, 594);
+            BtnUserEdit.Margin = new Padding(3, 4, 3, 4);
+            BtnUserEdit.Name = "BtnUserEdit";
+            BtnUserEdit.Size = new Size(143, 52);
+            BtnUserEdit.TabIndex = 11;
+            BtnUserEdit.Text = "Edit";
+            BtnUserEdit.UseVisualStyleBackColor = false;
             // 
             // userCloseBtn
             // 
@@ -224,9 +224,9 @@ namespace Future_Craft_Digital.Maintenance
             ClientSize = new Size(800, 661);
             ControlBox = false;
             Controls.Add(userCloseBtn);
-            Controls.Add(userEditBtn);
-            Controls.Add(userRemoveBtn);
-            Controls.Add(userAddBtn);
+            Controls.Add(BtnUserEdit);
+            Controls.Add(BtnUserRemove);
+            Controls.Add(BtnUserAdd);
             Controls.Add(UserGroupBox);
             Controls.Add(userDesc);
             Controls.Add(userLbl);
@@ -253,11 +253,11 @@ namespace Future_Craft_Digital.Maintenance
         private ColumnHeader profileAccNo;
         private ColumnHeader profileUserName;
         private ColumnHeader profileAccess;
-        private Button userSearchBtn;
-        private TextBox textBox1;
-        private Button userAddBtn;
-        private Button userRemoveBtn;
-        private Button userEditBtn;
+        private Button BtnUserSearch;
+        private TextBox txtBoxUserSearch;
+        private Button BtnUserAdd;
+        private Button BtnUserRemove;
+        private Button BtnUserEdit;
         private Button userCloseBtn;
     }
 }

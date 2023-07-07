@@ -31,31 +31,30 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             panel2 = new Panel();
             panel6 = new Panel();
-            salesReceiptBtn = new Button();
-            CashieringBtn = new Button();
-            orderingKioskBtn = new Button();
+            BtnSalesReceipt = new Button();
+            BtnCashiering = new Button();
+            BtnOrderingKiosk = new Button();
             panel5 = new Panel();
-            defectivestocksBtn = new Button();
-            criticalProductsBtn = new Button();
-            PhysicalCountBtn = new Button();
-            stockMonitorBtn = new Button();
-            OrderAndReceiveBtn = new Button();
+            BtnDefectiveStocks = new Button();
+            BtnCriticalProducts = new Button();
+            BtnPhysicalCount = new Button();
+            BtnStockMonitor = new Button();
+            BtnOrderAndReceive = new Button();
             panel4 = new Panel();
-            BusinessInfoBtn = new Button();
-            userLogBtn = new Button();
-            userRecordsBtn = new Button();
-            manageSuppliersBtn = new Button();
-            productListingBtn = new Button();
+            BtnBusinessInfo = new Button();
+            BtnUserLog = new Button();
+            BtnUserRecords = new Button();
+            BtnManageSuppliers = new Button();
+            BtnProductListing = new Button();
             SalesAndOrderLinkLabel = new LinkLabel();
             linkLabel1 = new LinkLabel();
             linkLabel2 = new LinkLabel();
-            homeBtn = new Button();
-            printBtn = new Button();
-            searchBtn = new Button();
-            refreshBtn = new Button();
-            deleteBtn = new Button();
-            editBtn = new Button();
-            newBtn = new Button();
+            BtnPrint = new Button();
+            BtnSearch = new Button();
+            BtnRefresh = new Button();
+            BtnDelete = new Button();
+            BtnEdit = new Button();
+            BtnNew = new Button();
             PanelShortCut = new Panel();
             openShortCutsLink = new LinkLabel();
             shortcutList = new ListView();
@@ -104,7 +103,8 @@
             lblstock_tot_product = new Label();
             PictureBox7 = new PictureBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
-            exitBtn = new Button();
+            BtnHome = new Button();
+            BtnExit = new Button();
             panel1 = new Panel();
             menuStrip1 = new MenuStrip();
             systemFileToolStripMenuItem = new ToolStripMenuItem();
@@ -141,7 +141,7 @@
             dateLbl = new Label();
             timeLbl = new Label();
             lbltime = new Label();
-            logoutBtn = new Button();
+            BtnLogout = new Button();
             lbltoday = new Label();
             label2 = new Label();
             lblUser = new Label();
@@ -202,250 +202,250 @@
             // panel6
             // 
             panel6.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            panel6.Controls.Add(salesReceiptBtn);
-            panel6.Controls.Add(CashieringBtn);
-            panel6.Controls.Add(orderingKioskBtn);
+            panel6.Controls.Add(BtnSalesReceipt);
+            panel6.Controls.Add(BtnCashiering);
+            panel6.Controls.Add(BtnOrderingKiosk);
             panel6.Location = new Point(9, 636);
             panel6.Margin = new Padding(5);
             panel6.Name = "panel6";
             panel6.Size = new Size(274, 145);
             panel6.TabIndex = 4;
             // 
-            // salesReceiptBtn
+            // BtnSalesReceipt
             // 
-            salesReceiptBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            salesReceiptBtn.BackColor = Color.White;
-            salesReceiptBtn.Image = (Image)resources.GetObject("salesReceiptBtn.Image");
-            salesReceiptBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            salesReceiptBtn.Location = new Point(5, 100);
-            salesReceiptBtn.Margin = new Padding(5);
-            salesReceiptBtn.Name = "salesReceiptBtn";
-            salesReceiptBtn.Padding = new Padding(6, 3, 0, 3);
-            salesReceiptBtn.Size = new Size(265, 39);
-            salesReceiptBtn.TabIndex = 5;
-            salesReceiptBtn.Text = "Sales Receipt";
-            salesReceiptBtn.UseVisualStyleBackColor = false;
-            salesReceiptBtn.Click += salesReceiptBtn_Click_1;
+            BtnSalesReceipt.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            BtnSalesReceipt.BackColor = Color.White;
+            BtnSalesReceipt.Image = (Image)resources.GetObject("BtnSalesReceipt.Image");
+            BtnSalesReceipt.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnSalesReceipt.Location = new Point(5, 100);
+            BtnSalesReceipt.Margin = new Padding(5);
+            BtnSalesReceipt.Name = "BtnSalesReceipt";
+            BtnSalesReceipt.Padding = new Padding(6, 3, 0, 3);
+            BtnSalesReceipt.Size = new Size(265, 39);
+            BtnSalesReceipt.TabIndex = 5;
+            BtnSalesReceipt.Text = "Sales Receipt";
+            BtnSalesReceipt.UseVisualStyleBackColor = false;
+            BtnSalesReceipt.Click += salesReceiptBtn_Click_1;
             // 
-            // CashieringBtn
+            // BtnCashiering
             // 
-            CashieringBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            CashieringBtn.BackColor = Color.White;
-            CashieringBtn.Image = (Image)resources.GetObject("CashieringBtn.Image");
-            CashieringBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            CashieringBtn.Location = new Point(5, 55);
-            CashieringBtn.Margin = new Padding(5);
-            CashieringBtn.Name = "CashieringBtn";
-            CashieringBtn.Padding = new Padding(6, 3, 0, 3);
-            CashieringBtn.Size = new Size(265, 39);
-            CashieringBtn.TabIndex = 3;
-            CashieringBtn.Text = "Cashiering";
-            CashieringBtn.UseVisualStyleBackColor = false;
-            CashieringBtn.Click += CashieringBtn_Click_1;
+            BtnCashiering.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            BtnCashiering.BackColor = Color.White;
+            BtnCashiering.Image = (Image)resources.GetObject("BtnCashiering.Image");
+            BtnCashiering.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnCashiering.Location = new Point(5, 55);
+            BtnCashiering.Margin = new Padding(5);
+            BtnCashiering.Name = "BtnCashiering";
+            BtnCashiering.Padding = new Padding(6, 3, 0, 3);
+            BtnCashiering.Size = new Size(265, 39);
+            BtnCashiering.TabIndex = 3;
+            BtnCashiering.Text = "Cashiering";
+            BtnCashiering.UseVisualStyleBackColor = false;
+            BtnCashiering.Click += CashieringBtn_Click_1;
             // 
-            // orderingKioskBtn
+            // BtnOrderingKiosk
             // 
-            orderingKioskBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            orderingKioskBtn.BackColor = Color.White;
-            orderingKioskBtn.Image = (Image)resources.GetObject("orderingKioskBtn.Image");
-            orderingKioskBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            orderingKioskBtn.Location = new Point(5, 11);
-            orderingKioskBtn.Margin = new Padding(5);
-            orderingKioskBtn.Name = "orderingKioskBtn";
-            orderingKioskBtn.Padding = new Padding(6, 3, 0, 3);
-            orderingKioskBtn.Size = new Size(265, 39);
-            orderingKioskBtn.TabIndex = 2;
-            orderingKioskBtn.Text = "Ordering Kiosk";
-            orderingKioskBtn.UseVisualStyleBackColor = false;
-            orderingKioskBtn.Click += orderingKioskBtn_Click_1;
+            BtnOrderingKiosk.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            BtnOrderingKiosk.BackColor = Color.White;
+            BtnOrderingKiosk.Image = (Image)resources.GetObject("BtnOrderingKiosk.Image");
+            BtnOrderingKiosk.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnOrderingKiosk.Location = new Point(5, 11);
+            BtnOrderingKiosk.Margin = new Padding(5);
+            BtnOrderingKiosk.Name = "BtnOrderingKiosk";
+            BtnOrderingKiosk.Padding = new Padding(6, 3, 0, 3);
+            BtnOrderingKiosk.Size = new Size(265, 39);
+            BtnOrderingKiosk.TabIndex = 2;
+            BtnOrderingKiosk.Text = "Ordering Kiosk";
+            BtnOrderingKiosk.UseVisualStyleBackColor = false;
+            BtnOrderingKiosk.Click += orderingKioskBtn_Click_1;
             // 
             // panel5
             // 
             panel5.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            panel5.Controls.Add(defectivestocksBtn);
-            panel5.Controls.Add(criticalProductsBtn);
-            panel5.Controls.Add(PhysicalCountBtn);
-            panel5.Controls.Add(stockMonitorBtn);
-            panel5.Controls.Add(OrderAndReceiveBtn);
+            panel5.Controls.Add(BtnDefectiveStocks);
+            panel5.Controls.Add(BtnCriticalProducts);
+            panel5.Controls.Add(BtnPhysicalCount);
+            panel5.Controls.Add(BtnStockMonitor);
+            panel5.Controls.Add(BtnOrderAndReceive);
             panel5.Location = new Point(5, 332);
             panel5.Margin = new Padding(5);
             panel5.Name = "panel5";
             panel5.Size = new Size(274, 231);
             panel5.TabIndex = 3;
             // 
-            // defectivestocksBtn
+            // BtnDefectiveStocks
             // 
-            defectivestocksBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            defectivestocksBtn.BackColor = Color.White;
-            defectivestocksBtn.Image = (Image)resources.GetObject("defectivestocksBtn.Image");
-            defectivestocksBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            defectivestocksBtn.Location = new Point(7, 188);
-            defectivestocksBtn.Margin = new Padding(5);
-            defectivestocksBtn.Name = "defectivestocksBtn";
-            defectivestocksBtn.Padding = new Padding(6, 3, 0, 3);
-            defectivestocksBtn.Size = new Size(265, 39);
-            defectivestocksBtn.TabIndex = 7;
-            defectivestocksBtn.Text = "Defective Stocks";
-            defectivestocksBtn.UseVisualStyleBackColor = false;
-            defectivestocksBtn.Click += defectivestocksBtn_Click_1;
+            BtnDefectiveStocks.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            BtnDefectiveStocks.BackColor = Color.White;
+            BtnDefectiveStocks.Image = (Image)resources.GetObject("BtnDefectiveStocks.Image");
+            BtnDefectiveStocks.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnDefectiveStocks.Location = new Point(7, 188);
+            BtnDefectiveStocks.Margin = new Padding(5);
+            BtnDefectiveStocks.Name = "BtnDefectiveStocks";
+            BtnDefectiveStocks.Padding = new Padding(6, 3, 0, 3);
+            BtnDefectiveStocks.Size = new Size(265, 39);
+            BtnDefectiveStocks.TabIndex = 7;
+            BtnDefectiveStocks.Text = "Defective Stocks";
+            BtnDefectiveStocks.UseVisualStyleBackColor = false;
+            BtnDefectiveStocks.Click += defectivestocksBtn_Click_1;
             // 
-            // criticalProductsBtn
+            // BtnCriticalProducts
             // 
-            criticalProductsBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            criticalProductsBtn.BackColor = Color.White;
-            criticalProductsBtn.Image = (Image)resources.GetObject("criticalProductsBtn.Image");
-            criticalProductsBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            criticalProductsBtn.Location = new Point(5, 144);
-            criticalProductsBtn.Margin = new Padding(5);
-            criticalProductsBtn.Name = "criticalProductsBtn";
-            criticalProductsBtn.Padding = new Padding(6, 3, 0, 3);
-            criticalProductsBtn.Size = new Size(265, 39);
-            criticalProductsBtn.TabIndex = 6;
-            criticalProductsBtn.Text = "Critical Product(s)";
-            criticalProductsBtn.UseVisualStyleBackColor = false;
-            criticalProductsBtn.Click += criticalProductsBtn_Click_1;
+            BtnCriticalProducts.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            BtnCriticalProducts.BackColor = Color.White;
+            BtnCriticalProducts.Image = (Image)resources.GetObject("BtnCriticalProducts.Image");
+            BtnCriticalProducts.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnCriticalProducts.Location = new Point(5, 144);
+            BtnCriticalProducts.Margin = new Padding(5);
+            BtnCriticalProducts.Name = "BtnCriticalProducts";
+            BtnCriticalProducts.Padding = new Padding(6, 3, 0, 3);
+            BtnCriticalProducts.Size = new Size(265, 39);
+            BtnCriticalProducts.TabIndex = 6;
+            BtnCriticalProducts.Text = "Critical Product(s)";
+            BtnCriticalProducts.UseVisualStyleBackColor = false;
+            BtnCriticalProducts.Click += criticalProductsBtn_Click_1;
             // 
-            // PhysicalCountBtn
+            // BtnPhysicalCount
             // 
-            PhysicalCountBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PhysicalCountBtn.BackColor = Color.White;
-            PhysicalCountBtn.Image = Properties.Resources.pie_chart__1_;
-            PhysicalCountBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            PhysicalCountBtn.Location = new Point(5, 99);
-            PhysicalCountBtn.Margin = new Padding(5);
-            PhysicalCountBtn.Name = "PhysicalCountBtn";
-            PhysicalCountBtn.Padding = new Padding(6, 3, 0, 3);
-            PhysicalCountBtn.Size = new Size(265, 39);
-            PhysicalCountBtn.TabIndex = 5;
-            PhysicalCountBtn.Text = "Physical Counting";
-            PhysicalCountBtn.UseVisualStyleBackColor = false;
-            PhysicalCountBtn.Click += PhysicalCountBtn_Click;
+            BtnPhysicalCount.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            BtnPhysicalCount.BackColor = Color.White;
+            BtnPhysicalCount.Image = Properties.Resources.pie_chart__1_;
+            BtnPhysicalCount.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnPhysicalCount.Location = new Point(5, 99);
+            BtnPhysicalCount.Margin = new Padding(5);
+            BtnPhysicalCount.Name = "BtnPhysicalCount";
+            BtnPhysicalCount.Padding = new Padding(6, 3, 0, 3);
+            BtnPhysicalCount.Size = new Size(265, 39);
+            BtnPhysicalCount.TabIndex = 5;
+            BtnPhysicalCount.Text = "Physical Counting";
+            BtnPhysicalCount.UseVisualStyleBackColor = false;
+            BtnPhysicalCount.Click += PhysicalCountBtn_Click;
             // 
-            // stockMonitorBtn
+            // BtnStockMonitor
             // 
-            stockMonitorBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            stockMonitorBtn.BackColor = Color.White;
-            stockMonitorBtn.Image = (Image)resources.GetObject("stockMonitorBtn.Image");
-            stockMonitorBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            stockMonitorBtn.Location = new Point(5, 53);
-            stockMonitorBtn.Margin = new Padding(5);
-            stockMonitorBtn.Name = "stockMonitorBtn";
-            stockMonitorBtn.Padding = new Padding(6, 3, 0, 3);
-            stockMonitorBtn.Size = new Size(265, 39);
-            stockMonitorBtn.TabIndex = 3;
-            stockMonitorBtn.Text = "Stock Monitoring";
-            stockMonitorBtn.UseVisualStyleBackColor = false;
-            stockMonitorBtn.Click += stockMonitorBtn_Click_1;
+            BtnStockMonitor.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            BtnStockMonitor.BackColor = Color.White;
+            BtnStockMonitor.Image = (Image)resources.GetObject("BtnStockMonitor.Image");
+            BtnStockMonitor.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnStockMonitor.Location = new Point(5, 53);
+            BtnStockMonitor.Margin = new Padding(5);
+            BtnStockMonitor.Name = "BtnStockMonitor";
+            BtnStockMonitor.Padding = new Padding(6, 3, 0, 3);
+            BtnStockMonitor.Size = new Size(265, 39);
+            BtnStockMonitor.TabIndex = 3;
+            BtnStockMonitor.Text = "Stock Monitoring";
+            BtnStockMonitor.UseVisualStyleBackColor = false;
+            BtnStockMonitor.Click += stockMonitorBtn_Click_1;
             // 
-            // OrderAndReceiveBtn
+            // BtnOrderAndReceive
             // 
-            OrderAndReceiveBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            OrderAndReceiveBtn.BackColor = Color.White;
-            OrderAndReceiveBtn.Image = (Image)resources.GetObject("OrderAndReceiveBtn.Image");
-            OrderAndReceiveBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            OrderAndReceiveBtn.Location = new Point(5, 11);
-            OrderAndReceiveBtn.Margin = new Padding(5);
-            OrderAndReceiveBtn.Name = "OrderAndReceiveBtn";
-            OrderAndReceiveBtn.Padding = new Padding(6, 3, 0, 3);
-            OrderAndReceiveBtn.Size = new Size(265, 39);
-            OrderAndReceiveBtn.TabIndex = 2;
-            OrderAndReceiveBtn.Text = "Order and Receive";
-            OrderAndReceiveBtn.UseVisualStyleBackColor = false;
-            OrderAndReceiveBtn.Click += OrderAndReceiveBtn_Click_1;
+            BtnOrderAndReceive.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            BtnOrderAndReceive.BackColor = Color.White;
+            BtnOrderAndReceive.Image = (Image)resources.GetObject("BtnOrderAndReceive.Image");
+            BtnOrderAndReceive.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnOrderAndReceive.Location = new Point(5, 11);
+            BtnOrderAndReceive.Margin = new Padding(5);
+            BtnOrderAndReceive.Name = "BtnOrderAndReceive";
+            BtnOrderAndReceive.Padding = new Padding(6, 3, 0, 3);
+            BtnOrderAndReceive.Size = new Size(265, 39);
+            BtnOrderAndReceive.TabIndex = 2;
+            BtnOrderAndReceive.Text = "Order and Receive";
+            BtnOrderAndReceive.UseVisualStyleBackColor = false;
+            BtnOrderAndReceive.Click += OrderAndReceiveBtn_Click_1;
             // 
             // panel4
             // 
             panel4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            panel4.Controls.Add(BusinessInfoBtn);
-            panel4.Controls.Add(userLogBtn);
-            panel4.Controls.Add(userRecordsBtn);
-            panel4.Controls.Add(manageSuppliersBtn);
-            panel4.Controls.Add(productListingBtn);
+            panel4.Controls.Add(BtnBusinessInfo);
+            panel4.Controls.Add(BtnUserLog);
+            panel4.Controls.Add(BtnUserRecords);
+            panel4.Controls.Add(BtnManageSuppliers);
+            panel4.Controls.Add(BtnProductListing);
             panel4.Location = new Point(7, 42);
             panel4.Margin = new Padding(5);
             panel4.Name = "panel4";
             panel4.Size = new Size(274, 233);
             panel4.TabIndex = 2;
             // 
-            // BusinessInfoBtn
+            // BtnBusinessInfo
             // 
-            BusinessInfoBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            BusinessInfoBtn.BackColor = Color.White;
-            BusinessInfoBtn.Image = (Image)resources.GetObject("BusinessInfoBtn.Image");
-            BusinessInfoBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            BusinessInfoBtn.Location = new Point(7, 188);
-            BusinessInfoBtn.Margin = new Padding(5);
-            BusinessInfoBtn.Name = "BusinessInfoBtn";
-            BusinessInfoBtn.Padding = new Padding(6, 3, 0, 3);
-            BusinessInfoBtn.Size = new Size(265, 39);
-            BusinessInfoBtn.TabIndex = 7;
-            BusinessInfoBtn.Text = "Business Information";
-            BusinessInfoBtn.UseVisualStyleBackColor = false;
-            BusinessInfoBtn.Click += BusinessInfoBtn_Click;
+            BtnBusinessInfo.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            BtnBusinessInfo.BackColor = Color.White;
+            BtnBusinessInfo.Image = (Image)resources.GetObject("BtnBusinessInfo.Image");
+            BtnBusinessInfo.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnBusinessInfo.Location = new Point(7, 188);
+            BtnBusinessInfo.Margin = new Padding(5);
+            BtnBusinessInfo.Name = "BtnBusinessInfo";
+            BtnBusinessInfo.Padding = new Padding(6, 3, 0, 3);
+            BtnBusinessInfo.Size = new Size(265, 39);
+            BtnBusinessInfo.TabIndex = 7;
+            BtnBusinessInfo.Text = "Business Information";
+            BtnBusinessInfo.UseVisualStyleBackColor = false;
+            BtnBusinessInfo.Click += BusinessInfoBtn_Click;
             // 
-            // userLogBtn
+            // BtnUserLog
             // 
-            userLogBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            userLogBtn.BackColor = Color.White;
-            userLogBtn.Image = (Image)resources.GetObject("userLogBtn.Image");
-            userLogBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            userLogBtn.Location = new Point(5, 144);
-            userLogBtn.Margin = new Padding(5);
-            userLogBtn.Name = "userLogBtn";
-            userLogBtn.Padding = new Padding(6, 3, 0, 3);
-            userLogBtn.Size = new Size(265, 39);
-            userLogBtn.TabIndex = 6;
-            userLogBtn.Text = "Users Log";
-            userLogBtn.UseVisualStyleBackColor = false;
-            userLogBtn.Click += userLogBtn_Click;
+            BtnUserLog.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            BtnUserLog.BackColor = Color.White;
+            BtnUserLog.Image = (Image)resources.GetObject("BtnUserLog.Image");
+            BtnUserLog.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnUserLog.Location = new Point(5, 144);
+            BtnUserLog.Margin = new Padding(5);
+            BtnUserLog.Name = "BtnUserLog";
+            BtnUserLog.Padding = new Padding(6, 3, 0, 3);
+            BtnUserLog.Size = new Size(265, 39);
+            BtnUserLog.TabIndex = 6;
+            BtnUserLog.Text = "Users Log";
+            BtnUserLog.UseVisualStyleBackColor = false;
+            BtnUserLog.Click += userLogBtn_Click;
             // 
-            // userRecordsBtn
+            // BtnUserRecords
             // 
-            userRecordsBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            userRecordsBtn.BackColor = Color.White;
-            userRecordsBtn.Image = (Image)resources.GetObject("userRecordsBtn.Image");
-            userRecordsBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            userRecordsBtn.Location = new Point(5, 99);
-            userRecordsBtn.Margin = new Padding(5);
-            userRecordsBtn.Name = "userRecordsBtn";
-            userRecordsBtn.Padding = new Padding(6, 3, 0, 3);
-            userRecordsBtn.Size = new Size(265, 39);
-            userRecordsBtn.TabIndex = 5;
-            userRecordsBtn.Text = "User Records";
-            userRecordsBtn.UseVisualStyleBackColor = false;
-            userRecordsBtn.Click += userRecordsBtn_Click;
+            BtnUserRecords.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            BtnUserRecords.BackColor = Color.White;
+            BtnUserRecords.Image = (Image)resources.GetObject("BtnUserRecords.Image");
+            BtnUserRecords.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnUserRecords.Location = new Point(5, 99);
+            BtnUserRecords.Margin = new Padding(5);
+            BtnUserRecords.Name = "BtnUserRecords";
+            BtnUserRecords.Padding = new Padding(6, 3, 0, 3);
+            BtnUserRecords.Size = new Size(265, 39);
+            BtnUserRecords.TabIndex = 5;
+            BtnUserRecords.Text = "User Records";
+            BtnUserRecords.UseVisualStyleBackColor = false;
+            BtnUserRecords.Click += userRecordsBtn_Click;
             // 
-            // manageSuppliersBtn
+            // BtnManageSuppliers
             // 
-            manageSuppliersBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            manageSuppliersBtn.BackColor = Color.White;
-            manageSuppliersBtn.Image = (Image)resources.GetObject("manageSuppliersBtn.Image");
-            manageSuppliersBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            manageSuppliersBtn.Location = new Point(5, 51);
-            manageSuppliersBtn.Margin = new Padding(5);
-            manageSuppliersBtn.Name = "manageSuppliersBtn";
-            manageSuppliersBtn.Padding = new Padding(6, 3, 0, 3);
-            manageSuppliersBtn.Size = new Size(265, 39);
-            manageSuppliersBtn.TabIndex = 3;
-            manageSuppliersBtn.Text = "Manage Suppliers";
-            manageSuppliersBtn.UseVisualStyleBackColor = false;
-            manageSuppliersBtn.Click += manageSuppliersBtn_Click;
+            BtnManageSuppliers.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            BtnManageSuppliers.BackColor = Color.White;
+            BtnManageSuppliers.Image = (Image)resources.GetObject("BtnManageSuppliers.Image");
+            BtnManageSuppliers.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnManageSuppliers.Location = new Point(5, 51);
+            BtnManageSuppliers.Margin = new Padding(5);
+            BtnManageSuppliers.Name = "BtnManageSuppliers";
+            BtnManageSuppliers.Padding = new Padding(6, 3, 0, 3);
+            BtnManageSuppliers.Size = new Size(265, 39);
+            BtnManageSuppliers.TabIndex = 3;
+            BtnManageSuppliers.Text = "Manage Suppliers";
+            BtnManageSuppliers.UseVisualStyleBackColor = false;
+            BtnManageSuppliers.Click += manageSuppliersBtn_Click;
             // 
-            // productListingBtn
+            // BtnProductListing
             // 
-            productListingBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            productListingBtn.BackColor = Color.White;
-            productListingBtn.Image = (Image)resources.GetObject("productListingBtn.Image");
-            productListingBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            productListingBtn.Location = new Point(5, 5);
-            productListingBtn.Margin = new Padding(5);
-            productListingBtn.Name = "productListingBtn";
-            productListingBtn.Padding = new Padding(6, 3, 0, 3);
-            productListingBtn.Size = new Size(265, 39);
-            productListingBtn.TabIndex = 2;
-            productListingBtn.Text = "Product Listing";
-            productListingBtn.UseVisualStyleBackColor = false;
-            productListingBtn.Click += productListingBtn_Click;
+            BtnProductListing.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            BtnProductListing.BackColor = Color.White;
+            BtnProductListing.Image = (Image)resources.GetObject("BtnProductListing.Image");
+            BtnProductListing.ImageAlign = ContentAlignment.MiddleLeft;
+            BtnProductListing.Location = new Point(5, 5);
+            BtnProductListing.Margin = new Padding(5);
+            BtnProductListing.Name = "BtnProductListing";
+            BtnProductListing.Padding = new Padding(6, 3, 0, 3);
+            BtnProductListing.Size = new Size(265, 39);
+            BtnProductListing.TabIndex = 2;
+            BtnProductListing.Text = "Product Listing";
+            BtnProductListing.UseVisualStyleBackColor = false;
+            BtnProductListing.Click += productListingBtn_Click;
             // 
             // SalesAndOrderLinkLabel
             // 
@@ -491,110 +491,96 @@
             linkLabel2.TabStop = true;
             linkLabel2.Text = "Purchasing and Stocks";
             // 
-            // homeBtn
+            // BtnPrint
             // 
-            homeBtn.BackColor = Color.White;
-            homeBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            homeBtn.Image = Properties.Resources.home__2_;
-            homeBtn.ImageAlign = ContentAlignment.TopCenter;
-            homeBtn.Location = new Point(5, 5);
-            homeBtn.Margin = new Padding(5);
-            homeBtn.Name = "homeBtn";
-            homeBtn.Size = new Size(107, 105);
-            homeBtn.TabIndex = 59;
-            homeBtn.Text = "Home";
-            homeBtn.TextAlign = ContentAlignment.BottomCenter;
-            homeBtn.UseVisualStyleBackColor = false;
+            BtnPrint.BackColor = Color.White;
+            BtnPrint.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnPrint.Image = (Image)resources.GetObject("BtnPrint.Image");
+            BtnPrint.ImageAlign = ContentAlignment.TopCenter;
+            BtnPrint.Location = new Point(707, 5);
+            BtnPrint.Margin = new Padding(5);
+            BtnPrint.Name = "BtnPrint";
+            BtnPrint.Size = new Size(107, 105);
+            BtnPrint.TabIndex = 58;
+            BtnPrint.Text = "Print";
+            BtnPrint.TextAlign = ContentAlignment.BottomCenter;
+            BtnPrint.UseVisualStyleBackColor = false;
             // 
-            // printBtn
+            // BtnSearch
             // 
-            printBtn.BackColor = Color.White;
-            printBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            printBtn.Image = Properties.Resources.printer__2_;
-            printBtn.ImageAlign = ContentAlignment.TopCenter;
-            printBtn.Location = new Point(707, 5);
-            printBtn.Margin = new Padding(5);
-            printBtn.Name = "printBtn";
-            printBtn.Size = new Size(107, 105);
-            printBtn.TabIndex = 58;
-            printBtn.Text = "Print";
-            printBtn.TextAlign = ContentAlignment.BottomCenter;
-            printBtn.UseVisualStyleBackColor = false;
+            BtnSearch.BackColor = Color.White;
+            BtnSearch.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnSearch.Image = (Image)resources.GetObject("BtnSearch.Image");
+            BtnSearch.ImageAlign = ContentAlignment.TopCenter;
+            BtnSearch.Location = new Point(473, 5);
+            BtnSearch.Margin = new Padding(5);
+            BtnSearch.Name = "BtnSearch";
+            BtnSearch.Size = new Size(107, 105);
+            BtnSearch.TabIndex = 57;
+            BtnSearch.Text = "Search";
+            BtnSearch.TextAlign = ContentAlignment.BottomCenter;
+            BtnSearch.UseVisualStyleBackColor = false;
             // 
-            // searchBtn
+            // BtnRefresh
             // 
-            searchBtn.BackColor = Color.White;
-            searchBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            searchBtn.Image = Properties.Resources.search;
-            searchBtn.ImageAlign = ContentAlignment.TopCenter;
-            searchBtn.Location = new Point(473, 5);
-            searchBtn.Margin = new Padding(5);
-            searchBtn.Name = "searchBtn";
-            searchBtn.Size = new Size(107, 105);
-            searchBtn.TabIndex = 57;
-            searchBtn.Text = "Search";
-            searchBtn.TextAlign = ContentAlignment.BottomCenter;
-            searchBtn.UseVisualStyleBackColor = false;
+            BtnRefresh.BackColor = Color.White;
+            BtnRefresh.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnRefresh.Image = (Image)resources.GetObject("BtnRefresh.Image");
+            BtnRefresh.ImageAlign = ContentAlignment.TopCenter;
+            BtnRefresh.Location = new Point(590, 5);
+            BtnRefresh.Margin = new Padding(5);
+            BtnRefresh.Name = "BtnRefresh";
+            BtnRefresh.Size = new Size(107, 105);
+            BtnRefresh.TabIndex = 55;
+            BtnRefresh.Text = "Refresh";
+            BtnRefresh.TextAlign = ContentAlignment.BottomCenter;
+            BtnRefresh.UseVisualStyleBackColor = false;
             // 
-            // refreshBtn
+            // BtnDelete
             // 
-            refreshBtn.BackColor = Color.White;
-            refreshBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            refreshBtn.Image = Properties.Resources.refresh;
-            refreshBtn.ImageAlign = ContentAlignment.TopCenter;
-            refreshBtn.Location = new Point(590, 5);
-            refreshBtn.Margin = new Padding(5);
-            refreshBtn.Name = "refreshBtn";
-            refreshBtn.Size = new Size(107, 105);
-            refreshBtn.TabIndex = 55;
-            refreshBtn.Text = "Refresh";
-            refreshBtn.TextAlign = ContentAlignment.BottomCenter;
-            refreshBtn.UseVisualStyleBackColor = false;
+            BtnDelete.BackColor = Color.White;
+            BtnDelete.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnDelete.Image = (Image)resources.GetObject("BtnDelete.Image");
+            BtnDelete.ImageAlign = ContentAlignment.TopCenter;
+            BtnDelete.Location = new Point(356, 5);
+            BtnDelete.Margin = new Padding(5);
+            BtnDelete.Name = "BtnDelete";
+            BtnDelete.Size = new Size(107, 105);
+            BtnDelete.TabIndex = 54;
+            BtnDelete.Text = "Delete";
+            BtnDelete.TextAlign = ContentAlignment.BottomCenter;
+            BtnDelete.UseVisualStyleBackColor = false;
             // 
-            // deleteBtn
+            // BtnEdit
             // 
-            deleteBtn.BackColor = Color.White;
-            deleteBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            deleteBtn.Image = Properties.Resources.delete1;
-            deleteBtn.ImageAlign = ContentAlignment.TopCenter;
-            deleteBtn.Location = new Point(356, 5);
-            deleteBtn.Margin = new Padding(5);
-            deleteBtn.Name = "deleteBtn";
-            deleteBtn.Size = new Size(107, 105);
-            deleteBtn.TabIndex = 54;
-            deleteBtn.Text = "Delete";
-            deleteBtn.TextAlign = ContentAlignment.BottomCenter;
-            deleteBtn.UseVisualStyleBackColor = false;
+            BtnEdit.BackColor = Color.White;
+            BtnEdit.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnEdit.Image = (Image)resources.GetObject("BtnEdit.Image");
+            BtnEdit.ImageAlign = ContentAlignment.TopCenter;
+            BtnEdit.Location = new Point(239, 5);
+            BtnEdit.Margin = new Padding(5);
+            BtnEdit.Name = "BtnEdit";
+            BtnEdit.Size = new Size(107, 105);
+            BtnEdit.TabIndex = 53;
+            BtnEdit.Text = "Edit";
+            BtnEdit.TextAlign = ContentAlignment.BottomCenter;
+            BtnEdit.UseVisualStyleBackColor = false;
             // 
-            // editBtn
+            // BtnNew
             // 
-            editBtn.BackColor = Color.White;
-            editBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            editBtn.Image = Properties.Resources.edit;
-            editBtn.ImageAlign = ContentAlignment.TopCenter;
-            editBtn.Location = new Point(239, 5);
-            editBtn.Margin = new Padding(5);
-            editBtn.Name = "editBtn";
-            editBtn.Size = new Size(107, 105);
-            editBtn.TabIndex = 53;
-            editBtn.Text = "Edit";
-            editBtn.TextAlign = ContentAlignment.BottomCenter;
-            editBtn.UseVisualStyleBackColor = false;
-            // 
-            // newBtn
-            // 
-            newBtn.BackColor = Color.White;
-            newBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            newBtn.Image = Properties.Resources.new_file;
-            newBtn.ImageAlign = ContentAlignment.TopCenter;
-            newBtn.Location = new Point(122, 5);
-            newBtn.Margin = new Padding(5);
-            newBtn.Name = "newBtn";
-            newBtn.Size = new Size(107, 105);
-            newBtn.TabIndex = 52;
-            newBtn.Text = "New";
-            newBtn.TextAlign = ContentAlignment.BottomCenter;
-            newBtn.UseVisualStyleBackColor = false;
+            BtnNew.AllowDrop = true;
+            BtnNew.BackColor = Color.White;
+            BtnNew.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnNew.Image = (Image)resources.GetObject("BtnNew.Image");
+            BtnNew.ImageAlign = ContentAlignment.TopCenter;
+            BtnNew.Location = new Point(122, 5);
+            BtnNew.Margin = new Padding(5);
+            BtnNew.Name = "BtnNew";
+            BtnNew.Size = new Size(107, 105);
+            BtnNew.TabIndex = 52;
+            BtnNew.Text = "New";
+            BtnNew.TextAlign = ContentAlignment.BottomCenter;
+            BtnNew.UseVisualStyleBackColor = false;
             // 
             // PanelShortCut
             // 
@@ -1150,34 +1136,51 @@
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            flowLayoutPanel1.Controls.Add(homeBtn);
-            flowLayoutPanel1.Controls.Add(newBtn);
-            flowLayoutPanel1.Controls.Add(editBtn);
-            flowLayoutPanel1.Controls.Add(deleteBtn);
-            flowLayoutPanel1.Controls.Add(searchBtn);
-            flowLayoutPanel1.Controls.Add(refreshBtn);
-            flowLayoutPanel1.Controls.Add(printBtn);
-            flowLayoutPanel1.Controls.Add(exitBtn);
+            flowLayoutPanel1.Controls.Add(BtnHome);
+            flowLayoutPanel1.Controls.Add(BtnNew);
+            flowLayoutPanel1.Controls.Add(BtnEdit);
+            flowLayoutPanel1.Controls.Add(BtnDelete);
+            flowLayoutPanel1.Controls.Add(BtnSearch);
+            flowLayoutPanel1.Controls.Add(BtnRefresh);
+            flowLayoutPanel1.Controls.Add(BtnPrint);
+            flowLayoutPanel1.Controls.Add(BtnExit);
             flowLayoutPanel1.Location = new Point(286, 0);
             flowLayoutPanel1.Margin = new Padding(5);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(1226, 125);
+            flowLayoutPanel1.Size = new Size(1157, 125);
             flowLayoutPanel1.TabIndex = 36;
             // 
-            // exitBtn
+            // BtnHome
             // 
-            exitBtn.BackColor = Color.White;
-            exitBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            exitBtn.Image = Properties.Resources.cross;
-            exitBtn.ImageAlign = ContentAlignment.TopCenter;
-            exitBtn.Location = new Point(824, 5);
-            exitBtn.Margin = new Padding(5);
-            exitBtn.Name = "exitBtn";
-            exitBtn.Size = new Size(107, 105);
-            exitBtn.TabIndex = 60;
-            exitBtn.Text = "Exit";
-            exitBtn.TextAlign = ContentAlignment.BottomCenter;
-            exitBtn.UseVisualStyleBackColor = false;
+            BtnHome.BackColor = Color.White;
+            BtnHome.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnHome.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnHome.Image = (Image)resources.GetObject("BtnHome.Image");
+            BtnHome.ImageAlign = ContentAlignment.TopCenter;
+            BtnHome.Location = new Point(5, 5);
+            BtnHome.Margin = new Padding(5);
+            BtnHome.Name = "BtnHome";
+            BtnHome.Size = new Size(107, 105);
+            BtnHome.TabIndex = 59;
+            BtnHome.Text = "Home";
+            BtnHome.TextAlign = ContentAlignment.BottomCenter;
+            BtnHome.UseVisualStyleBackColor = false;
+            // 
+            // BtnExit
+            // 
+            BtnExit.BackColor = Color.White;
+            BtnExit.BackgroundImageLayout = ImageLayout.None;
+            BtnExit.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnExit.Image = (Image)resources.GetObject("BtnExit.Image");
+            BtnExit.ImageAlign = ContentAlignment.TopCenter;
+            BtnExit.Location = new Point(824, 5);
+            BtnExit.Margin = new Padding(5);
+            BtnExit.Name = "BtnExit";
+            BtnExit.Size = new Size(107, 105);
+            BtnExit.TabIndex = 60;
+            BtnExit.Text = "Exit";
+            BtnExit.TextAlign = ContentAlignment.BottomCenter;
+            BtnExit.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -1401,7 +1404,7 @@
             panel3.Controls.Add(dateLbl);
             panel3.Controls.Add(timeLbl);
             panel3.Controls.Add(lbltime);
-            panel3.Controls.Add(logoutBtn);
+            panel3.Controls.Add(BtnLogout);
             panel3.Controls.Add(lbltoday);
             panel3.Controls.Add(label2);
             panel3.Controls.Add(lblUser);
@@ -1419,22 +1422,22 @@
             // dateLbl
             // 
             dateLbl.AutoSize = true;
-            dateLbl.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            dateLbl.Location = new Point(61, 92);
+            dateLbl.Font = new Font("Tahoma", 7.20000029F, FontStyle.Regular, GraphicsUnit.Point);
+            dateLbl.Location = new Point(56, 93);
             dateLbl.Margin = new Padding(5, 0, 5, 0);
             dateLbl.Name = "dateLbl";
-            dateLbl.Size = new Size(37, 17);
+            dateLbl.Size = new Size(33, 16);
             dateLbl.TabIndex = 16;
             dateLbl.Text = "Date";
             // 
             // timeLbl
             // 
             timeLbl.AutoSize = true;
-            timeLbl.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            timeLbl.Location = new Point(46, 115);
+            timeLbl.Font = new Font("Tahoma", 7.20000029F, FontStyle.Regular, GraphicsUnit.Point);
+            timeLbl.Location = new Point(40, 116);
             timeLbl.Margin = new Padding(5, 0, 5, 0);
             timeLbl.Name = "timeLbl";
-            timeLbl.Size = new Size(41, 17);
+            timeLbl.Size = new Size(40, 16);
             timeLbl.TabIndex = 15;
             timeLbl.Text = " Time";
             // 
@@ -1449,16 +1452,18 @@
             lbltime.Size = new Size(0, 17);
             lbltime.TabIndex = 14;
             // 
-            // logoutBtn
+            // BtnLogout
             // 
-            logoutBtn.BackColor = Color.White;
-            logoutBtn.Image = (Image)resources.GetObject("logoutBtn.Image");
-            logoutBtn.Location = new Point(210, 71);
-            logoutBtn.Margin = new Padding(5);
-            logoutBtn.Name = "logoutBtn";
-            logoutBtn.Size = new Size(59, 61);
-            logoutBtn.TabIndex = 3;
-            logoutBtn.UseVisualStyleBackColor = false;
+            BtnLogout.BackColor = Color.White;
+            BtnLogout.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            BtnLogout.ForeColor = SystemColors.ControlLightLight;
+            BtnLogout.Image = (Image)resources.GetObject("BtnLogout.Image");
+            BtnLogout.Location = new Point(205, 78);
+            BtnLogout.Margin = new Padding(5);
+            BtnLogout.Name = "BtnLogout";
+            BtnLogout.Size = new Size(56, 61);
+            BtnLogout.TabIndex = 3;
+            BtnLogout.UseVisualStyleBackColor = false;
             // 
             // lbltoday
             // 
@@ -1508,7 +1513,7 @@
             // 
             Label5.AutoSize = true;
             Label5.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            Label5.Location = new Point(4, 115);
+            Label5.Location = new Point(1, 115);
             Label5.Margin = new Padding(5, 0, 5, 0);
             Label5.Name = "Label5";
             Label5.Size = new Size(46, 17);
@@ -1524,6 +1529,7 @@
             userPic.Margin = new Padding(5);
             userPic.Name = "userPic";
             userPic.Size = new Size(64, 65);
+            userPic.SizeMode = PictureBoxSizeMode.Zoom;
             userPic.TabIndex = 0;
             userPic.TabStop = false;
             // 
@@ -1531,7 +1537,7 @@
             // 
             Label4.AutoSize = true;
             Label4.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            Label4.Location = new Point(3, 92);
+            Label4.Location = new Point(-1, 92);
             Label4.Margin = new Padding(5, 0, 5, 0);
             Label4.Name = "Label4";
             Label4.Size = new Size(64, 17);
@@ -1542,7 +1548,7 @@
             // 
             Label3.AutoSize = true;
             Label3.Font = new Font("Tahoma", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            Label3.Location = new Point(3, 71);
+            Label3.Location = new Point(0, 71);
             Label3.Margin = new Padding(5, 0, 5, 0);
             Label3.Name = "Label3";
             Label3.Size = new Size(70, 17);
@@ -1635,13 +1641,12 @@
 
         #endregion
         private Panel panel2;
-        internal Button homeBtn;
-        internal Button printBtn;
-        internal Button searchBtn;
-        internal Button refreshBtn;
-        internal Button deleteBtn;
-        internal Button editBtn;
-        internal Button newBtn;
+        internal Button BtnPrint;
+        internal Button BtnSearch;
+        internal Button BtnRefresh;
+        internal Button BtnDelete;
+        internal Button BtnEdit;
+        internal Button BtnNew;
         internal Panel PanelShortCut;
         internal LinkLabel openShortCutsLink;
         internal ListView shortcutList;
@@ -1689,11 +1694,11 @@
         internal Label lblstock_tot_product;
         internal PictureBox PictureBox7;
         private FlowLayoutPanel flowLayoutPanel1;
-        internal Button exitBtn;
+        internal Button BtnExit;
         private Panel panel1;
         private Panel panel3;
         internal Label lbltime;
-        private Button logoutBtn;
+        private Button BtnLogout;
         internal Label lbltoday;
         private Label label2;
         internal Label lblUser;
@@ -1703,23 +1708,23 @@
         internal Label Label4;
         internal Label Label3;
         private Panel panel4;
-        private Button BusinessInfoBtn;
-        private Button userLogBtn;
-        private Button userRecordsBtn;
-        private Button manageSuppliersBtn;
-        private Button productListingBtn;
+        private Button BtnBusinessInfo;
+        private Button BtnUserLog;
+        private Button BtnUserRecords;
+        private Button BtnManageSuppliers;
+        private Button BtnProductListing;
         private LinkLabel linkLabel1;
         private Panel panel5;
-        private Button defectivestocksBtn;
-        private Button criticalProductsBtn;
-        private Button PhysicalCountBtn;
-        private Button stockMonitorBtn;
-        private Button OrderAndReceiveBtn;
+        private Button BtnDefectiveStocks;
+        private Button BtnCriticalProducts;
+        private Button BtnPhysicalCount;
+        private Button BtnStockMonitor;
+        private Button BtnOrderAndReceive;
         private LinkLabel linkLabel2;
         private Panel panel6;
-        private Button salesReceiptBtn;
-        private Button CashieringBtn;
-        private Button orderingKioskBtn;
+        private Button BtnSalesReceipt;
+        private Button BtnCashiering;
+        private Button BtnOrderingKiosk;
         private LinkLabel SalesAndOrderLinkLabel;
         private Label advisoryLabel;
         private MenuStrip menuStrip1;
@@ -1757,6 +1762,7 @@
         private PictureBox HomePageLogo;
         internal Label timeLbl;
         internal Label dateLbl;
+        internal Button BtnHome;
     }
 }
 

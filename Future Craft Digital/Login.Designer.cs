@@ -30,159 +30,158 @@ namespace Future_Craft_Digital
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            this.loginLogoBox = new System.Windows.Forms.PictureBox();
-            this.usernameLogin = new System.Windows.Forms.TextBox();
-            this.password = new System.Windows.Forms.TextBox();
-            this.usernameLoginLbl = new System.Windows.Forms.Label();
-            this.pwdLoginLbl = new System.Windows.Forms.Label();
-            this.cancelBtn = new System.Windows.Forms.Button();
-            this.loginBtn = new System.Windows.Forms.Button();
-            this.serverSettingBtn = new System.Windows.Forms.Button();
-            this.loginIcon = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.loginLogoBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.loginIcon)).BeginInit();
-            this.SuspendLayout();
+            loginLogoBox = new PictureBox();
+            usernameLogin = new TextBox();
+            password = new TextBox();
+            usernameLoginLbl = new Label();
+            pwdLoginLbl = new Label();
+            BtnCancel = new Button();
+            BtnLogin = new Button();
+            BtnServerSetting = new Button();
+            loginIcon = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)loginLogoBox).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)loginIcon).BeginInit();
+            SuspendLayout();
             // 
             // loginLogoBox
             // 
-            this.loginLogoBox.Image = ((System.Drawing.Image)(resources.GetObject("loginLogoBox.Image")));
-            this.loginLogoBox.InitialImage = ((System.Drawing.Image)(resources.GetObject("loginLogoBox.InitialImage")));
-            this.loginLogoBox.Location = new System.Drawing.Point(38, -22);
-            this.loginLogoBox.Name = "loginLogoBox";
-            this.loginLogoBox.Size = new System.Drawing.Size(585, 264);
-            this.loginLogoBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.loginLogoBox.TabIndex = 0;
-            this.loginLogoBox.TabStop = false;
+            loginLogoBox.Image = (Image)resources.GetObject("loginLogoBox.Image");
+            loginLogoBox.InitialImage = (Image)resources.GetObject("loginLogoBox.InitialImage");
+            loginLogoBox.Location = new Point(38, -22);
+            loginLogoBox.Name = "loginLogoBox";
+            loginLogoBox.Size = new Size(585, 264);
+            loginLogoBox.SizeMode = PictureBoxSizeMode.StretchImage;
+            loginLogoBox.TabIndex = 0;
+            loginLogoBox.TabStop = false;
             // 
             // usernameLogin
             // 
-            this.usernameLogin.Location = new System.Drawing.Point(309, 223);
-            this.usernameLogin.Margin = new System.Windows.Forms.Padding(5);
-            this.usernameLogin.Name = "usernameLogin";
-            this.usernameLogin.Size = new System.Drawing.Size(314, 26);
-            this.usernameLogin.TabIndex = 1;
+            usernameLogin.Location = new Point(309, 223);
+            usernameLogin.Margin = new Padding(5);
+            usernameLogin.Name = "usernameLogin";
+            usernameLogin.Size = new Size(314, 26);
+            usernameLogin.TabIndex = 1;
             // 
             // password
             // 
-            this.password.Location = new System.Drawing.Point(309, 270);
-            this.password.Name = "password";
-            this.password.PasswordChar = '*';
-            this.password.Size = new System.Drawing.Size(314, 26);
-            this.password.TabIndex = 2;
+            password.Location = new Point(309, 270);
+            password.Name = "password";
+            password.PasswordChar = '*';
+            password.Size = new Size(314, 26);
+            password.TabIndex = 2;
             // 
             // usernameLoginLbl
             // 
-            this.usernameLoginLbl.AutoSize = true;
-            this.usernameLoginLbl.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usernameLoginLbl.Location = new System.Drawing.Point(206, 227);
-            this.usernameLoginLbl.Name = "usernameLoginLbl";
-            this.usernameLoginLbl.Size = new System.Drawing.Size(92, 18);
-            this.usernameLoginLbl.TabIndex = 3;
-            this.usernameLoginLbl.Text = "Username :";
+            usernameLoginLbl.AutoSize = true;
+            usernameLoginLbl.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            usernameLoginLbl.Location = new Point(206, 227);
+            usernameLoginLbl.Name = "usernameLoginLbl";
+            usernameLoginLbl.Size = new Size(92, 18);
+            usernameLoginLbl.TabIndex = 3;
+            usernameLoginLbl.Text = "Username :";
             // 
             // pwdLoginLbl
             // 
-            this.pwdLoginLbl.AutoSize = true;
-            this.pwdLoginLbl.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pwdLoginLbl.Location = new System.Drawing.Point(206, 275);
-            this.pwdLoginLbl.Name = "pwdLoginLbl";
-            this.pwdLoginLbl.Size = new System.Drawing.Size(90, 18);
-            this.pwdLoginLbl.TabIndex = 4;
-            this.pwdLoginLbl.Text = "Password :";
+            pwdLoginLbl.AutoSize = true;
+            pwdLoginLbl.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            pwdLoginLbl.Location = new Point(206, 275);
+            pwdLoginLbl.Name = "pwdLoginLbl";
+            pwdLoginLbl.Size = new Size(90, 18);
+            pwdLoginLbl.TabIndex = 4;
+            pwdLoginLbl.Text = "Password :";
             // 
-            // cancelBtn
+            // BtnCancel
             // 
-            this.cancelBtn.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.cancelBtn.FlatAppearance.BorderSize = 0;
-            this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cancelBtn.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cancelBtn.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.cancelBtn.Location = new System.Drawing.Point(485, 341);
-            this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(136, 43);
-            this.cancelBtn.TabIndex = 5;
-            this.cancelBtn.Text = "Cancel";
-            this.cancelBtn.UseVisualStyleBackColor = false;
-            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
+            BtnCancel.BackColor = SystemColors.HighlightText;
+            BtnCancel.FlatAppearance.BorderSize = 0;
+            BtnCancel.FlatStyle = FlatStyle.Flat;
+            BtnCancel.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnCancel.ForeColor = SystemColors.ControlText;
+            BtnCancel.Location = new Point(485, 341);
+            BtnCancel.Name = "BtnCancel";
+            BtnCancel.Size = new Size(136, 43);
+            BtnCancel.TabIndex = 5;
+            BtnCancel.Text = "Cancel";
+            BtnCancel.UseVisualStyleBackColor = false;
+            BtnCancel.Click += cancelBtn_Click;
             // 
-            // loginBtn
+            // BtnLogin
             // 
-            this.loginBtn.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.loginBtn.FlatAppearance.BorderSize = 0;
-            this.loginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.loginBtn.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.loginBtn.Location = new System.Drawing.Point(309, 341);
-            this.loginBtn.Name = "loginBtn";
-            this.loginBtn.Size = new System.Drawing.Size(136, 43);
-            this.loginBtn.TabIndex = 6;
-            this.loginBtn.Text = "Login";
-            this.loginBtn.UseVisualStyleBackColor = false;
-            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
+            BtnLogin.BackColor = SystemColors.MenuHighlight;
+            BtnLogin.FlatAppearance.BorderSize = 0;
+            BtnLogin.FlatStyle = FlatStyle.Flat;
+            BtnLogin.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnLogin.ForeColor = SystemColors.ButtonHighlight;
+            BtnLogin.Location = new Point(309, 341);
+            BtnLogin.Name = "BtnLogin";
+            BtnLogin.Size = new Size(136, 43);
+            BtnLogin.TabIndex = 6;
+            BtnLogin.Text = "Login";
+            BtnLogin.UseVisualStyleBackColor = false;
+            BtnLogin.Click += loginBtn_Click;
             // 
-            // serverSettingBtn
+            // BtnServerSetting
             // 
-            this.serverSettingBtn.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.serverSettingBtn.FlatAppearance.BorderSize = 0;
-            this.serverSettingBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.serverSettingBtn.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.serverSettingBtn.Location = new System.Drawing.Point(38, 341);
-            this.serverSettingBtn.Name = "serverSettingBtn";
-            this.serverSettingBtn.Size = new System.Drawing.Size(178, 43);
-            this.serverSettingBtn.TabIndex = 7;
-            this.serverSettingBtn.Text = "Server Settings";
-            this.serverSettingBtn.UseVisualStyleBackColor = false;
+            BtnServerSetting.BackColor = SystemColors.ControlLightLight;
+            BtnServerSetting.FlatAppearance.BorderSize = 0;
+            BtnServerSetting.FlatStyle = FlatStyle.Flat;
+            BtnServerSetting.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnServerSetting.Location = new Point(38, 341);
+            BtnServerSetting.Name = "BtnServerSetting";
+            BtnServerSetting.Size = new Size(178, 43);
+            BtnServerSetting.TabIndex = 7;
+            BtnServerSetting.Text = "Server Settings";
+            BtnServerSetting.UseVisualStyleBackColor = false;
             // 
             // loginIcon
             // 
-            this.loginIcon.Image = ((System.Drawing.Image)(resources.GetObject("loginIcon.Image")));
-            this.loginIcon.Location = new System.Drawing.Point(38, 176);
-            this.loginIcon.Name = "loginIcon";
-            this.loginIcon.Size = new System.Drawing.Size(162, 133);
-            this.loginIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.loginIcon.TabIndex = 8;
-            this.loginIcon.TabStop = false;
+            loginIcon.Image = (Image)resources.GetObject("loginIcon.Image");
+            loginIcon.Location = new Point(38, 176);
+            loginIcon.Name = "loginIcon";
+            loginIcon.Size = new Size(162, 133);
+            loginIcon.SizeMode = PictureBoxSizeMode.StretchImage;
+            loginIcon.TabIndex = 8;
+            loginIcon.TabStop = false;
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(662, 408);
-            this.ControlBox = false;
-            this.Controls.Add(this.loginIcon);
-            this.Controls.Add(this.serverSettingBtn);
-            this.Controls.Add(this.loginBtn);
-            this.Controls.Add(this.cancelBtn);
-            this.Controls.Add(this.pwdLoginLbl);
-            this.Controls.Add(this.usernameLoginLbl);
-            this.Controls.Add(this.password);
-            this.Controls.Add(this.usernameLogin);
-            this.Controls.Add(this.loginLogoBox);
-            this.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "Login";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Future Craft Digital";
-            ((System.ComponentModel.ISupportInitialize)(this.loginLogoBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.loginIcon)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 18F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(662, 408);
+            ControlBox = false;
+            Controls.Add(loginIcon);
+            Controls.Add(BtnServerSetting);
+            Controls.Add(BtnLogin);
+            Controls.Add(BtnCancel);
+            Controls.Add(pwdLoginLbl);
+            Controls.Add(usernameLoginLbl);
+            Controls.Add(password);
+            Controls.Add(usernameLogin);
+            Controls.Add(loginLogoBox);
+            Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            FormBorderStyle = FormBorderStyle.Fixed3D;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "Login";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Future Craft Digital";
+            ((System.ComponentModel.ISupportInitialize)loginLogoBox).EndInit();
+            ((System.ComponentModel.ISupportInitialize)loginIcon).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox loginLogoBox;
-        private System.Windows.Forms.TextBox usernameLogin;
-        private System.Windows.Forms.TextBox password;
-        private System.Windows.Forms.Label usernameLoginLbl;
-        private System.Windows.Forms.Label pwdLoginLbl;
-        private System.Windows.Forms.Button cancelBtn;
-        private System.Windows.Forms.Button loginBtn;
-        private System.Windows.Forms.Button serverSettingBtn;
-        private System.Windows.Forms.PictureBox loginIcon;
+        private PictureBox loginLogoBox;
+        private TextBox usernameLogin;
+        private TextBox password;
+        private Label usernameLoginLbl;
+        private Label pwdLoginLbl;
+        private Button BtnCancel;
+        private Button BtnLogin;
+        private Button BtnServerSetting;
+        private PictureBox loginIcon;
     }
 }
 

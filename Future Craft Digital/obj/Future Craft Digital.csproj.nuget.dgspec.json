@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Devie\\source\\repos\\FCD-POS-UI\\Future Craft Digital\\Future Craft Digital.csproj": {}
+    "C:\\Users\\Devie\\source\\repos\\Future-Craft-Digital\\FCD-POS-UI\\Future Craft Digital\\Future Craft Digital.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Devie\\source\\repos\\FCD-POS-UI\\Future Craft Digital\\Future Craft Digital.csproj": {
+    "C:\\Users\\Devie\\source\\repos\\Future-Craft-Digital\\FCD-POS-UI\\Future Craft Digital\\Future Craft Digital.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Devie\\source\\repos\\FCD-POS-UI\\Future Craft Digital\\Future Craft Digital.csproj",
+        "projectUniqueName": "C:\\Users\\Devie\\source\\repos\\Future-Craft-Digital\\FCD-POS-UI\\Future Craft Digital\\Future Craft Digital.csproj",
         "projectName": "Future Craft Digital",
-        "projectPath": "C:\\Users\\Devie\\source\\repos\\FCD-POS-UI\\Future Craft Digital\\Future Craft Digital.csproj",
+        "projectPath": "C:\\Users\\Devie\\source\\repos\\Future-Craft-Digital\\FCD-POS-UI\\Future Craft Digital\\Future Craft Digital.csproj",
         "packagesPath": "C:\\Users\\Devie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Devie\\source\\repos\\FCD-POS-UI\\Future Craft Digital\\obj\\",
+        "outputPath": "C:\\Users\\Devie\\source\\repos\\Future-Craft-Digital\\FCD-POS-UI\\Future Craft Digital\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

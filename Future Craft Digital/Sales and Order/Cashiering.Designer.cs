@@ -48,7 +48,7 @@
             label7 = new Label();
             label4 = new Label();
             label3 = new Label();
-            acceptButton = new Button();
+            BtnAccept = new Button();
             panel1 = new Panel();
             listViewCashiering = new ListView();
             id = new ColumnHeader();
@@ -279,17 +279,17 @@
             label3.TabIndex = 6;
             label3.Text = "Select type :";
             // 
-            // acceptButton
+            // BtnAccept
             // 
-            acceptButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            acceptButton.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            acceptButton.Location = new Point(11, 820);
-            acceptButton.Margin = new Padding(3, 4, 3, 4);
-            acceptButton.Name = "acceptButton";
-            acceptButton.Size = new Size(164, 45);
-            acceptButton.TabIndex = 3;
-            acceptButton.Text = "Accept";
-            acceptButton.UseVisualStyleBackColor = true;
+            BtnAccept.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            BtnAccept.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnAccept.Location = new Point(11, 820);
+            BtnAccept.Margin = new Padding(3, 4, 3, 4);
+            BtnAccept.Name = "BtnAccept";
+            BtnAccept.Size = new Size(164, 45);
+            BtnAccept.TabIndex = 3;
+            BtnAccept.Text = "Accept";
+            BtnAccept.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -373,7 +373,7 @@
             ClientSize = new Size(1183, 907);
             ControlBox = false;
             Controls.Add(panel1);
-            Controls.Add(acceptButton);
+            Controls.Add(BtnAccept);
             Controls.Add(groupBox1);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
@@ -413,7 +413,7 @@
         private Label label9;
         private Label label8;
         private Label label7;
-        private Button acceptButton;
+        private Button BtnAccept;
         private Panel panel1;
         private ListView listViewCashiering;
         private ColumnHeader id;

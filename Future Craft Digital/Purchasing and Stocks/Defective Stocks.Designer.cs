@@ -37,9 +37,9 @@
             deliveryItem = new ColumnHeader();
             address = new ColumnHeader();
             pendingId = new ColumnHeader();
-            returnedRadioButton = new RadioButton();
-            defectiveRadioButton = new RadioButton();
-            pendingRadioButton = new RadioButton();
+            rbReturned = new RadioButton();
+            rbDefective = new RadioButton();
+            rbPending = new RadioButton();
             label6 = new Label();
             label5 = new Label();
             label4 = new Label();
@@ -110,50 +110,50 @@
             pendingId.Text = "Pending ID";
             pendingId.Width = 100;
             // 
-            // returnedRadioButton
+            // rbReturned
             // 
-            returnedRadioButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            returnedRadioButton.AutoSize = true;
-            returnedRadioButton.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            returnedRadioButton.Location = new Point(350, 75);
-            returnedRadioButton.Margin = new Padding(3, 4, 3, 4);
-            returnedRadioButton.Name = "returnedRadioButton";
-            returnedRadioButton.Size = new Size(98, 22);
-            returnedRadioButton.TabIndex = 14;
-            returnedRadioButton.TabStop = true;
-            returnedRadioButton.Text = "Returned";
-            returnedRadioButton.UseVisualStyleBackColor = true;
-            returnedRadioButton.CheckedChanged += radioButton3_CheckedChanged;
+            rbReturned.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            rbReturned.AutoSize = true;
+            rbReturned.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            rbReturned.Location = new Point(350, 75);
+            rbReturned.Margin = new Padding(3, 4, 3, 4);
+            rbReturned.Name = "rbReturned";
+            rbReturned.Size = new Size(98, 22);
+            rbReturned.TabIndex = 14;
+            rbReturned.TabStop = true;
+            rbReturned.Text = "Returned";
+            rbReturned.UseVisualStyleBackColor = true;
+            rbReturned.CheckedChanged += radioButton3_CheckedChanged;
             // 
-            // defectiveRadioButton
+            // rbDefective
             // 
-            defectiveRadioButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            defectiveRadioButton.AutoSize = true;
-            defectiveRadioButton.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            defectiveRadioButton.Location = new Point(235, 75);
-            defectiveRadioButton.Margin = new Padding(3, 4, 3, 4);
-            defectiveRadioButton.Name = "defectiveRadioButton";
-            defectiveRadioButton.Size = new Size(101, 22);
-            defectiveRadioButton.TabIndex = 3;
-            defectiveRadioButton.TabStop = true;
-            defectiveRadioButton.Text = "Defective";
-            defectiveRadioButton.UseVisualStyleBackColor = true;
-            defectiveRadioButton.CheckedChanged += radioButton2_CheckedChanged;
+            rbDefective.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            rbDefective.AutoSize = true;
+            rbDefective.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            rbDefective.Location = new Point(235, 75);
+            rbDefective.Margin = new Padding(3, 4, 3, 4);
+            rbDefective.Name = "rbDefective";
+            rbDefective.Size = new Size(101, 22);
+            rbDefective.TabIndex = 3;
+            rbDefective.TabStop = true;
+            rbDefective.Text = "Defective";
+            rbDefective.UseVisualStyleBackColor = true;
+            rbDefective.CheckedChanged += radioButton2_CheckedChanged;
             // 
-            // pendingRadioButton
+            // rbPending
             // 
-            pendingRadioButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            pendingRadioButton.AutoSize = true;
-            pendingRadioButton.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            pendingRadioButton.Location = new Point(132, 75);
-            pendingRadioButton.Margin = new Padding(3, 4, 3, 4);
-            pendingRadioButton.Name = "pendingRadioButton";
-            pendingRadioButton.Size = new Size(89, 22);
-            pendingRadioButton.TabIndex = 2;
-            pendingRadioButton.TabStop = true;
-            pendingRadioButton.Text = "Pending";
-            pendingRadioButton.UseVisualStyleBackColor = true;
-            pendingRadioButton.CheckedChanged += radioButton1_CheckedChanged;
+            rbPending.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            rbPending.AutoSize = true;
+            rbPending.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            rbPending.Location = new Point(132, 75);
+            rbPending.Margin = new Padding(3, 4, 3, 4);
+            rbPending.Name = "rbPending";
+            rbPending.Size = new Size(89, 22);
+            rbPending.TabIndex = 2;
+            rbPending.TabStop = true;
+            rbPending.Text = "Pending";
+            rbPending.UseVisualStyleBackColor = true;
+            rbPending.CheckedChanged += radioButton1_CheckedChanged;
             // 
             // label6
             // 
@@ -253,11 +253,11 @@
             // panel1
             // 
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            panel1.Controls.Add(returnedRadioButton);
+            panel1.Controls.Add(rbReturned);
             panel1.Controls.Add(dateDefectiveStocks);
             panel1.Controls.Add(label3);
-            panel1.Controls.Add(pendingRadioButton);
-            panel1.Controls.Add(defectiveRadioButton);
+            panel1.Controls.Add(rbPending);
+            panel1.Controls.Add(rbDefective);
             panel1.Location = new Point(716, 28);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
@@ -301,8 +301,8 @@
         private ColumnHeader supplierName;
         private ColumnHeader deliveryItem;
         private ColumnHeader address;
-        private RadioButton defectiveRadioButton;
-        private RadioButton pendingRadioButton;
+        private RadioButton rbDefective;
+        private RadioButton rbPending;
         private Label label6;
         private Label label5;
         private Label label4;
@@ -311,7 +311,7 @@
         private PictureBox pictureBox1;
         private Label label2;
         private Label label1;
-        private RadioButton returnedRadioButton;
+        private RadioButton rbReturned;
         private ColumnHeader pendingId;
         private Panel panel1;
     }

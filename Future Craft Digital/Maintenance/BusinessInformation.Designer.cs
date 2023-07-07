@@ -52,8 +52,8 @@ namespace Future_Craft_Digital.FCDForms
             label2 = new Label();
             businesIDTxt = new TextBox();
             label1 = new Label();
-            userAddBtn = new Button();
-            businessInfoCloseBtn = new Button();
+            BtnUserAdd = new Button();
+            BtnBusinessInfoClose = new Button();
             ((System.ComponentModel.ISupportInitialize)prodListIcon).BeginInit();
             infoGrpBox.SuspendLayout();
             SuspendLayout();
@@ -278,32 +278,32 @@ namespace Future_Craft_Digital.FCDForms
             label1.TabIndex = 14;
             label1.Text = "Business ID:";
             // 
-            // userAddBtn
+            // BtnUserAdd
             // 
-            userAddBtn.BackColor = SystemColors.MenuHighlight;
-            userAddBtn.FlatAppearance.BorderSize = 0;
-            userAddBtn.FlatStyle = FlatStyle.Flat;
-            userAddBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            userAddBtn.ForeColor = SystemColors.HighlightText;
-            userAddBtn.Location = new Point(49, 643);
-            userAddBtn.Margin = new Padding(3, 4, 3, 4);
-            userAddBtn.Name = "userAddBtn";
-            userAddBtn.Size = new Size(328, 51);
-            userAddBtn.TabIndex = 14;
-            userAddBtn.Text = "SAVE";
-            userAddBtn.UseVisualStyleBackColor = false;
+            BtnUserAdd.BackColor = SystemColors.MenuHighlight;
+            BtnUserAdd.FlatAppearance.BorderSize = 0;
+            BtnUserAdd.FlatStyle = FlatStyle.Flat;
+            BtnUserAdd.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnUserAdd.ForeColor = SystemColors.HighlightText;
+            BtnUserAdd.Location = new Point(49, 643);
+            BtnUserAdd.Margin = new Padding(3, 4, 3, 4);
+            BtnUserAdd.Name = "BtnUserAdd";
+            BtnUserAdd.Size = new Size(328, 51);
+            BtnUserAdd.TabIndex = 14;
+            BtnUserAdd.Text = "SAVE";
+            BtnUserAdd.UseVisualStyleBackColor = false;
             // 
-            // businessInfoCloseBtn
+            // BtnBusinessInfoClose
             // 
-            businessInfoCloseBtn.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            businessInfoCloseBtn.Location = new Point(405, 644);
-            businessInfoCloseBtn.Margin = new Padding(3, 4, 3, 4);
-            businessInfoCloseBtn.Name = "businessInfoCloseBtn";
-            businessInfoCloseBtn.Size = new Size(328, 49);
-            businessInfoCloseBtn.TabIndex = 15;
-            businessInfoCloseBtn.Text = "CANCEL";
-            businessInfoCloseBtn.UseVisualStyleBackColor = true;
-            businessInfoCloseBtn.Click += businessInfoCloseBtn_Click;
+            BtnBusinessInfoClose.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnBusinessInfoClose.Location = new Point(405, 644);
+            BtnBusinessInfoClose.Margin = new Padding(3, 4, 3, 4);
+            BtnBusinessInfoClose.Name = "BtnBusinessInfoClose";
+            BtnBusinessInfoClose.Size = new Size(328, 49);
+            BtnBusinessInfoClose.TabIndex = 15;
+            BtnBusinessInfoClose.Text = "CANCEL";
+            BtnBusinessInfoClose.UseVisualStyleBackColor = true;
+            BtnBusinessInfoClose.Click += businessInfoCloseBtn_Click;
             // 
             // BusinessInfoForm
             // 
@@ -311,8 +311,8 @@ namespace Future_Craft_Digital.FCDForms
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(784, 717);
             ControlBox = false;
-            Controls.Add(businessInfoCloseBtn);
-            Controls.Add(userAddBtn);
+            Controls.Add(BtnBusinessInfoClose);
+            Controls.Add(BtnUserAdd);
             Controls.Add(infoGrpBox);
             Controls.Add(prodListIcon);
             Controls.Add(prodListingDesc);
@@ -352,7 +352,7 @@ namespace Future_Craft_Digital.FCDForms
         private TextBox businessAddTxt;
         private Label label3;
         private TextBox businessNameTxt;
-        private Button userAddBtn;
-        private Button businessInfoCloseBtn;
+        private Button BtnUserAdd;
+        private Button BtnBusinessInfoClose;
     }
 }

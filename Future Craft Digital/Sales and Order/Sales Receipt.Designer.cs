@@ -48,8 +48,8 @@
             amountDue = new ColumnHeader();
             _void = new ColumnHeader();
             dateSalesReceipt = new DateTimePicker();
-            viewButton = new Button();
-            voidButton = new Button();
+            BtnView = new Button();
+            BtnVoid = new Button();
             label5 = new Label();
             panel1 = new Panel();
             panel2 = new Panel();
@@ -238,29 +238,29 @@
             dateSalesReceipt.Size = new Size(276, 27);
             dateSalesReceipt.TabIndex = 7;
             // 
-            // viewButton
+            // BtnView
             // 
-            viewButton.Anchor = AnchorStyles.Left;
-            viewButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            viewButton.Location = new Point(96, 4);
-            viewButton.Margin = new Padding(3, 4, 3, 4);
-            viewButton.Name = "viewButton";
-            viewButton.Size = new Size(151, 36);
-            viewButton.TabIndex = 6;
-            viewButton.Text = "View / Return";
-            viewButton.UseVisualStyleBackColor = true;
+            BtnView.Anchor = AnchorStyles.Left;
+            BtnView.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnView.Location = new Point(96, 4);
+            BtnView.Margin = new Padding(3, 4, 3, 4);
+            BtnView.Name = "BtnView";
+            BtnView.Size = new Size(151, 36);
+            BtnView.TabIndex = 6;
+            BtnView.Text = "View / Return";
+            BtnView.UseVisualStyleBackColor = true;
             // 
-            // voidButton
+            // BtnVoid
             // 
-            voidButton.Anchor = AnchorStyles.Left;
-            voidButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            voidButton.Location = new Point(3, 4);
-            voidButton.Margin = new Padding(3, 4, 3, 4);
-            voidButton.Name = "voidButton";
-            voidButton.Size = new Size(86, 36);
-            voidButton.TabIndex = 5;
-            voidButton.Text = "Void";
-            voidButton.UseVisualStyleBackColor = true;
+            BtnVoid.Anchor = AnchorStyles.Left;
+            BtnVoid.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnVoid.Location = new Point(3, 4);
+            BtnVoid.Margin = new Padding(3, 4, 3, 4);
+            BtnVoid.Name = "BtnVoid";
+            BtnVoid.Size = new Size(86, 36);
+            BtnVoid.TabIndex = 5;
+            BtnVoid.Text = "Void";
+            BtnVoid.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -304,8 +304,8 @@
             panel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             panel3.Controls.Add(dateSalesReceipt);
             panel3.Controls.Add(label5);
-            panel3.Controls.Add(viewButton);
-            panel3.Controls.Add(voidButton);
+            panel3.Controls.Add(BtnView);
+            panel3.Controls.Add(BtnVoid);
             panel3.Location = new Point(17, 861);
             panel3.Margin = new Padding(3, 4, 3, 4);
             panel3.Name = "panel3";
@@ -365,8 +365,8 @@
         private ColumnHeader amountDue;
         private ColumnHeader _void;
         private DateTimePicker dateSalesReceipt;
-        private Button viewButton;
-        private Button voidButton;
+        private Button BtnView;
+        private Button BtnVoid;
         private Label label5;
         private Panel panel1;
         private Panel panel2;
