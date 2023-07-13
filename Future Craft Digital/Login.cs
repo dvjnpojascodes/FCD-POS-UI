@@ -14,9 +14,9 @@ namespace Future_Craft_Digital
             this.homeForm = homeForm;
         }
 
-        private void loginBtn_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
-            if (IsValidLogin(usernameLogin.Text, password.Text))
+            if (IsValidLogin(txtUsername.Text, txtPassword.Text))
             {
                 // Set the DialogResult to OK to indicate a successful login
                 this.DialogResult = DialogResult.OK;
@@ -44,8 +44,7 @@ namespace Future_Craft_Digital
             return false;
         }
 
-
-        private void cancelBtn_Click(object sender, EventArgs e)
+        private void btnCancel_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Are you sure you want to close the form?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
